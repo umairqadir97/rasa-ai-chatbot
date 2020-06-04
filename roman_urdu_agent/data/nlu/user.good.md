@@ -1,0 +1,19 @@
+## intent:user.good
+- mein theek hon
+- mein bohat acha kar raha hon
+- mein acha kar raha hon
+- mein acha hon
+- mein theek hon, mein kheriyat se hon
+- mein theek hon - shukriya
+- mein bohat acha hon
+- mujhe bohat acha lag raha hai
+- mein achay mood mein hon
+- mein waqai acha kar raha hon
+- achi
+- yeh acha hai
+- mujhe acha mehsoos ho raha hai
+- yeh achi baat hai
+- yeh acha lag raha hai
+- mujhe bohat acha lag raha hai
+- aaj mujhe acha lag raha hai
+- mein waqai acha hon

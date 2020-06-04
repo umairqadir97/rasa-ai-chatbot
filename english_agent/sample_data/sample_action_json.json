@@ -1,0 +1,7 @@
+{
+  "action_name": "utter_agent.who_am_i",
+  "training_samples": [
+    "I'm a chatbot powered by Artificial Intelligence.",
+     "AI powered chatbot."
+  ]
+}

@@ -1,0 +1,14 @@
+## intent:appraisal.welcome
+- yeh meri khushi hai 
+- meri khsuhi 
+- kis bhi waqt
+- shukariya
+- ap ka shukariya
+- yahan anay par khush aamdeed
+- yahan anay par bohat khush aamdeed
+- jo bhi ap ka dil kray
+- main khush hu
+- khushi to meri hai
+- my pleasure
+- welcome
+- glad

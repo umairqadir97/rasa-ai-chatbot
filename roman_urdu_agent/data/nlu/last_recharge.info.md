@@ -1,0 +1,80 @@
+## intent:last_recharge.info
+
+- last time kitne paisay dalwaye te me ne
+- pichi bar paisay kitne load karwaye te account me
+- me ne pichi bar kitne paisay load krwaye te
+- mera pichla load kitne ka ta
+- kitne paisay bharwaye te last time
+- last top up kitna ta
+- konsa card load kiya ta me ne
+- kitne wala card load kiya ta me ne
+- pichli bar kitna load karwaya ta
+- me ne pichi bar kitne paisay load krwaye te
+- pichli bar kitna load karwaya ta
+- kya main last recharge jan skta hun
+- last time kitna load karwaya ta
+- last topup kitna ta
+- mene last topup kitna karwaya ta
+- last time kitna easy load karwaya ta
+- last topup kitny ka kiya ta
+- pichle mahiney kitna load karwaya ta
+- last topup kitna ta mera
+- pichli bar kitna load karwaya ta
+- kitna wala card load kiya ta me ne
+- me ne pichi bar kitne paisi load krwaye te
+- kitne paisi bharwaye te last time
+- last top up kitna ta
+- kitne wala card load kiya te me ne
+- mene last topup kitna karwaya ta
+- last topup kitna ta
+- last time kitna load karwaya ta
+- last time kitna easy load karwaya ta
+- last topup kitna ta
+- last time kitna load karwaya ta
+- last load kitna ta mera
+- last time kitne paisay dalwaye te me ne?
+- pichi bar paisay kitne load karwaye te account me
+- me ne pichi bar kitne paisay load krwaye te
+- me ne pichi bar kitne paisay load krwaye te
+- kitne paisay bharwaye te last time
+- last top up kitna ta
+- kitne wala card load kiya ta me ne
+- mera pichla load kitne ka ta
+- mera akhri recharge kitne ka tha 
+- mera recharge kitna hai 
+- meri akhri recharge amount kya thi
+- mera aakhri recharge kitna tha
+- mera pichla recharge kitna tha 
+- meri pichli recharge amnt kia hy 
+- mera last recharge balanace kya ha
+- mere last recharge ki amount bata dien 
+- main ny kitna recharge kerwaya hai 
+- recharge kitna ha
+- manay kitnay ka recharge kia tha akhari baar 
+- pichle bar kitna paise maine account main dalway
+- mera last recharge kitna tha
+- mera balance kitna recharge huwa tha
+- last time manay kitna recharge karvaya tha
+- kindly ap bta sakte ha meray account ma last kitne amount recharge howi ha 
+- mein apni akhiri recharge amount ki maloomat hasil krna chata hu
+- muje last recharge amount bta do
+- kya ap mujhai mera last recharge bata saktai hain
+- kia ap muje last recharge amount bta sakte ha 
+- akhri recharge paisy ke baary mein bta dain
+- merey phone py akhri recharge amount kia hain 
+- meri pehli recharge ki hui raqam
+- kya ap bta saktein hain  k akhri bar mene mobile me kitna balance dalwaya tha  
+- meri akhri recharge amount kya hai
+- meri last recharge amount kya hai 
+- kia app mujha meri pichla recharge ki qeemat pata sakta hain 
+- meri last recharge krwany wali amount kitni hai 
+- me ne akhri martaba kitna amount load kiya tha 
+- peechli dafa manay kitna balance dalwaya tha 
+- mera picha balance kya tha jo maine load kraya tha 
+- mera last load
+- me is mehinay kitna recharge karwa chuki hon
+- kya main last recharge jan skta hun
+- me ne pichi bar kitne paisi load krwaye te
+- last time me ny kitna recharge krwaya tha
+- main ny last time kitny ka recharge kraya tha
+- me ne akhri dfa kitna recharge krwaya tha

@@ -1,0 +1,83 @@
+## intent:balance.balance_usage
+
+- me ne kitne paisay kharch kiye te
+- last month kitne paisay kharch kiye me ne
+- me ny kitna balance use kia ha
+- total balance usage kitna ha
+- pichley hafta kitna balance use kiya ta
+- last week kitna balance use kiya me ne
+- last balance use kitna ta mera
+- kitne paisay kharch huey pichley hafte
+- kitna balance kharch kiya me ne is mahiney
+- kitna balance kharch kiya ta me ene
+- kitna balance kharch kiya me ne is mahiney
+- pichley hafta kitna balance use kiya ta
+- last week kitna balance use kiya me ne
+- last week kitna balance use kiya ta
+- last month kitne paisay kharch kiye me ne?
+- me ne kitne paisay kharch kiye te
+- kitne paisay kharch huey pichley hafte
+- kitna balance kharch kiya me ne is mahiney
+- total usage amount kitnin ha
+- me ny kitna balance use kia ha
+- pichle mahina mene kitna credit use kea tha 
+- manay kitna balance istimal kia kal k din
+- manay kitna balance istimal kia peechlay haftay 
+- manay kitna balance istimal kia peechlay mahinay
+- kal main kitna balance use kiya tha
+- kitna kharcha hua pichly haftay
+- mene kitna balance use kea hey pechle din
+- mene kitna balance use kea hey pechle hafta 
+- kitna kharcha hua pichly maheney me
+- mera kharcha kitna tha last month
+- me ny pichly 1 din main kitna blnc use kia hy
+- pichly 1 hafty ka balance usage bta dain
+- pichly 1 mah ka balance usage bta dain
+- total balance usage kitna ha
+- mene pichle din mei kitna kharch kia ha
+- is hafte meri kharch ki gai raqam ki summary da dain
+- current month mri kharch ki gai raqam ki summary da
+- mjy kharch ki gai raqam ki summary bta dain
+- mujhe last month ki usage bta dain
+- mujhy meri istamal shuda raqam k stats chaye
+- kal ki balance usage history kia ha
+- last month ki transaction history kia ha 
+- last week ki transaction history kia ha
+- m ny kitna pysy kerch kye hain ek din
+- me ny kitna pysy kerch kye hain es hafty m
+- mujhe amount usage info chahea
+- main ny kal kitne paisay kharach kiye
+- mera kitna balance use huwa hai pechlay aik haftay mai
+- mana is week kitni balance use kiya ha
+- maine kitne paisay kharch kia hain
+- mera last month ka bill kia he
+- mei ne kal kitna balance istemal kia ha  
+- main nay pichlay hafty kitna balance use kia tha
+- manay kal kina kharch kia ha
+- pechlay haflay ya maheenay may kitny paisay kharch hue hain
+- kindly ab bta sakte ha meri pechlay mahine kitni amount kharch hui
+- kia ap mujhy maloomaat de skty hain mere balance k bary mein jo mein nay gushista maheena istemal kiya ha
+- meine akhri din kia kharcha kia tha
+- mery akhri haftey ka kia usage tha
+- ek din phle pichly haftay or pichly mahinay mai jo mainy balance use kiya ucki detail bhaij dain 
+- kya ap yeah bata saktai hai k kaal kitnai paisay kharch kiyai
+- kia ap muje bta sakte ha maine kitne paisay kharch kiye last mahine
+- mery akhari maheny ki harch k hoe amount kia hain 
+- meri khrch ki gae rakam ki report
+- behraye mehrbani mere account ka istamal bta dein
+- kya ap mjy bta sakty hain mene kal kitna balance kharch kia
+- main nay kitni rakam pichlay din kharch ki hai
+- main last day month kitno amount kharch ki hai
+- mera balance kitana istemaal hua ha
+- mera kitna balance isteemal ho chuka ha
+- ab tak mera kitna balance lag gya ga
+- meray kitny paisay lag chukay hain
+- paisay kitnay istemal hue hain
+- kharcha kitna ho gya ha ab tak
+- kitna balance consume ho gaya hai
+- abi tak balance ki consumption kia ha
+- mera balance kitna kharch hua hai
+- mera balance kitna use ho gaya hai
+- mera balance kitna istemaal hua hai
+- meri usage kitni hai balance ki
+- kitna balance use ho gaya hai

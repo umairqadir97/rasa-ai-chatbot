@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>sample_data.py</title>
+  <link rel="stylesheet" href="pycco.css">
+</head>
+<body>
+<div id='container'>
+  <div id="background"></div>
+  <div class='section'>
+    <div class='docs'><h1>sample_data.py</h1></div>
+  </div>
+  <div class='clearall'>
+  <div class='section' id='section-0'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-0'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span></span><span class="n">combo_packages</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Freedom600&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;onnet&quot;</span><span class="p">:</span> <span class="s2">&quot;2,000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;offnet&quot;</span><span class="p">:</span> <span class="s2">&quot;300 Mins&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sms&quot;</span><span class="p">:</span> <span class="s2">&quot;2,000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="s2">&quot;6,000 MBs&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="s2">&quot;Rs. 750 Incl. Tax&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="s2">&quot;30&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Freedom1000&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;onnet&quot;</span><span class="p">:</span> <span class="s2">&quot;unlimited&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;offnet&quot;</span><span class="p">:</span> <span class="s2">&quot;500 Mins&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sms&quot;</span><span class="p">:</span> <span class="s2">&quot;8000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="s2">&quot;12000 MBs&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="s2">&quot;Rs. 1250 Incl. Tax&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="s2">&quot;30&quot;</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Freedom1500&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;onnet&quot;</span><span class="p">:</span> <span class="s2">&quot;unlimited&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;offnet&quot;</span><span class="p">:</span> <span class="s2">&quot;800 Mins&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;sms&quot;</span><span class="p">:</span> <span class="s2">&quot;15,000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;data&quot;</span><span class="p">:</span> <span class="s2">&quot;32000 MBs&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="s2">&quot;Rs. 1850 Incl. Tax&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="s2">&quot;30&quot;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="n">add_on_sms_packages</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;Smart1000&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;sms_allowed&quot;</span><span class="p">:</span> <span class="mi">8000</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">200</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="mi">30</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Smart1500&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;sms_allowed&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">300</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="mi">30</span>
+    <span class="p">},</span>
+    <span class="s2">&quot;Smart3000&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;sms_allowed&quot;</span><span class="p">:</span> <span class="s2">&quot;unlimited&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">500</span><span class="p">,</span>
+        <span class="s2">&quot;validity_in_days&quot;</span><span class="p">:</span> <span class="mi">30</span>
+    <span class="p">}</span>
+<span class="p">}</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-1'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-1'>#</a>
+      </div>
+      <p>add-on offers responses</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="n">roaming_offers_available</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ap k account k lye International Roaming Service me ye offers available hain:</span>
+<span class="s2">Global-Bundle(price: Rs. 2000, internet: 1000 MBs, Voice(Incoming/Outgoing): 20 Min, SMS: 20, Validity: 7 days).</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Global-UK-US-Mega-Bundle(price: Rs. 999, internet: 1000 MBs, Validity: 30 days).</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Mini-Bundle-Turkey(price: Rs. 200, internet: 100 MBs, Validity: 30 days).&quot;&quot;&quot;</span>
+
+<span class="n">active_roaming_response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ap ki international roaming service is waqt ON ha. </span>
+<span class="s2">Ap k pas International Roaming me 10 minutes, 15 SMS &amp; 500 MBs hain, validity 15-12-2019.&quot;&quot;&quot;</span>
+
+<span class="n">non_active_roaming_response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ap ki international roaming service is waqt OFF ha. </span>
+<span class="s2">Ap k account me koi international roaming minutes, SMS ya data bundle ni ha. &quot;&quot;&quot;</span>
+
+<span class="n">user1_response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ap ye add-on offers subscribe kar sakty hain:</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Call: Haftawar-Sahulat-Offer (price: Rs. 115, validity: 7 days) jis me 1000 On-net aur 70 Off-net minutes hain.</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">SMS: Weekly-Messaging-Offer (price: Rs. 11.95, validity: 7 days) jis me 1200 SMS hain.</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Internet: Weekly-Plus-Bundle (price: Rs. 120, validity: 7 days) jis me 1500 MB hain.&quot;&quot;&quot;</span>
+
+<span class="n">user2_response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Ap ye add-on offers subscribe kar sakty hain:</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Call: Haftawar-Chappar-Phaar (price: Rs. 88, validity: 7 days) jis me 2000 On-net minutes hain.</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">SMS: Weekly-SMS-Bundle (price: Rs. 15.50, validity: 7 days) jis me 1200 SMS hain.</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">Internet: 4G-Weekly-Bundle (price: Rs. 90, validity: 7 days) jis me 750 MB + 500MB (WhatsApp) hain.&quot;&quot;&quot;</span>
+
+<span class="n">utter_user_not_found</span> <span class="o">=</span> <span class="s2">&quot;Sorry, mobile number &#39;{mobile_number}&#39; k lye koi record nhi mila&quot;</span>
+
+<span class="n">single_user_object</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">&quot;user_id&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Khalid&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;user_type&quot;</span><span class="p">:</span> <span class="s2">&quot;prepaid&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;current_package&quot;</span><span class="p">:</span> <span class="s2">&quot;Freedom1500&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;balance&quot;</span><span class="p">:</span> <span class="mi">550</span><span class="p">,</span>
+        <span class="s2">&quot;balance_validity&quot;</span><span class="p">:</span> <span class="s2">&quot;31-12-2019&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;remaining_sms&quot;</span><span class="p">:</span> <span class="mi">10000</span><span class="p">,</span>
+        <span class="s2">&quot;remaining_onnet&quot;</span><span class="p">:</span> <span class="s2">&quot;unlimited&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;remaining_offnet&quot;</span><span class="p">:</span> <span class="mi">530</span><span class="p">,</span>
+        <span class="s2">&quot;remaining_data&quot;</span><span class="p">:</span> <span class="mi">16000</span><span class="p">,</span>
+        <span class="s2">&quot;last_recharge&quot;</span><span class="p">:</span> <span class="s2">&quot;15-09-2019 ko Rs. 1000&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;balance_usage&quot;</span><span class="p">:</span> <span class="s2">&quot;Ap ab tak Rs.630 ka balance use chuky hain.&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;emergency_laon_last_availed&quot;</span><span class="p">:</span> <span class="s2">&quot;You availed emergency loan on 10-09-2019, returned on 15-09-2019.&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;roaming_status&quot;</span><span class="p">:</span> <span class="s2">&quot;off&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;roaming-offers&quot;</span><span class="p">:</span> <span class="n">roaming_offers_available</span><span class="p">,</span>
+        <span class="s2">&quot;add-on-offers&quot;</span><span class="p">:</span> <span class="n">user1_response</span><span class="p">,</span>
+        <span class="s2">&quot;packages_validity&quot;</span><span class="p">:</span> <span class="s2">&quot;&quot;&quot;Ap k resouces ki expiry data ye ha: 10000 SMS (validity: 15-12-2019),</span>
+<span class="s2">    unlimited Onnet &amp; 530 Offnet minutes (validity: 15-12-2019) and 16000 MB data (validity: 15-12-2019)&quot;&quot;&quot;</span>
+    <span class="p">}</span>
+
+
+<span class="n">user_data</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;923401111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923411111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923421111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923431111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923441111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923451111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923461111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923471111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923481111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923491111111&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923401234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923411234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923421234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923431234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923441234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923451234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923461234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923471234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923481234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span><span class="p">,</span>
+    <span class="s2">&quot;923491234567&quot;</span><span class="p">:</span> <span class="n">single_user_object</span>
+<span class="p">}</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-2'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-2'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">mobile_verified</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="bp">False</span><span class="p">,</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">return</span> <span class="bp">True</span><span class="p">,</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-3'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-3'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_user_name</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="bp">False</span>
+    <span class="k">return</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-4'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-4'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_remaining_balance</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Ap ka maujoda balance: Rs. {balance}, validity: {balance_validity}&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">balance</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance&#39;</span><span class="p">],</span>
+        <span class="n">balance_validity</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance_validity&#39;</span><span class="p">])</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-5'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-5'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_balance_expiry</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Ap ka balance khatam hony ki akhri tareekh: {balance_validity}&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">balance_validity</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance_validity&#39;</span><span class="p">])</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-6'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-6'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_current_package_information</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="n">current_package_name</span> <span class="o">=</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;current_package&#39;</span><span class="p">]</span>
+    <span class="n">current_package_info</span> <span class="o">=</span> <span class="n">combo_packages</span><span class="p">[</span><span class="n">current_package_name</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;No Record Found against mobile_number: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Ap ka maujoda package {current_package} ha.</span>
+<span class="s2">Ap k package me {total_sms} SMS thy, baqi SMS {remaining_sms} hain.</span>
+<span class="s2">Ap k package me {total_onnet} On-Net minutes thy, baqi minutes {remaining_onnet} hain.</span>
+<span class="s2">Ap k package me {total_offnet} Off-Net minutes thy, baqi minutes {remaining_offnet} hain.</span>
+<span class="s2">Ap k package me {total_data} MBs internet thy, baqi MBs {remaining_data} hain.&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">current_package</span><span class="o">=</span><span class="n">current_package_name</span><span class="p">,</span>
+        <span class="n">total_sms</span><span class="o">=</span><span class="n">current_package_info</span><span class="p">[</span><span class="s1">&#39;sms&#39;</span><span class="p">],</span>
+        <span class="n">remaining_sms</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_sms&#39;</span><span class="p">],</span>
+        <span class="n">total_onnet</span><span class="o">=</span><span class="n">current_package_info</span><span class="p">[</span><span class="s1">&#39;onnet&#39;</span><span class="p">],</span>
+        <span class="n">remaining_onnet</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_onnet&#39;</span><span class="p">],</span>
+        <span class="n">total_offnet</span><span class="o">=</span><span class="n">current_package_info</span><span class="p">[</span><span class="s1">&#39;offnet&#39;</span><span class="p">],</span>
+        <span class="n">remaining_offnet</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_offnet&#39;</span><span class="p">],</span>
+        <span class="n">total_data</span><span class="o">=</span><span class="n">current_package_info</span><span class="p">[</span><span class="s1">&#39;data&#39;</span><span class="p">],</span>
+        <span class="n">remaining_data</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_data&#39;</span><span class="p">]</span>
+    <span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-7'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-7'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_last_recharge_info</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Pichli bar ap ny {last_recharge} ka recharge karwaya tha.</span><span class="se">\n</span><span class="s2"></span>
+<span class="s2">    AP ka maujoda balance Rs. {balance} ha, validity {balance_validity}&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">last_recharge</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;last_recharge&#39;</span><span class="p">],</span>
+        <span class="n">balance</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance&#39;</span><span class="p">],</span>
+        <span class="n">balance_validity</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance_validity&#39;</span><span class="p">]</span>
+    <span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-8'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-8'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_last_recharge_date</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Pichli bar ap ny {last_recharge} ka recharge karwaya tha.&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">last_recharge</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;last_recharge&#39;</span><span class="p">])</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-9'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-9'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">verify_current_resources</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;No Record Found against mobile_number: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="s2">&quot;&quot;&quot;Your current resources are:</span>
+<span class="s2">Current balance is Rs {balance} with validity upto {balance_validity}.</span>
+<span class="s2">You have {remaining_sms} SMS remaining.</span>
+<span class="s2">You have {remaining_onnet} on-net minutes remaining.</span>
+<span class="s2">You have {remaining_offnet} off-net minutes remaining.</span>
+<span class="s2">You have {remaining_data} MBs remaining&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+        <span class="n">balance</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance&#39;</span><span class="p">],</span>
+        <span class="n">balance_validity</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;balance_validity&#39;</span><span class="p">],</span>
+        <span class="n">remaining_sms</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_sms&#39;</span><span class="p">],</span>
+        <span class="n">remaining_onnet</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_onnet&#39;</span><span class="p">],</span>
+        <span class="n">remaining_offnet</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_offnet&#39;</span><span class="p">],</span>
+        <span class="n">remaining_data</span><span class="o">=</span><span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;remaining_data&#39;</span><span class="p">]</span>
+    <span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-10'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-10'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">list_all_available_offers</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;add-on-offers&quot;</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-11'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-11'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_international_roaming_status</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="n">roaming_status</span> <span class="o">=</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;roaming_status&#39;</span><span class="p">]</span>
+    <span class="k">if</span> <span class="n">roaming_status</span> <span class="o">==</span> <span class="s2">&quot;on&quot;</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">active_roaming_response</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">response</span> <span class="o">=</span> <span class="n">non_active_roaming_response</span>
+    <span class="k">return</span> <span class="n">response</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-12'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-12'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">list_all_roaming_offers</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;roaming-offers&quot;</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-13'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-13'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_packages_validity</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, Is mobile number k lye koi record nhi mila: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;packages_validity&quot;</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-14'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-14'>#</a>
+      </div>
+      <h6></h6>
+<p>EMERGENCY LOAN</p>
+<h6></h6>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_last_loan_details</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="n">utter_user_not_found</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="o">=</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;emergency_laon_last_availed&quot;</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-15'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-15'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_emergency_loan_status</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="n">utter_user_not_found</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="o">=</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;emergency_loan_currently_availing&quot;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="s2">&quot;Ap ne emergency loan subscribe nhi kia. Abi Rs.20 ka Loan leny k lye &#39;YES&#39; likhy.&quot;</span>
+    <span class="k">return</span> <span class="s2">&quot;Sorry, ap ne pichla emergency loan wapis nhi kia abi. Ap mazeed loan nhi hasil kr sakty!&quot;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-16'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-16'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">set_loan_subscription</span><span class="p">(</span><span class="n">mobile_number</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+        <span class="k">return</span> <span class="n">utter_user_not_found</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">mobile_number</span><span class="o">=</span><span class="n">mobile_number</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;emergency_loan_currently_availing&quot;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="s2">&quot;Sorry, ap ne pichla emergency loan wapis nhi kia abi. Ap mazeed loan nhi hasil kr sakty!&quot;</span>
+    <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s2">&quot;emergency_loan_currently_availing&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="k">return</span> <span class="s2">&quot;Ap ne kamyabi sy Rs.20. ka emergency loan hasil kr lia ha.&quot;</span>
+
+</pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+</div>
+</body>

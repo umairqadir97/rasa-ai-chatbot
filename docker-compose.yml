@@ -1,0 +1,96 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    container_name: "flask-api"
+    expose:
+      - "5000"
+    networks:
+      - flask_web
+    ports:
+      - "5000:5000"
+    command: "python3 api.py"
+
+  redis:
+    volumes:
+      - .:/code
+    restart: always
+    image: 'bitnami/redis:latest'
+    container_name: "redis"
+    expose:
+      - "6379"
+    ports:
+      - "6379:6379"
+    networks:
+      - flask_web
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+
+  action_server_english:
+    restart: always
+    volumes:
+      - .:/code
+    build: .
+    image: rasa_chatbot_actions:latest
+    networks:
+      - flask_web
+    expose:
+      - "5055"
+    ports:
+      - "5055:5055"
+    command:
+      - bash 
+      - /code/scripts/run_action_server_english.sh
+
+  chatbot_server_enlish:
+    restart: always
+    build: .
+    image: rasa_chatbot:latest
+    expose: 
+      - "8000"
+    ports:
+      - "8000:8000"
+    networks:
+      - flask_web
+    volumes:
+      - .:/code
+    command:
+      - bash
+      - /code/scripts/run_chat_server_english.sh
+
+  action_server_roman:
+    restart: always
+    volumes:
+      - .:/code
+    build: .
+    image: rasa_chatbot_actions:latest
+    networks:
+      - flask_web
+    expose:
+      - "5056"
+    ports:
+      - "5056:5056"
+    command:
+      - bash 
+      - /code/scripts/run_action_server_roman.sh
+
+  chatbot_server_roman:
+    restart: always
+    build: .
+    image: rasa_chatbot:latest
+    expose: 
+      - "8006"
+    ports:
+      - "8006:8006"
+    networks:
+      - flask_web
+    volumes:
+      - .:/code
+    command:
+      - bash
+      - /code/scripts/run_chat_server_roman.sh
+
+networks:
+  flask_web:
+    driver: bridge

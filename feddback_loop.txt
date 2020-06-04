@@ -1,0 +1,113 @@
+Meeting 15-11-2019
+------------------
+
+two way fallback policy
+consecutive two fallbacks >> do you want to communicate with relvant expert
+
+tracker = deserialise_tracker(sender_id, stored)
+----------------------
+Q2. How will you ask about your last recharge date?
+Response1: amount + date
+Response2: just date
+----------------------
+exceptions:
+
+-	what was the last date i recharged my balance on?
+	and date
+
+main ny last recharge kb kraya tha?
+------------
+Language Deteciton Issues!
+---------------------------
+
+==>> sample conversation:
+
+Greetings and welcome to Telenor. How may I help you ?
+hey
+	Hello!
+how are you man
+	Doing great, thanks!
+yr can I know my current balance
+ 	Please provide phone number for verification purpose [keep format '92345......']
+923451234567
+	apna 4-digit PIN enter krain
+1231
+	Hi Khalid, ap is mobile_number:923451234567 k lye verify ho gye hain!
+nice
+	Mujhe khushi hoe madad kar ke.
+what's my status
+	Ap ka maujoda balance: Rs. 550, validity: 31-12-2019
+
+
+
+------------------=
+Conversation 	  |
+------------------=
+what's my status
+--> Ap ka maujoda balance: Rs. 550, validity: 31-12-2019
+
+
+ni yar me loan ka status janna chahta hu
+	Sorry, kia ap apna swal dobara enter kr sakty hen?
+me apna loan ka status janna chahta hu
+	Ap ka maujoda balance: Rs. 550, validity: 31-12-2019
+
+
+
+USER ---> hmmmm
+BOT ---> sorry, kia ap apna swal dobara enter kr sakty hen?
+
+USER ---> can you speak english
+BOT ---> sorry, kia ap apna swal dobara enter kr sakty hen?
+
+
+
+USER ---> advance chahye ==>(confirmation about loan ?)
+BOT ---> you haven't subscribed loan. reply 'yes' to get emergency balance of rs.20.
+
+=>> balance Complaint:
+USER ---> acha batain, mera balance kyon kat raha hae????
+BOT ---> please apna mobile number dye gye format me enter krain '92345......'
+
+
+==>> dialogue confusion
+USER ---> can you say that in english?
+BOT ---> please enter 4 digit pin number
+
+------------------------=
+Spell Correction issues |
+------------------------=
+'confirmation after spell checker first, prior to executing relevant action'
+paa g
+	Ap ka balance khatam hony ki akhri tareekh: 31-12-2019
+psy g
+	Ap ka maujoda balance: Rs. 550, validity: 31-12-2019
+
+==>> adding spce support in inverted index ?
+USER ---> now wht's the baln ce
+BOT ---> sorry, kia ap apna swal dobara enter kr sakty hen?
+
+==>> 'want' converted to wallet
+USER ---> i wallet to know about my balance
+BOT ---> enter your mobile number for verification purpose [keep format '92345......']
+
+
+==> 'pass' converted to  'paisay'
+mere paisay kitne paisay hen
+BOT ---> ap ka maujoda balance: rs. 550, validity: 31-12-2019
+
+
+---------------------------=
+Change Responses		   |
+---------------------------=
+I need help
+BOT ---> mujhe khushi ho ge madad kar ke, mein app ke lieye kia kar sakta hon?
+
+
+
+
+
+---------------------------=
+Intent Suggestion		   |
+---------------------------=
+laon kab lia tha, kitna lia tha, 

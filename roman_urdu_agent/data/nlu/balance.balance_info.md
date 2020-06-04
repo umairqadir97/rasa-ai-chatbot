@@ -1,0 +1,365 @@
+## intent:balance.balance_info
+
+- mere [balance](account_balance) kitna he
+- mere [paisay](account_balance) kitne paisay hen
+- me ne apne [paisay](account_balance) pata krwane hen
+- can i know my [balance](account_balance)
+- now what is my [balance](account_balance)
+- what is my [balance](account_balance)
+- what's the [balance](account_balance)
+- i want to know about my [balance](account_balance)
+- my account [balance](account_balance)
+- mera [balance](account_balance)
+- mera [balance](account_balance)
+- mere account me kitne paisay hen
+- mjhy [balance](account_balance) batao
+- [balance](account_balance) bata do bhai
+- kya mera [balance](account_balance) bata skte hain ap
+- mera [balance](account_balance) kya hai is wqt
+- mera [balance](account_balance) bata dein
+- [balance](account_balance)
+- [balance](account_balance) bata do
+- [emergency load](emergency_loan) ki validity kya ha
+- yr can i know my current [balance](account_balance)
+- mera [balance](account_balance)
+- mere pas kitne [paisay](account_balance) hen
+- mere [paisay](account_balance) kitna he
+- merey account me kitna [credit](account_balance) hai 
+- maira current [balance](account_balance)
+- mere account mein filwaqt kitna [balance](account_balance) baki ha 
+- mera [paisay](account_balance) kya ha
+- mera [balance](account_balance) batain
+- baqi kitny [paisay](account_balance) rehty
+- mera [balance](account_balance) 
+- mojoda [raqam](account_balance) account main kia hai
+- mere account ma kitne [paisay](account_balance) hen 
+- meray mobile mein kitna [balance](account_balance) reh giya hai
+- mera [balance](account_balance) kya hai
+- kaya app bata sakte mere [balance](account_balance) kaya ha
+- mra [paisay](account_balance) kya ha
+- mera [credit](account_balance) kitna rehta 
+- mry acc me kitny [paisay](account_balance) hain 
+- pls [balance](account_balance) batain
+- mera kitna [credit](account_balance) rehta hai
+- [balance](account_balance) kitna hai mere pass
+- mjhe meri [balance](account_balance) usage details chahyein
+- ap mujhe mera remaining [balance](account_balance) batayege please
+- abhi mera [balance](account_balance) kia ha  
+- aap bata saktay hai is waqt maira [balance](account_balance) kitna hai 
+- mujhy mere [balance](account_balance) ki malomat bta dien
+- mera kya [balance](account_balance) hay
+- mera [balance](account_balance) kitna reh gia 
+- muje apna [balance](account_balance) pata karna hai
+- [balance](account_balance) kitna hai
+- kindly mera [balance](account_balance) bta dain
+- mera mojooda [balance](account_balance) baata sakte hain 
+- mera [balance](account_balance) baata dien
+- mera [balance](account_balance) ktina reh gya hai
+- [balance](account_balance) bata do bhai mera
+- [balance](account_balance) batayen
+- ktna [balance](account_balance) baqi ha
+- mera kitna [balance](account_balance) reh gya hai   
+- [balance](account_balance) kitna reh gaya  
+- [balance](account_balance) bta dein
+- mera [baqayajaat](account_balance) abhi kitna baki reh gya h  
+- mera [balance](account_balance) kya hai 
+- mojoda [raqam](account_balance) kitni hai
+- mje [paisay](account_balance) pta krna
+- mera current [balance](account_balance) kia ha 
+- mere account mein kitna [balance](account_balance) hai 
+- [balance](account_balance) ki malomat de dayn
+- kitna [balance](account_balance) hai mery phone mei 
+- mera number pa kitna [balance](account_balance) hain
+- mera bakaya [balance](account_balance)
+- [balance](account_balance) kitna reh gya he mera 
+- plz [balance](account_balance) batain mera
+- mara [balance](account_balance) kya ha
+- mera [balance](account_balance) kya ha  
+- [balance](account_balance) btana kitna hai 
+- mjy [balance](account_balance) janna hai 
+- itnaa [balance](account_balance) cuta kesy 
+- kya app mujha [rupee](account_balance) bata sakty hain
+- mujhy [balance](account_balance) ki malomat chaye
+- mra [paisay](account_balance) kia hy 
+- [balance](account_balance) btao
+- mje mara [load](account_balance) janna ha  
+- mera [balance](account_balance) bata dain 
+- mujay batain kitna [balance](account_balance) hai mere pass 
+- account me [balance](account_balance) kitan ha
+- mjhey mere numbr ka [balance](account_balance) bata dein please
+- mere account mein is waqt ktny [paisay](account_balance) hain 
+- kia ap mujhy mera [balance](account_balance) bata saktay hain
+- kya ap mujhe mera remaining [balance](account_balance) bta sakty hain 
+- mera mojuda [balance](account_balance) is waqt kitna hy 
+- mera maujooda [balance](account_balance) kiya hai 
+- my account [balance](account_balance)
+- kitna [balance](account_balance) raha gya ha  
+- mera account ma abhi kitna [balance](account_balance) parha howa ha 
+- [balance](account_balance) pta krna hae
+- abhi mera [balance](account_balance) kitna 
+- mere account me [balance](account_balance) kitna hai
+- kitna reh geeya hai [balance](account_balance)
+- mery mobile mei kitna [balance](account_balance) rehta hai 
+- mere account me kitnay [paisay](account_balance) hain
+- meray account main kitnay [paisay](account_balance) hain
+- [balance](account_balance) bata dyin
+- mje apna [balance](account_balance) pta krna he
+- mera [balance](account_balance) batayega 
+- mere pass kitnay [paisay](account_balance) hain
+- meray account ka [balance](account_balance) kya hai
+- account [balance](account_balance) kia hai
+- maira [balance](account_balance) kya hai
+- mere number me kitna [balance](account_balance) hai 
+- mera [balance](account_balance) kitna ha  
+- [balance](account_balance) ki malumat chaheya
+- mara [load](account_balance) kia hai 
+- mere account ma kitna [balance](account_balance) ha 
+- mera [credit](account_balance) kia hai
+- kitny [paisay](account_balance) bachay hain mere mobile main 
+- apne account ka [balance](account_balance) check karna hai
+- my mobile [balance](account_balance) amount
+- [paisay](account_balance) bata dayn kitnay hain mere pass
+- [balance](account_balance) bata dain mujhe mera kitna hai
+- mere account ka [balance](account_balance) kya hai 
+- mere number pe kitna [balance](account_balance) hey
+- mra [paisay](account_balance) kitna hay
+- [balance](account_balance) btayen mera
+- mera mobile [balance](account_balance)
+- [balance](account_balance) bato 
+- hello  dear mera [balance](account_balance) kia he bata day bhai 
+- mje [balance](account_balance) bta den mera
+- [balance](account_balance) kya hai mera 
+- [balance](account_balance) kia hai mera 
+- mara [balance](account_balance) kia h
+- kia ap please mjhy mery [balance](account_balance) bta dain gy
+- [balance](account_balance) 
+- mera [balance](account_balance) aa gya  
+- [balance](account_balance) bta main mera
+- baki [balance](account_balance) 
+- kitna [balance](account_balance) rehta hai
+- humra [balance](account_balance) kitna reh gaya ha
+- muje apen account k barhe ma info leni thi  k mere account ma filhal ab tk kitna [balance](account_balance) ha 
+- mujhey mera [balance](account_balance) bata den
+- mera mojuda [balance](account_balance) kitna hay 
+- [balance](account_balance)
+- mera mojuda [balance](account_balance) kiya hy 
+- mera mojuda [balance](account_balance) kya hai 
+- mujhe mera [balance](account_balance) bataien 
+- [balance](account_balance) kya ha mera
+- [balance](account_balance) katna ha mara  
+- mera [balance](account_balance)
+- bhai [balance](account_balance) batna zara
+- mera kitna [balance](account_balance) reh gaya ha 
+- [paisay](account_balance) kitnay hay mere phone me 
+- mera [balance](account_balance) kia hai  
+- kitna [balance](account_balance) ha
+- meray [balance](account_balance) kay barey may bataye ga 
+- mera account ma kinta [paisay](account_balance) ha 
+- account [balance](account_balance)
+- mera [balance](account_balance) kia hai 
+- kitne [paisay](account_balance) reh gae hen 
+- mera [balance](account_balance) kitna hai abhi is waqat
+- mera [balance](account_balance) bta den
+- bhai [balance](account_balance) batien mera 
+- [baqaya jaat](account_balance)
+- mara [balance](account_balance) kitna h
+- mairay account mai kitnay [paisay](account_balance) hai 
+- kindly mara [balance](account_balance) bta dy 
+- mujhy mera [balance](account_balance) btao
+- [balance](account_balance) bata do
+- [balance](account_balance) batao please
+- meray account main kitnay [paisay](account_balance) hain 
+- mjhy mera [balance](account_balance) check kr k bta skty hain 
+- [paisay](account_balance) kitnay hain mere pass
+- mera [balance](account_balance) btao bhai
+- mjhy apny bakkiya [balance](account_balance) k bary m maloomat chahyain  kitna baki reh gya h  
+- mera baqaya [balance](account_balance) kitna hai
+- mera kea [balance](account_balance) hai 
+- kya aap mera [balance](account_balance) bta skta skti hain 
+- mobile [balance](account_balance) abhi kya hai
+- mera [balance](account_balance) kya hy  
+- mere account mein kitne [paisay](account_balance) hain 
+- [balance](account_balance) kitna rehta hai
+- mera majooda [balance](account_balance) kya ha
+- [amount](account_balance) kitni hai
+- meray phone mein kitna [balance](account_balance) hai
+- account main [raqam](account_balance) kitni hai
+- mera [hisaab kitaab](account_balance) kya h
+- mera [balance](account_balance) btao
+- hi  just [balance](account_balance) ka pata karna ta  kitna he 
+- mera [balance](account_balance) katana ha  
+- please mjhy [balance](account_balance) ki updates de den
+- [balance](account_balance) pata kerna hay number ka
+- mara number ma kitna [credit](account_balance) ha
+- mera [balance](account_balance) kahan gya  
+- kitna [balance](account_balance) baaki hai mera 
+- meray number mai kitna [credit](account_balance) hai
+- mera [balance](account_balance) bta sakte hain 
+- mera mobile mai [balance](account_balance) kitna hai 
+- mera [balance](account_balance) kitna hy
+- mera [balance](account_balance) kitna he 
+- kitna [balance](account_balance) lag gya hai   
+- kya ap mara current [balance](account_balance) bta sktay han 
+- mjhe apna [balance](account_balance) jan na ha 
+- abi [balance](account_balance) kitna ha mera
+- mera [balance](account_balance) kia hay 
+- mera kitna [balance](account_balance) baqi hai
+- mera [balance](account_balance) bta day
+- mera [balance](account_balance) bataiye
+- mera [balance](account_balance) kitna rehta he
+- mere account main [amount](account_balance) kitni hai
+- mera [balance](account_balance) batao 
+- hello  kia bata saktay hain kitna [balance](account_balance) para he abi mera 
+- mera current [balance](account_balance) kya hai
+- meri sim mn kitny [paisay](account_balance) hn 
+- mera kitna [balance](account_balance) reh gaya hai 
+- mera [balance](account_balance) kya chalraha hai 
+- [balance](account_balance) kia ha  
+- [balance](account_balance) mera kitna reh gaya hai
+- kia app mjhay mera [balance](account_balance) bata saktay hain
+- [balance](account_balance) kya hai 
+- [wallet](account_balance) batao
+- [amount](account_balance)
+- [credit](account_balance)
+- [rupee](account_balance)
+- [hisaab kitaab](account_balance)
+- [baqayajaat](account_balance)
+- [raqam](account_balance)
+- [load](account_balance)
+- yr [balance](account_balance)
+- mera [balance](account_balance) kitna reh gaya hay 
+- [balance](account_balance) kya he 
+- mje apna current [balance](account_balance) pta krna
+- mera [balance](account_balance) ktna reh gya hai
+- mera mojoda [waller](account_balance) me kya ha is waqt
+- account [balance](account_balance) bata dein
+- [balance](account_balance) kitna hai mera
+- meray pass kitnay [paisay](account_balance) hain
+- mera mojuda [balance](account_balance) kitna hai
+- [balance](account_balance) batayea
+- mera [balance](account_balance) kitna reh gea he 
+- meri [balance](account_balance) ktni ha
+- [balance](account_balance) hai 
+- kitna [balance](account_balance) baqi hai 
+- is number pay account main kitnay [paisay](account_balance) bakaya hain
+- [balance](account_balance) kitna hai 
+- mera current [balance](account_balance) bta dain plz
+- mera maujooda [credit](account_balance) kiya hai 
+- mery account mn kitny [paisay](account_balance) hn 
+- mere number per kia [balance](account_balance) ha  
+- meri sim me kitna [balance](account_balance) hai 
+- kya [balance](account_balance) hai mera 
+- kia ap mera [balance](account_balance) check kar k bata saktey hein 
+- mera baqi [balance](account_balance) kitna hai 
+- [balance](account_balance) kia hy mera 
+- mujhe mery [balance](account_balance) kay barey mai bataien 
+- mera [balance](account_balance) kiya ha
+- mera mobile mein kitni [raqam](account_balance) majood hai
+- mera [balance](account_balance) kia hai
+- [balance](account_balance) kia hai
+- kitna [balance](account_balance) hai meray pass 
+- kitna [balance](account_balance) reh gia hai 
+- mera [balance](account_balance) kitna hai 
+- [balance](account_balance) baki kitna hai 
+- mera [balance](account_balance) kitna hai
+- mera [balance](account_balance) bata dain
+- mera [balance](account_balance) kitna reh gya he 
+- mujhey mera [balance](account_balance) maloom karna hai
+- kitna [balance](account_balance) hai mere account mein  
+- mera [balance](account_balance) kitna hay  
+- mera kitna [balance](account_balance) hai
+- mera [balance](account_balance) bta dain 
+- mera [raqam](account_balance) kia hy
+- [wallet](account_balance) me kia ha
+- [wallet](account_balance) ka status bta dain
+- kitnay [paisay](account_balance) mere pass
+- account main kitni [raqam](account_balance) ha
+- muja [balance](account_balance) batain
+- mery account main kya [balance](account_balance) hai abi
+- mera majooda [balance](account_balance) kya hai
+- meray paas kitna [balance](account_balance) hai
+- mera [credit](account_balance) kitna hai
+- kia [balance](account_balance) hae mera 
+- kiya aap free [balance](account_balance) dete hain 
+- mujhy mera [balance](account_balance) chahia 
+- [balance](account_balance) please 
+- mera remaining [balance](account_balance) mujhy bata dain
+- [balance](account_balance) bata dain mera
+- my [balance](account_balance) details
+- kitna [balance](account_balance) reh gya ha 
+- jigger mera [credit](account_balance) batna
+- maira account [balance](account_balance) batae please 
+- account main kitne [raqam](account_balance) hai
+- mera [balance](account_balance) kiya hy
+- mera [balance](account_balance) kitna hay 
+- mera [balance](account_balance) kitna hy 
+- mera [balance](account_balance) kitna ha
+- mere phone me kitnay [baqayajaat](account_balance) hay
+- kiya ap mera baqi ka [balance](account_balance) bata saktay hain 
+- mera [balance](account_balance) kitna hai  
+- mera [balance](account_balance) bata dein kindly 
+- mera account [balance](account_balance) kitna reh gya hai  
+- kitna [baqayajaat](account_balance) hai account mein
+- mera kitna [balance](account_balance) baki ha
+- mere account main kitni [amount](account_balance) baki ha
+- mera [balance](account_balance) kya ha 
+- mera [balance](account_balance) kya ha
+- mujhe apne [balance](account_balance) ki malomat leni hai 
+- mera [balance](account_balance) kiya he
+- mera [balance](account_balance) kitna reh gya ha 
+- mera [balance](account_balance) batana 
+- mera [balance](account_balance) kya hai abhi 
+- mera [balance](account_balance) kitna use hua hai 
+- please mera [balance](account_balance) bata dain 
+- plz mera [balance](account_balance) bata dien
+- mera [balance](account_balance) kia ha
+- kia app [baqayajaat](account_balance) main rehnamaai farmaain gay 
+- mera pas [balance](account_balance) kitna ha
+- mjhy ap [balance](account_balance) bta dein mera
+- mera majooda [balance](account_balance) kitna hai 
+- [credit](account_balance) kitna hai meray pas 
+- maira account mai abi kitny [baqayajaat](account_balance) hai 
+- mera kitna [balance](account_balance) reh gya hai 
+- mera [balance](account_balance) kitna rah gaya hay 
+- mere pass [balance](account_balance) kitna hai 
+- mairay pass is waqt kitna [balance](account_balance) hai 
+- [balance](account_balance) ki maloomat
+- [balance](account_balance) kia he
+- kitna [credit](account_balance) rehte hain  
+- [balance](account_balance) kitna ha mara number per
+- [balance](account_balance) ki info chahye
+- mera [balance](account_balance) bta dain please
+- kia ap mjhe mera [balance](account_balance) bta sakta ha 
+- kitna reh giya hai [balance](account_balance)
+- mera [balance](account_balance) kitna he
+- kia hay mera [balance](account_balance) 
+- [balance](account_balance) kitna 
+- mera pass kitna [balance](account_balance) hay 
+- mera [balance](account_balance) hai kya 
+- [credit](account_balance)  
+- mera [balance](account_balance) bta den mje
+- [balance](account_balance) bata dayn
+- mara [balance](account_balance)  
+- [balance](account_balance) bata dein meray number ka
+- mera sim [balance](account_balance) kitna reh gia hay 
+- [balance](account_balance) bta do
+- meray number mein [balance](account_balance) kitna hay
+- please mera [credit](account_balance) bata dain  
+- aoa meray account main kitmay [paisay](account_balance) hain
+- mera [credit](account_balance) kitna reh gaya he
+- sim [balance](account_balance) 
+- mara [credit](account_balance) kiya ha  
+- mera [balance](account_balance)  
+- mera [hisaab kitaab](account_balance) 
+- [balance](account_balance) k bara main janna tha
+- meray is number pay kya [balance](account_balance) ha  
+- mera [balance](account_balance) kitna ha
+- kitna [balance](account_balance) hai
+- mera [load](account_balance) kitna hay 
+- mujhay [balance](account_balance) janna hae
+- mujhay mera [balance](account_balance) batao
+- mera kitna [balance](account_balance) rehta he 
+- mjhay mera [balance](account_balance) tau bata do
+- meray accont ka current [balance](account_balance) btado
+- mjhy [balance](account_balance) batao
+- last [balance](account_balance) kya tha

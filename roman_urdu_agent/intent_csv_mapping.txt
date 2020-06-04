@@ -1,0 +1,37 @@
+agent.can_you_help: mje madad chahye
+agent.good: ap bht achy hain
+agent.happy: kia ap khush hain
+agent.there: kia ap yahan hain
+appraisal.good: nice 
+appraisal.no_problem: no problem
+appraisal.thank_you: bht shukria
+appraisal.welcome: welcome
+balance.balance_info: balance ki maloomat chahye
+balance.balance_usage: balance k kharch ki maloomat chahye
+balance.balance_validity: balance ki akhri tareekh ki maloomat chahye
+confirmation.no: sorry
+confirmation.yes: yes, sure
+dialog.sorry: i am sorry
+emergency_loan.general_loan_service_info: loan service k bary me maloomat chahye
+emergency_loan.current_status: loan ka current status
+emergency_loan.last_availed: akhri loan kab lya tha
+greetings.bye: goodbye
+greetings.goodevening: good evening
+greetings.goodmorning: good morning
+greetings.goodnight: good night
+greetings.hello:	hello
+greetings.how_are_you: kesy hain ap
+greetings.nice_to_meet_you: good to meet you
+greetings.nice_to_see_you: good to see you
+greetings.nice_to_talk_to_you: good to talk to you
+how_much: how much
+last_recharge.date: akhri recarge ki tareekh
+last_recharge.info: akhri recharge ki maloomat
+offers.info: offers ki maloomat chaye
+out_of_scope: /out_of_scope
+subscribe_above_offer: subscriber above service
+time_limit: time limit
+user.excited: Are you excited
+user.good: Are you feeling good
+user.happy: Are you feeling happy
+when_did_i: when did it happen

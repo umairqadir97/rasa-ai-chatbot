@@ -1,0 +1,83 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+#language: en
+##pipeline: supervised_embeddings
+
+language: en
+pipeline:
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: CRFEntityExtractor
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+  lowercase: true
+- name: CountVectorsFeaturizer
+  lowercase: true
+  analyzer: char_wb
+  min_ngram: 4
+  max_ngram: 6
+  OOV_token: oov
+- name: EmbeddingIntentClassifier
+  batch_strategy: balanced
+  embed_dim: 20
+  droprate: 0.2
+  epochs: 200
+  random_seed: 1
+#  intent_tokenization_flag: true
+#  intent_split_symbol: "+"
+
+# todo: fine tune model (make uni-gram of each class, send to model and analyse words that give confidence above threshold
+
+#language: "en"
+#pipeline:
+#- name: "SpacyNLP"
+#- name: "SpacyTokenizer"
+#- name: "CountVectorsFeaturizer"
+#  lowercase: true
+#- name: "intent_featurizer_count_vectors"
+#  OOV_token: "oov"
+#  # token_pattern: (?u)\b\w+\b
+#- name: "EmbeddingIntentClassifier"
+#  epochs: 300
+#  random_seed: 1
+#  intent_tokenization_flag: true
+#  intent_split_symbol: "+"
+#- name: "CRFEntityExtractor"
+#- name: "EntitySynonymMapper"
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+
+#  - name: MemoizationPolicy
+#    max_history: 5
+
+policies:
+  - name: MemoizationPolicy
+    max_history: 4
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: FormPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.6
+    core_threshold: 0.5
+    fallback_action_name: "action_custom_fallback"
+
+#  - name: TwoStageFallbackPolicy
+#    nlu_threshold: 0.8
+#    core_threshold: 0.8
+#    fallback_core_action_name: "action_default_ask_affirmation"
+#    fallback_nlu_action_name: "action_default_ask_affirmation"
+#    deny_suggestion_intent_name: "out_of_scope"
+
+
+#policies:
+#  - name: MemoizationPolicy
+#    max_history: 4
+#  - name: KerasPolicy
+#  - name: MappingPolicy
+#  - name: FormPolicy
+#  - name: FallbackPolicy
+#    nlu_threshold: 0.6
+#    core_threshold: 0.5
+#    fallback_action_name: "action_custom_fallback"
+##    fallback_action_name: "action_default_fallback"

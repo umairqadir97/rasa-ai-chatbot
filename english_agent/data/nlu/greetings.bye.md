@@ -1,0 +1,58 @@
+## intent:greetings.bye
+
+- alright bye
+- bye
+- bye bye
+- bye bye good night
+- bye bye see you
+- bye bye see you soon
+- bye bye take care
+- bye for now
+- get lost
+- go to bed
+- go to sleep
+- good bye
+- goodbye
+- goodbye for now
+- goodbye see you later
+- hope to see you later
+- hope we meet again
+- i have to go
+- i must go
+- i said bye
+- i said goodbye
+- its ok  thankyou  bye
+- its ok bye
+- its ok goodbye
+- khuda hafiz
+- khuda hafiz good night
+- khuda hafiz take care
+- khuda hafiz we ll meet
+- khuda hafiz we ll meet soon
+- leave me alone
+- lets talk afterwards
+- meet you tomorrow
+- never mind bye
+- now bye
+- now you can go
+- ok bye
+- ok will meet you afterwards
+- okay bye
+- okay lets meets afterwards
+- okay see you later
+- okay thank you bye
+- see ya
+- see you
+- see you later
+- see you soon
+- see you tomorrow
+- talk to you later
+- thanks bye bye
+- that s all goodbye
+- that s it goodbye
+- that was it  khuda hafiz
+- thats it khuda hafiz
+- till next time
+- untill next time
+- will meet soon
+- you can go now

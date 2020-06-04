@@ -1,0 +1,59 @@
+## intent:balance.balance_usage
+
+- how much money did i spent
+- how much did i spend last month
+- how muh balance did i use
+- how much is my total balance usage
+- how much did i spend last week
+- how much balance did i use last week
+- how much money did i spend last week
+- how much balance did i spend this month
+- how much balance did i use
+- what is the total usage amount 
+- how much credit did you use in the last month
+- how much credit did i used yesterday
+- how much credit did i used last week
+- how much credit did i used last month
+- how much balance did i used yesterday
+- how much did i spent last week
+- how much balance did i use in last few days
+- how much balance did i use last week
+- what was the expense last week
+- how much was my expense last month
+- How much balance did I use in the last one day
+- kindly tell me the usage of last one day
+- kindly tell me the usage of last one month
+- kindly tell me the summary of the money i spent last week
+- kindly tell me the summary of the money i spent current month
+- tell me the summary of the money i spent
+- tell me the usage of last month
+- Tell me the status of my money spent
+- what is the balance usage history of yesterday
+- what is the trasaction history of last month
+- last week ki transaction history kia ha
+- how much did i spend in the last days
+- how much did i spend in the last week
+- i need amount usage info
+- how much did i spent yesterday
+- How much of my balance did i use last week
+- what is my last month bill
+- How much balance did I use yesterday
+- How much balance I did use last week
+- in the last week how much did i spend
+- kindly can you tell me how much I spent last month
+- can you give me information about my balcnce which i used in the last few months
+- what was my spend last day
+- What was my usage of last week
+- can you give me the details of balance usage of last week and last month separately
+- can you tell that how much did i spend yesterday
+- can you tell that houw much did i spend last month
+- what is amount that i spend last month
+- my report of  the money i spent 
+- kindly please tell me the usage of my account
+- can you tell me how much balance did i used yesterday
+- how much amount did i use last few days
+- how much amount did i use last few month
+- how much balance is consumed
+- how much balance have i spent
+- amount of balance used
+- what s the usage of balance

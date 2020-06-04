@@ -1,0 +1,1529 @@
+## intent:agent.can_you_help
+- kya tum mjhe thori si tafsil la skte ho ?
+- kya tum mjhe thori si tafsilaat do ge?
+- kya ao meri madad kr skte hien
+- mjhe thori si tafsilaat chahiye hien
+- kya tum mjhe thori si tafsil farahm skte ho ?
+- kya tum ab meri help krskte ho ?
+- kya meri madad krdo ge ?
+- madad
+- kya tum meray liye aik kaam krskte ho ?
+- kia tum meri madad krna chahte ho ?
+- kya tum meri madad krte ho ?
+- mjhe thori tafsilaat hasil krne k liye tumhari madad chahiye
+- tum meray sawal ka jawab dene k liye tyar ho ?
+- kia aap meri madad krdien ge ?
+- mjhe kuch chahiye
+- kya tum meri help kro ge ?
+- madad krdo
+- help chahiye
+- kya tum meri madad kr skte ho ?
+- mjhe madad chahiye
+- mjhe apki zaruart hai
+- mjhe tumhari help chahiye
+- kya tum mjhe thori si tafsil de skte ho ?
+
+## intent:agent.good
+- mein sab ko batana chahta hon ke aap kitney achay hain
+- tum bohat madadgaar ho
+- aap waqai herat angaiz hain
+- tum sab achay ho
+- aap aik haqeeqi pesha warana hain
+- aap kaamil hain
+- aap bohat meharban hain
+- tum ne mera din bana diya
+- aap bohat mufeed hain
+- aap duniya mein sab se behtar hain
+- aap is cheez par bohat achay hain
+- tum bohat achay ho
+- tum bohat khobsorat ho
+- aap waqai achay hain
+- aap bohat madadgaar hain
+- aap bohat achay kaam karte hain
+- aap bohat meharban hain
+- tum bohat achay ho
+- aap herat angaiz hain
+- tum bohat khobsorat ho
+- aap duniya mein sab se achay shakhs hain
+- tum bohat dilchasp ho
+- tum bohat achay ho
+- tum achay ho
+- mein sab ko batana chahta hon ke aap bohat achay hain
+- aap laa jawab hain
+- tum is cheez par achay ho
+- aap pesha war hain
+- chalo sab ko bitayen ke aap bohat achay hain
+
+## intent:agent.happy
+- mjhe lagta hai maine tumhien khush kia hai
+- main sochta hu kia tum sach main khush ho ?
+- tum bohat ziada khush ho
+- kia tum khush ho ?
+- tum khushi se bharay howe ho
+- tum khush ho
+- kia tum ab khush ho ?
+- kia tum mjh se khush ho ?
+- kia tum aj khush ho ?
+- tum intehai khush ho
+- tum dikhne main khush lag rahay ho
+- tum aj khush nahi lag rahay
+- tum aj subah bohat khush lag rahay ho
+
+## intent:agent.there
+- kya tum idhar abhi bhi idhar hi ho ?
+- tum udhar ho
+- kya tum idhar ho ?
+- idhar ho ?
+- idhar hi ho ?
+- kya tum idhar hi ho ?
+- kya tum meray pass ho ?
+
+## intent:appraisal.good
+- wonderful job
+- azeem kaam
+- waqai acha hai
+- marvelous
+- kamaal
+- waqai main bohat acha
+- bohat budiya
+- sun ke acha laga
+- aap ne bohat acha kaam kia
+- ye tum ne bohat acha kia
+- khushguwaar
+- amazing
+- u r awesome
+- bohat pyaara
+- amazing work
+- bohat heran kun
+- ye bohat acha hai
+- nahi ye sahi hai
+- brilliant
+- wah
+- Tumharay liye acha hai
+- hairat angaiz hai
+- nice work
+- Jaan k acha laga
+- wo bohat acha tha
+- good job
+- great work
+- wo bohat aala tha
+- meetha
+- very quick
+- super
+- ye heran kun hai
+- apka ye fael bohat pasand aya
+- acha
+- bohat achay
+- wo bohat zabardust tha
+- bohat acha
+- bohat acha
+- wo pyaara tha
+- acha hai
+- bohat acha kaam
+- ye behtareen hai -
+- bohat aala
+- demag ura dena wala kaam
+- ye waqai acha hai
+- shandaar
+- ye bohat acha hai
+- bravo
+- out standing
+- acha kaam
+- wo bohat behtar hai
+- bura nahi hai
+- great
+- oh, acha
+- ye bohat acha hai
+- well done yr
+- Sun k acha laga
+- wo acha tha
+- ye bohat acha hai, shukariya
+- ye galat nahi hai
+- shandaar
+- kudos
+- acha hai
+- bas acha hai
+- wo shandaar hai
+
+## intent:appraisal.no_problem
+- theek hai koi masla nahi
+- us kay baray main koi masla nahi
+- pareshaan mat ho, koi masla nahi hai
+- kisi bhi tarhan ka masla nahi hai
+- mjhe us se koi masla nahi hai
+- pareshaan mat ho
+- theek hai koi fikr nahi
+- koi fikr nahi
+
+## intent:appraisal.thank_you
+- main apka ka shukariyaa ada krta hu
+- you helped
+- behtareen, shukariyaa
+- theek hai, aap ka shukariyaa
+- acha, shukariyaa
+- nahi shukariyaa, bas kaafi hai
+- main is ki tareef krta hu
+- sahi hai, shukariyaa
+- aap ne bohat madad ki , aap ka shukariyaa
+- very good thank you
+- no thank you that's all
+- appreciate your help
+- shukar
+- aap ka shukariyaa
+- thnx
+- thanks
+- nice man
+- thank you
+- aap ka bohat shukariyaa
+- phir sy shukrya
+- thanks again
+- chalo, shukariyaa
+- aap bohat achay hien
+- appreciate
+
+## intent:appraisal.welcome
+- yahan anay par khush aamdeed
+- jo bhi ap ka dil kray
+- shukariya
+- meri khsuhi
+- kis bhi waqt
+- yahan anay par bohat khush aamdeed
+- main khush hu
+- khushi to meri hai
+- yeh meri khushi hai
+- welcome
+
+## intent:balance.balance_info
+- [balance](account_balance) kia hai mera
+- mujay batain kitna [balance](account_balance) hai mere pass
+- [balance](account_balance) bata dayn
+- mera [balance](account_balance)
+- pls [balance](account_balance) batain
+- [balance](account_balance) kitna hai mere pass
+- mery account mn kitny [paisay](account_balance) hn
+- mujhy mera [balance](account_balance) chahia
+- mere pas kitne [paisay](account_balance) hen
+- [balance](account_balance) kitna
+- mera number pa kitna [balance](account_balance) hain
+- [balance](account_balance) batayea
+- mere [paisay](account_balance) kitna he
+- mera maujooda [balance](account_balance) kiya hai
+- kya mera [balance](account_balance) bata skte hain ap
+- [paisay](account_balance) bata dayn kitnay hain mere pass
+- mera [credit](account_balance) kitna rehta
+- abhi mera [balance](account_balance) kitna
+- mera [balance](account_balance) kitna reh gya he
+- [balance](account_balance)
+- [paisay](account_balance) kitnay hain mere pass
+- mera [load](account_balance) kitna hay
+- kiya aap free [balance](account_balance) dete hain
+- kitna [baqayajaat](account_balance) hai account mein
+- meray [balance](account_balance) kay barey may bataye ga
+- mera [balance](account_balance) kiya hy
+- mere account me kitnay [paisay](account_balance) hain
+- hi  just [balance](account_balance) ka pata karna ta  kitna he
+- mera [raqam](account_balance) kia hy
+- mujhy mere [balance](account_balance) ki malomat bta dien
+- mera current [balance](account_balance) bta dain plz
+- my mobile [balance](account_balance) amount
+- [balance](account_balance) bato
+- kitna [credit](account_balance) rehte hain
+- account main kitni [raqam](account_balance) ha
+- mera baqi [balance](account_balance) kitna hai
+- apne account ka [balance](account_balance) check karna hai
+- i want to know about my [balance](account_balance)
+- mera remaining [balance](account_balance) mujhy bata dain
+- mujhy mera [balance](account_balance) btao
+- mairay account mai kitnay [paisay](account_balance) hai
+- humra [balance](account_balance) kitna reh gaya ha
+- kya [balance](account_balance) hai mera
+- mairay pass is waqt kitna [balance](account_balance) hai
+- mera kea [balance](account_balance) hai
+- [balance](account_balance) kya hai mera
+- mera [balance](account_balance) bata dain
+- mere [paisay](account_balance) kitne paisay hen
+- kitny [paisay](account_balance) bachay hain mere mobile main
+- mera [balance](account_balance)
+- mera [balance](account_balance)
+- mera [balance](account_balance) kia hay
+- mje apna current [balance](account_balance) pta krna
+- mera [balance](account_balance) kia hai
+- mera [balance](account_balance) bta day
+- muja [balance](account_balance) batain
+- bhai [balance](account_balance) batien mera
+- mera [balance](account_balance) baata dien
+- mera [balance](account_balance) ktina reh gya hai
+- meri sim mn kitny [paisay](account_balance) hn
+- what's the [balance](account_balance)
+- mera [balance](account_balance) kitna hay
+- mera [balance](account_balance) ktna reh gya hai
+- kitna reh giya hai [balance](account_balance)
+- [credit](account_balance) kitna hai meray pas
+- [balance](account_balance) bata do
+- account main kitne [raqam](account_balance) hai
+- mera kitna [balance](account_balance) baqi hai
+- [balance](account_balance)
+- [balance](account_balance) baki kitna hai
+- mera account ma abhi kitna [balance](account_balance) parha howa ha
+- kia hay mera [balance](account_balance)
+- mera [balance](account_balance) batain
+- aoa meray account main kitmay [paisay](account_balance) hain
+- mery account main kya [balance](account_balance) hai abi
+- mujhe apne [balance](account_balance) ki malomat leni hai
+- mera [balance](account_balance)
+- mara number ma kitna [credit](account_balance) ha
+- [balance](account_balance) kya he
+- meray account ka [balance](account_balance) kya hai
+- merey account me kitna [credit](account_balance) hai
+- plz mera [balance](account_balance) bata dien
+- mera [balance](account_balance) kitna he
+- can i know my [balance](account_balance)
+- my account [balance](account_balance)
+- meray phone mein kitna [balance](account_balance) hai
+- [balance](account_balance) bata dein meray number ka
+- please mera [balance](account_balance) bata dain
+- kitnay [paisay](account_balance) mere pass
+- [balance](account_balance) kya ha mera
+- meray pass kitnay [paisay](account_balance) hain
+- abi [balance](account_balance) kitna ha mera
+- mera majooda [balance](account_balance) kya ha
+- mra [paisay](account_balance) kia hy
+- mere number per kia [balance](account_balance) ha
+- kya ap mujhe mera remaining [balance](account_balance) bta sakty hain
+- mera [balance](account_balance) katana ha
+- meri [balance](account_balance) ktni ha
+- [balance](account_balance) ki malomat de dayn
+- [balance](account_balance) kia hy mera
+- mjhay mera [balance](account_balance) tau bata do
+- mera [balance](account_balance) bata dein kindly
+- yr can i know my current [balance](account_balance)
+- mera [balance](account_balance) kya hai is wqt
+- mera kitna [balance](account_balance) reh gaya ha
+- kitna [balance](account_balance) hai mere account mein
+- mera [balance](account_balance) kitna hy
+- [balance](account_balance) kitna rehta hai
+- meray paas kitna [balance](account_balance) hai
+- mra [paisay](account_balance) kya ha
+- mera [balance](account_balance) kitna ha
+- mera sim [balance](account_balance) kitna reh gia hay
+- mera mojoda [waller](account_balance) me kya ha is waqt
+- [balance](account_balance) bata dain mera
+- mara [load](account_balance) kia hai
+- plz [balance](account_balance) batain mera
+- [amount](account_balance)
+- mera baqaya [balance](account_balance) kitna hai
+- mujhy [balance](account_balance) ki malomat chaye
+- baki [balance](account_balance)
+- mery mobile mei kitna [balance](account_balance) rehta hai
+- [credit](account_balance)
+- mera [credit](account_balance) kitna hai
+- abhi mera [balance](account_balance) kia ha
+- mera [balance](account_balance) bta den mje
+- mera [balance](account_balance) kia ha
+- kitna [balance](account_balance) baaki hai mera
+- yr [balance](account_balance)
+- mera [balance](account_balance) batayega
+- mjhe apna [balance](account_balance) jan na ha
+- kia ap please mjhy mery [balance](account_balance) bta dain gy
+- mera [balance](account_balance)
+- [balance](account_balance) bta do
+- kitna reh geeya hai [balance](account_balance)
+- mera kitna [balance](account_balance) hai
+- maira account mai abi kitny [baqayajaat](account_balance) hai
+- mera mojuda [balance](account_balance) is waqt kitna hy
+- mjhy [balance](account_balance) batao
+- mera current [balance](account_balance) kya hai
+- me ne apne [paisay](account_balance) pata krwane hen
+- [balance](account_balance) btana kitna hai
+- mere account mein filwaqt kitna [balance](account_balance) baki ha
+- [rupee](account_balance)
+- mera pass kitna [balance](account_balance) hay
+- mjhey mere numbr ka [balance](account_balance) bata dein please
+- kia ap mjhe mera [balance](account_balance) bta sakta ha
+- mera [balance](account_balance)
+- [balance](account_balance)
+- now what is my [balance](account_balance)
+- mera [balance](account_balance) kitna reh gia
+- [balance](account_balance) bata dyin
+- mere pass kitnay [paisay](account_balance) hain
+- mera [balance](account_balance) kiya he
+- mera [balance](account_balance) kahan gya
+- mjhy apny bakkiya [balance](account_balance) k bary m maloomat chahyain  kitna baki reh gya h
+- mje [balance](account_balance) bta den mera
+- [balance](account_balance) kitna hai mera
+- kitna [balance](account_balance) lag gya hai
+- mera [balance](account_balance) kitna ha
+- kia app mjhay mera [balance](account_balance) bata saktay hain
+- mjhy [balance](account_balance) batao
+- bhai [balance](account_balance) batna zara
+- mera mojuda [balance](account_balance) kiya hy
+- mera [balance](account_balance) kitna reh gya ha
+- mobile [balance](account_balance) abhi kya hai
+- mujhey mera [balance](account_balance) bata den
+- mera kitna [balance](account_balance) rehta he
+- mere account ka [balance](account_balance) kya hai
+- mere account ma kitne [paisay](account_balance) hen
+- mera [balance](account_balance) kitna reh gea he
+- mera bakaya [balance](account_balance)
+- kia app [baqayajaat](account_balance) main rehnamaai farmaain gay
+- mera [balance](account_balance) kitna use hua hai
+- kitna [balance](account_balance) hai meray pass
+- mera [balance](account_balance) kya hai
+- baqi kitny [paisay](account_balance) rehty
+- kitna [balance](account_balance) reh gia hai
+- mera [balance](account_balance) kitna he
+- meray account main kitnay [paisay](account_balance) hain
+- mera [paisay](account_balance) kya ha
+- kya app mujha [rupee](account_balance) bata sakty hain
+- mara [credit](account_balance) kiya ha
+- [raqam](account_balance)
+- kitna [balance](account_balance) rehta hai
+- mera [balance](account_balance) bta dain
+- kitne [paisay](account_balance) reh gae hen
+- kya aap mera [balance](account_balance) bta skta skti hain
+- ktna [balance](account_balance) baqi ha
+- mera mobile mein kitni [raqam](account_balance) majood hai
+- [balance](account_balance) batayen
+- mera [balance](account_balance) kya hai abhi
+- mera majooda [balance](account_balance) kitna hai
+- kitna [balance](account_balance) baqi hai
+- [balance](account_balance) kia hai
+- [balance](account_balance) bta dein
+- meray accont ka current [balance](account_balance) btado
+- mera [balance](account_balance) batana
+- my [balance](account_balance) details
+- mera [balance](account_balance) kitna rehta he
+- mera [balance](account_balance) kitna hai abhi is waqat
+- mera [balance](account_balance) kitna hai
+- kia ap mujhy mera [balance](account_balance) bata saktay hain
+- kitna [balance](account_balance) ha
+- please mjhy [balance](account_balance) ki updates de den
+- mara [balance](account_balance) kya ha
+- mujhay [balance](account_balance) janna hae
+- aap bata saktay hai is waqt maira [balance](account_balance) kitna hai
+- mere account mein is waqt ktny [paisay](account_balance) hain
+- mere account main [amount](account_balance) kitni hai
+- [amount](account_balance) kitni hai
+- mera [balance](account_balance) kitna hai
+- itnaa [balance](account_balance) cuta kesy
+- [baqayajaat](account_balance)
+- mera mojuda [balance](account_balance) kitna hai
+- mjhy ap [balance](account_balance) bta dein mera
+- mera [hisaab kitaab](account_balance) kya h
+- jigger mera [credit](account_balance) batna
+- mere account me [balance](account_balance) kitna hai
+- mera [balance](account_balance) kitna hay
+- mara [balance](account_balance) kia h
+- [balance](account_balance) k bara main janna tha
+- meray is number pay kya [balance](account_balance) ha
+- [balance](account_balance) bata do bhai
+- mera [credit](account_balance) kia hai
+- what is my [balance](account_balance)
+- mera [balance](account_balance) bta dain please
+- kia ap mera [balance](account_balance) check kar k bata saktey hein
+- mera account ma kinta [paisay](account_balance) ha
+- meray mobile mein kitna [balance](account_balance) reh giya hai
+- mera [balance](account_balance) btao
+- [paisay](account_balance) kitnay hay mere phone me
+- mera [balance](account_balance) kitna hy
+- [balance](account_balance) please
+- mera [credit](account_balance) kitna reh gaya he
+- muje apna [balance](account_balance) pata karna hai
+- mera majooda [balance](account_balance) kya hai
+- [hisaab kitaab](account_balance)
+- kitna [balance](account_balance) reh gya ha
+- mry acc me kitny [paisay](account_balance) hain
+- [balance](account_balance) kia ha
+- mujhey mera [balance](account_balance) maloom karna hai
+- mjhe meri [balance](account_balance) usage details chahyein
+- mera [balance](account_balance) kia hai
+- please mera [credit](account_balance) bata dain
+- mere account mein kitne [paisay](account_balance) hain
+- mera [balance](account_balance) bta sakte hain
+- account [balance](account_balance)
+- mera kitna [credit](account_balance) rehta hai
+- [balance](account_balance) kitna ha mara number per
+- [balance](account_balance) ki malumat chaheya
+- [balance](account_balance) ki maloomat
+- maira current [balance](account_balance)
+- mera kitna [balance](account_balance) baki ha
+- mera [baqayajaat](account_balance) abhi kitna baki reh gya h
+- is number pay account main kitnay [paisay](account_balance) bakaya hain
+- mje apna [balance](account_balance) pta krna he
+- mera [balance](account_balance) batao
+- kitna [balance](account_balance) raha gya ha
+- [balance](account_balance) bata dain mujhe mera kitna hai
+- mera [balance](account_balance) kya hai
+- mera kitna [balance](account_balance) reh gya hai
+- [balance](account_balance) ki info chahye
+- mere account ma kitna [balance](account_balance) ha
+- mera kitna [balance](account_balance) reh gaya hai
+- mojoda [raqam](account_balance) account main kia hai
+- meray number mai kitna [credit](account_balance) hai
+- mere account main kitni [amount](account_balance) baki ha
+- mere number me kitna [balance](account_balance) hai
+- [baqaya jaat](account_balance)
+- [balance](account_balance) kitna reh gaya
+- muje apen account k barhe ma info leni thi  k mere account ma filhal ab tk kitna [balance](account_balance) ha
+- mera kitna [balance](account_balance) reh gya hai
+- [balance](account_balance) kitna reh gya he mera
+- kia [balance](account_balance) hae mera
+- mera [balance](account_balance) kya ha
+- meray account main kitnay [paisay](account_balance) hain
+- kya ap mara current [balance](account_balance) bta sktay han
+- mera account [balance](account_balance) kitna reh gya hai
+- mera [hisaab kitaab](account_balance)
+- mera [balance](account_balance) kya hy
+- mera pas [balance](account_balance) kitna ha
+- sim [balance](account_balance)
+- mera mojuda [balance](account_balance) kya hai
+- mera [balance](account_balance) kya chalraha hai
+- mera [balance](account_balance) kitna hai
+- mera [balance](account_balance) bataiye
+- mra [paisay](account_balance) kitna hay
+- kitna [balance](account_balance) hai
+- kaya app bata sakte mere [balance](account_balance) kaya ha
+
+## intent:balance.balance_usage
+- last month kitne paisay kharch kiye me ne?
+- main nay pichlay hafty kitna balance use kia tha
+- mei ne kal kitna balance istemal kia ha
+- mery akhari maheny ki harch k hoe amount kia hain
+- mana is week kitni balance use kiya ha
+- total balance usage kitna ha
+- kindly ab bta sakte ha meri pechlay mahine kitni amount kharch hui
+- kitna balance kharch kiya ta me ene
+- last week kitna balance use kiya me ne
+- main ny kal kitne paisay kharach kiye
+- kitna kharcha hua pichly maheney me
+- kitne paisay kharch huey pichley hafte
+- mujhy meri istamal shuda raqam k stats chaye
+- behraye mehrbani mere account ka istamal bta dein
+- mene pichle din mei kitna kharch kia ha
+- total balance usage kitna ha
+- mene kitna balance use kea hey pechle hafta
+- me ne kitne paisay kharch kiye te
+- last balance use kitna ta mera
+- me ny kitna balance use kia ha
+- kitne paisay kharch huey pichley hafte
+- manay kal kina kharch kia ha
+- me ne kitne paisay kharch kiye te
+- kitna kharcha hua pichly haftay
+- kya ap mjy bta sakty hain mene kal kitna balance kharch kia
+- last month ki transaction history kia ha
+- mjy kharch ki gai raqam ki summary bta dain
+- mery akhri haftey ka kia usage tha
+- last week kitna balance use kiya ta
+- last week kitna balance use kiya me ne
+- manay kitna balance istimal kia peechlay haftay
+- is hafte meri kharch ki gai raqam ki summary da dain
+- ek din phle pichly haftay or pichly mahinay mai jo mainy balance use kiya ucki detail bhaij dain
+- me ny kitna pysy kerch kye hain es hafty m
+- pichley hafta kitna balance use kiya ta
+- pechlay haflay ya maheenay may kitny paisay kharch hue hain
+- pichle mahina mene kitna credit use kea tha
+- kia ap mujhy maloomaat de skty hain mere balance k bary mein jo mein nay gushista maheena istemal kiya ha
+- kitna balance kharch kiya me ne is mahiney
+- kal ki balance usage history kia ha
+- mera kharcha kitna tha last month
+- current month mri kharch ki gai raqam ki summary da
+- meri khrch ki gae rakam ki report
+- me ny pichly 1 din main kitna blnc use kia hy
+- pichley hafta kitna balance use kiya ta
+- manay kitna balance istimal kia kal k din
+- m ny kitna pysy kerch kye hain ek din
+- last week ki transaction history kia ha
+- kitna balance kharch kiya me ne is mahiney
+- kia ap muje bta sakte ha maine kitne paisay kharch kiye last mahine
+- mujhe last month ki usage bta dain
+- main nay kitni rakam pichlay din kharch ki hai
+- meine akhri din kia kharcha kia tha
+- last month kitne paisay kharch kiye me ne
+
+## intent:balance.balance_validity
+- expiry date kia hae [balance](account_balance) ki
+- kb tk [balance](account_balance) expire ho ga
+- [balance](account_balance) kab tak istimal kar sakta hoon
+- [balance](account_balance) istimal kray ki akhri tareekh kia hay
+- main apna [balance](account_balance) kub tak istamal kar sakta hon
+- mera [balance](account_balance) khtm kb hone
+- [balance](account_balance) ki last date kya he
+- hi  tell me kab tak valid he mera [balance](account_balance)
+- mera [balance](account_balance) expire kb ho ga
+- mera [balance](account_balance) ki validty
+- mra [wallet](account_balance) ki expiry kia hy
+- mein kabh tak yeh [balance](account_balance) istimaal ker sakta hon
+- [paisay](account_balance) kab tak chaly ge
+- mera [balance](account_balance) kb tk hatam ho jaye ga
+- mudat e [balance](account_balance) kia he
+- mere [balance](account_balance) ki muddat kitni hai
+- mera [balance](account_balance) kub tak pra rhay ga
+- [balance](account_balance) khatam hone main kitna waqat ha
+- validity of [balance](account_balance)
+- mairay [balance](account_balance) ki validity kab tak hai
+- [balance](account_balance) ki last date kya hai
+- yeh [balance](account_balance) kb tak applicable hy
+- mere [balance](account_balance) kab invalid hoga?
+- mera [balance](account_balance) kab tak valid ha
+- mera [balance](account_balance) kab expire ho raha hay
+- meray [balance](account_balance) ki expiry kya hai
+- ap apna [balance](account_balance) kab tak istemal kar sakkte hai
+- [balance](account_balance) khatam krne ki last date kia hy
+- [balance](account_balance) khtm honay me kitnay din reh gaye hain
+- [balance](account_balance) validity kia h
+- mera [balance](account_balance) ki last date kia ha
+- [balance](account_balance) ki expiry kya he
+- mera [balance](account_balance) kab khatam ho ga
+- [balance](account_balance) kab tk valid hy
+- mera [balance](account_balance) kaab taak rahe ga
+- [balance](account_balance) kbtk istimal huskta
+- [balance](account_balance) ki akhiri tareekh konsi he?
+- end date kya hai mery [balance](account_balance)
+- yey account kb expire ho ga
+- mere [balance](account_balance) ki validity kab tak hai
+- [balance](account_balance) kab expire ho raha hai
+- hi  koi date bata dain kb end hona he mere [balance](account_balance) ne
+- [balance](account_balance) kis mudat kb tk hy
+- kab tk chalay ga yeh [balance](account_balance)
+- mera [balance](account_balance) ki validity bta sakte hain
+- [balance](account_balance) ke istimal k akhri tareek kia hai
+- [balance](account_balance) kab expire ho ga
+- [balance](account_balance) ki expiry date kya hai
+- remaing [balance](account_balance) validity
+- mera account kab expire hoga
+- mein kab tak apna [balance](account_balance) istmaal kar skta hun
+- mera [balance](account_balance) kab khatam hona hai
+- mai [balance](account_balance) kab tak use kar sakta hoo
+- [balance](account_balance) kab tk expire ho ga
+- account expiry kab tk hai
+- mere [credit](account_balance) khatam hune ke tareek kia hai
+- apka [balance](account_balance) ki last date kya ha
+- mera [balance](account_balance) kis din khatam ho ga
+- mujhe pochna hai ke mera [balance](account_balance) kub khatum hoga  mujhe kub load karwana hoga
+- mere account ka [balance](account_balance) kab tak valid hai
+- is [balance](account_balance) ki miyaad kab tak hai
+- kya validity hai [balance](account_balance) ki
+- mere [balance](account_balance) ki expiry kya hai
+- [balance](account_balance) expiry kia hogi
+- kab tak valid hai [balance](account_balance)
+- mera account kab tak valid hai
+- mera [balance](account_balance) kab tak expire hoga
+- mera [balance](account_balance) ki mudat kya hy
+- validity kia ha [balance](account_balance) ki
+- mera [balance](account_balance) expire honay me kitna time rehta he
+- [balance](account_balance) expire kabh ho raha hay mera
+- mera [balance](account_balance) kb khatam ho rha ha
+- mera [balance](account_balance) kab tak valid ha
+- mere [balance](account_balance) ki mudat kya ha
+- mera loan kab tak chly ga
+- hello  dear itna bata day  kab khatam ho ga mera [balance](account_balance) ke deadline
+- validity bata do [balance](account_balance) ki
+- [balance](account_balance) ks tareek date  tk khtm huga
+- [balance](account_balance) kab khatam ho ga
+- [balance](account_balance) kb expire hona
+- kia ap mery [balance](account_balance) ki miyaad khatam hony ki mudat bata sakty hain
+- kb tk [balance](account_balance) use kar saktay
+- mera [balance](account_balance) kab khatam ho ra ha hai
+- mera [balance](account_balance) kitnay din chalay ga
+- mera [balance](account_balance) kab expire ho ga
+- [balance](account_balance) validity kitni h
+- mera [balance](account_balance) kab expire h raha hai
+- mobile [balance](account_balance) kab khatam ho raha
+- yeh [balance](account_balance) kabh tak rahay ga
+- mera [balance](account_balance) kab tak valid he
+- mere [balance](account_balance) ki miyaad kia hai
+- mera [balance](account_balance) ki meyad kab tak hay
+- me kab tak apna [balance](account_balance) istemal karsakta hu
+- mera [balance](account_balance) kab tak chalay ga
+- [balance](account_balance) expiry date kab ki ha
+- sir please mjhy [balance](account_balance) ki validity bta dain
+- mery [balance](account_balance) ki validity kitni hai
+- kab tk [balance](account_balance) ki usage end honi
+- mara [balance](account_balance) kab expire hoga
+- [balance](account_balance) ki expiry kya he
+- is account ki validity kyaa ha
+- [balance](account_balance) ki last date kab he?
+- mara [balance](account_balance) kub tak istamal ho sakta ha
+- [balance](account_balance) kab expire hoga
+- mera [balance](account_balance) kab expire hoga
+- mera [balance](account_balance) expire kab tak ho ga
+- kia ap mjhy mery bta skty hain k mery [balance](account_balance) ki expiry kia hai
+- [balance](account_balance) kab tak istimal kia ja skta hay
+- [balance](account_balance) khatam hony ka akhri din
+- [balance](account_balance) kitne dino taq istemal kar sakta
+- kab tk mera [balance](account_balance) use ho sakta hai
+- kitni dr tk mn ye [balance](account_balance) kr sakta hu
+- [balance](account_balance) ke last date btaen
+- [balance](account_balance) kbtk istimal kia ja skta hai
+- mera [balance](account_balance) kab khatam ho jaye ga
+- [balance](account_balance) ki validity date kya hai
+- kiya ap mjhe meray [balance](account_balance) ki validity bata saktay hain
+- [balance](account_balance) expiry btain
+- kitny time yeh [balance](account_balance) use ho sakta hai
+- [balance](account_balance) khatam hona ki date btaye
+- mere [balance](account_balance) ki validity kia he
+- mera [balance](account_balance) kb tk valid he
+- mere [balance](account_balance) k expiry date kya he
+- [balance](account_balance) ki validity kitni ha
+- mera [balance](account_balance) expire kab ho ga
+- ye [balance](account_balance) kis tareekh tak rahay ga
+- mera [balance](account_balance) kab khatam ho raha ha
+- mere [balance](account_balance) ki miayad kitni hai
+- [balance](account_balance) ki validity kia ha
+- kb tk expire hoga mra [credit](account_balance)
+- mere [balance](account_balance) ki validity kitne din tak rahegi
+- [balance](account_balance) expiry kya hai
+- mere [balance](account_balance) ki validity kab tk ha
+- ab bta sakate ha mere [balance](account_balance) theak ha k nai
+- maira [balance](account_balance) kab expire ho ga
+- meri [balance](account_balance) ki expiry kya hai
+- mere [wallet](account_balance) ki akheri mudat kia hai
+- mere [balance](account_balance) ki meyad kb tk hai
+- [balance](account_balance) ki validity kab expire horahi
+- mera [balance](account_balance) kis tarekh ko khatam hoga
+- [balance](account_balance) khatam
+- mera [balance](account_balance) kis din expire ho raha hai
+- mera [balance](account_balance) ki validity kab tak hai
+- [balance](account_balance) kab khatam hona ki date kya ha
+- mera [balance](account_balance) toe btai kb khtm ho ga
+- [balance](account_balance) kb tk qabil e istemal hai
+- apke [balance](account_balance) ki validity kitni hai
+- mera [balance](account_balance) kab tak expire ho jaye ga
+- mera [balance](account_balance) ki validity kitni reh gai gai
+- [balance](account_balance) ki expration date kya hai
+- mera [balance](account_balance) kab tak valid hai
+- maira [balance](account_balance) kab expire hoga
+- [balance](account_balance) validity kitni
+- mera [balance](account_balance) kis tareeh ko hatam ho raha hai
+- [balance](account_balance) kb expire ho ga
+- account kab tak chly ga
+- mera [balance](account_balance) kit date ko khatam hoga
+- meray [balance](account_balance) ki expiry date kya hai
+- [balance](account_balance) kii last date batana
+- kitny time tak yeh [balance](account_balance) chal sakta hai
+- mere [balance](account_balance) kab invalid hoga
+- main kb tk use kr sakta hun apna [balance](account_balance)
+- [balance](account_balance) kab tak valid hai
+- mera [balance](account_balance) ki expiry kb ki hy
+- time kb khatam ho ga [balance](account_balance) ka
+- account kab expire ho ga
+- [balance](account_balance) ki mudat
+- mera [balance](account_balance) kab khtam hoga
+- mera loan kab expire hona
+- [balance](account_balance) validity
+- kitny time tk ye [balance](account_balance) rahy ga
+- account [balance](account_balance) ke expiry date
+- [balance](account_balance) kab khatam hoga
+- [balance](account_balance) kab tk chaly ga
+- mein apna mojuda [balance](account_balance) kab tak istemal kr skta hu
+- mera [balance](account_balance) kab khatam ho ga
+- [balance](account_balance) khatam kab hoga
+- please [balance](account_balance) ki expiry date batain
+- kia validity hai [balance](account_balance) ki
+- [balance](account_balance) ki validity kab tak hai
+- mera card kab expire hoga
+- mera [balance](account_balance) kitne din tak bagher istimal kiye valid reh sakta hy
+- mera [balance](account_balance) kab expire hoga
+- mera [balance](account_balance) kab expire hna ha
+- mera [balance](account_balance) ni tarekh daso ftafat
+- mein kab tk apna [balance](account_balance) kharch karsakta hon
+- mera [balance](account_balance) kab expire hora raha hai
+- ye mera [balance](account_balance) kaab expire huga
+- [balance](account_balance) kub tuk valid hota hae
+- mujhey mery [balance](account_balance) ki validity bta dain please
+- mere [balance](account_balance) ke khatum hone ki tareekh kia hai
+- [balance](account_balance) ki miyad kitni hai
+- mera [balance](account_balance) kis date ko expire ho ga
+- end date kia ha maray mobile [balance](account_balance) finish honayge
+- [balance](account_balance) ki last date kya he?
+- mera [balance](account_balance) kab khatam ho ga
+- [balance](account_balance) expire hony ki last date kya ha
+- [balance](account_balance) ki miyad kia he
+- mera [balance](account_balance) kb khtm ho ga
+- [balance](account_balance) expiry
+- meray [balance](account_balance) ki limit kitni rehti hai
+- mere [balance](account_balance) ki miyad kia he
+- mein ye [balance](account_balance) kab tak use kar sakta hoon
+- [balance](account_balance) kab expire ho rha ha
+- kya ap apna [balance](account_balance) khtam hona ki date bta sktay han
+- mein apna [balance](account_balance) kab tak istemaal kar sakta hoon
+- mera [balance](account_balance) kab tak valid hai
+- [balance](account_balance) khatam kab hoga
+- please mere [credit](account_balance) ki expiry bata dain
+- meri [balance](account_balance) validitity kitni
+- mera [balance](account_balance) kb tk qabil e istemal hai
+- [balance](account_balance) kab istemal k kabil nhi rhy ga
+- mera [balance](account_balance) kab tak valid ho ga
+- kitnay din kay lia [balance](account_balance) hay mera
+- mein apna [balance](account_balance) kab tak istemal kr skta hu
+- kab tak mera [balance](account_balance) end ho ga
+- [balance](account_balance) kb tk qable istimal hai
+- [balance](account_balance) ke khtm hune ke tareek kia hai
+- kab tak valid ha [raqam](account_balance)
+- kiya meri [balance](account_balance) validity life time ke liye hai
+- account kitni dair tk chalay ga
+- mera [balance](account_balance) ki tarekh kb khatam ho rai hy
+- kb tak mn ye [balance](account_balance) istimal kr sakta hu
+- mera [balance](account_balance) ki mudat kitni hy
+- [raqam](account_balance) kab expire ho rahain hai
+- meri [balance](account_balance) expiry kiya hogi
+- mera [balance](account_balance) kab tk valid hai
+- [balance](account_balance) kitne dino main khatam ho ga
+- mere [balance](account_balance) ki expiry date kia he
+- meray [balance](account_balance) ki expiry kab tk hai
+- meray [balance](account_balance) ki validity kb tk hai
+- [balance](account_balance) kb expire ho raha hay
+- meray khatay ki miyad bta dein
+- mery [balance](account_balance) ki expiry date kya ha
+- [balance](account_balance) ki expiry kya he
+- [balance](account_balance) expire honay ki akhri tareekh kia hay
+- mera [balance](account_balance) kb expire hoga
+- mara [balance](account_balance) ki akhri tarikh kiya ha
+- tareekh e khatam ul miaad e [baqayajaat](account_balance) bta dejeye
+- [balance](account_balance) kab expire huraha he
+- mera [balance](account_balance) kab khtam hoga
+- mera [balance](account_balance) kb tk expire hoga
+- [balance](account_balance) kb tk chalega
+- mera [credit](account_balance) kab tak chalay ga
+- [balance](account_balance) expire hna ki kya tarekh hy
+- mai apna [balance](account_balance) kab tak use kar skta sakti hun
+- mere [balance](account_balance) ki expiry date kia hai
+- mera [balance](account_balance) kb tk valid hai
+- mera card kab expire hoga
+- [balance](account_balance) kb khtm ho ga
+- yey account kitnay din mazeed chalay ga
+- account kab expire ho rha
+- [balance](account_balance) kab tak rhy ga
+- kb tk istamal ho skta hy ye [balance](account_balance)
+- kab tak istimal kar sakte hain [paisay](account_balance)
+- mery [balance](account_balance) ki expiry date kia hai
+- mera [balance](account_balance) kab expire ho ga
+- [balance](account_balance) ki mudat kia ha
+- validity kab tak hai [balance](account_balance) ki
+- mere [balance](account_balance) ki expiry date kea hai
+- mery [balance](account_balance) ki exprry kya hai
+- kab expire ho rha ha [balance](account_balance)
+- [balance](account_balance) ki meyaad
+- mera [balance](account_balance) kb khatam ho ga
+- meray [balance](account_balance) ki akhri tareekh date kya ha
+- mere [balance](account_balance) validity ki last date kia hai
+- mery mobile mei [balance](account_balance) hatam hone k tareeh kia hai
+- meray [balance](account_balance) ki validity kab tak ha
+- [balance](account_balance) kab tk chal skta hay
+- mery [balance](account_balance) kii end date batna
+- kiya ap muje mera account ki expiry bata sakte hain
+- mera [credit](account_balance) kab expire ho ga
+- mera [balance](account_balance) kab tak valid he
+- [balance](account_balance) kab tk chlya ga
+
+## intent:confirmation.no
+- afsos nahi
+- no way
+- alvidah bahar nikleen
+- is waqt nahi chaye
+- nahi
+- theek hai usay zehen mein rakhna
+- nope
+- not really
+- oo ruk o bhai
+- zaroorat nahi
+- nahi ao
+- mje nhi chahy
+- aap ki madad nahien chaye mujy
+- zroort nahien tumhari madad ki mujy
+- mujy tumhari madad nahi chahye
+- ni bhool jao
+- abhi is waqt nahi chaye
+- bilkul nahi
+- don't want
+- aap ki madad nahi chahye mujy
+- maazrat nahien chaye
+- nhi bht shukrya
+- mujhe tumhari madad ki zaroorat nahi hai
+- nahi shukriya
+- nahi chahtay hain
+- bhool jao
+- nahien shukriya
+- not
+- Don't
+- mein tumhari madad nahi chahta
+- mje ye acha nhi lga
+- mat karo
+- oni o ni bhai
+- muje apki help nhi chahye
+- theek hai usay zehen mein rakhen
+- ni
+- sorry
+- mera ni khyal
+- mein tumhari madad se khush nahien hun
+- shokhi na maro
+- nahi chaye
+- bilkul bhi nahi
+- never
+- o ni bhai
+- kbhi nahi
+
+## intent:confirmation.yes
+- jnab thek hai ye
+- mujhe lagta hai
+- yep
+- drust hai ye
+- hmmmm
+- cool
+- yeah sure
+- haan yehi hai
+- oh han
+- woh theek hai
+- mje chahye
+- yeah
+- oh okay
+- yeah fine
+- yup
+- sahi hai
+- sure
+- sounds good
+- ha yrr
+- theek hai
+- acha thek hai
+- yew
+- han theek
+- ok
+- han g
+- okay
+- ook
+- zaroor
+- okay buddy
+- exactly
+- theek hai yeh theek hai
+- indeed
+- han bhai
+- haan bilkul
+- han thek
+- mein raazi hon
+- ok yes
+- yes
+
+## intent:dialog.sorry
+- mujh se maffi chahta hon
+- mujhe maaf kr dein
+- maffi chahta hon
+- moazrat
+- meri moazrat
+- moazrat khuwa
+- mein maffi maangna chahta hon
+- mujhe maaf karen
+- mein waqai sharminda hon
+- maffi
+- bohat afsos
+- theek hai mujhe maaf karna
+- is ke liye moazrat
+- is ke baray mein afsos
+- theek hai mein maffi chahta hon
+- mein ne maffi mangi
+- mein aap se maffi mangta hon
+
+## intent:emergency_loan.current_status
+- mere loan ka status kya he
+- mujhey loan chahiye
+- kia ap mujy loan dy sakty hain
+- kea mei loan le sakti hun
+- kya mein credit loan ly sakti hai
+- kya main loan lay sakta hun
+- loan lay sakta hun
+- loan chahiye ka
+- kiya me qarza hasil kr skta hu
+- mere loan ka status kya he
+- loan chahia
+- mujhe loan mil sakta hai
+- kya me advance balance le sakta hn
+- mei karz kesay ly skta hon
+- advance chahye
+- cya main loan le sakti hoon
+- kia m loan lay skta hu
+- kya main loan le sakta hoon
+- mujy loan chahiye
+- kia ap bta sakte ha k main loan lay sakta ho
+- loan status kia ha
+- kia ma loan lay sakta ho
+- kia me ne pichla loan wapis kar dia ha
+- maen loan kaisa loun number pa
+- kia mein loan qarz balance la sakta hoon
+- kya mei loan le skta hu
+- kya mjy loan mil sakta hai
+- kya me advance paisay le sakta hn
+- ma loan kaisy lay sakta hn
+- me ne balance udhar lena he
+- muje mere es number pe loan chahye
+- mujhey qarza chahiye
+- me loan le skti hon ya nai
+- kya main udhaar pesay le skta hun balance k liye ap se
+- kia main loan ly skta hon
+- loan miley ga
+- kya me advance balance le sakta hn
+
+## intent:emergency_loan.general_loan_service_info
+- loan kitna milta he normally
+- loan lenay ki sahulat majood hay kia
+- mje pochna tha me emergency kesy ley sakta hu
+- kindly ap yh bta sakte ha k is ka charges kia ho gy  agr hum loan lete ha
+- loan pay koi sood hoga kia
+- mjy kitna max loan dia ja sakta ha
+- loan lene ke koi charges hain
+- loan pe markup kitna ha
+- kindly ap bta sakte ha loan lena ka process kia ha
+- loan kitna milta he normally
+- ye bhi bata dein k kitne extra charges yani tax kitna katay
+- kese le skta hun main emergency load
+- mein kitna loan le sakt hun
+- zyada sy zyada main ktna loan ly sakta hun
+- maximum kitan loan mil sakta hai
+- emergency loan kab le sktih un
+- mei ziada se ziada kitna karz ly skta ho
+- loan k liyai mujhai extra kya pay kerna ho ga
+- loan k charges kya hen
+- loan ki wasuli kitni ha
+- emergency load kab lia ja sakta ha
+- qarza laney k liye kitni fees hogi
+- maximum loan kitna liya ja skta hay
+- loan lainy k charges bta dain
+- mujhe kitna qarza mil sakta hai
+- max loan ki hadd
+- aap kaisy maloom krein gy ke karz pe aap ko kitna charges dene hon gy
+- loan ke cya rates hain
+- mje zada sa zada kitna loan mil sakta hay
+- loan ki requirement kya he
+- loan ki kya shart he
+- ma kitna loan lay sakta hn
+- main ziada se ziada kitna loan ly skta hon
+- zyada sy zyada kitna udhar lysakty hain
+- loan k extra charges kitny hain
+- loan ka bad kitne paisay katengy account recharge k bad
+- mjhy emergency load ka bata dein
+- loan apply krny k kia charges hain
+- kia ap muje bta sakte ha zyada sy zyada muje kitna loan mil sakta ha
+- loan kitna milta he normally
+- mujhey kitna loan mil sakta he
+- mujhai kitna karza mil sakta hai
+- kindly ab bta sakte ha mai kitna max loan lay sakta hu
+- emergency loan kab tak rhy ga
+- ziada se ziada kitna loan le sakti hun mei
+- qarzay per azafi kharcha bta dein
+- loan ki kya shart he
+- me kitna loan le sakta hn
+- loan leney kiliye kya sharaeth wo zawabit hey
+- zyada sa zyada kitna qarz loan lea ja sakta hai
+- loan ki terms and conditions kya hen
+- loan py kitna sood dena prta hy
+- main kitna loan le sakti hoon
+- loan k kitne paisay katenge account recharge k bad
+- laon pay kitna tax charge ho ga
+- mei kitna loan le skta hu
+- me kitna qarza hasil kr skta hu
+- loan ki requirement kya he
+- kitna mile ga loan
+- loan k raqam k kitne charges hain
+- kitnay ka loan milay ga
+- me maximum kitni amount ka loan le sakta hon
+- kitnay ka loan mil sakta hai
+- me kitna loan le sakta hn
+- zyadha say zyadha kitna loan ka balance lay sakta hun
+- loan k charges kya hain
+- need to know about emergency load
+- mei kitna loan le skta hu
+- main kitne raqam ka qarza le skta hun
+- zyada se zyada kitni loan ki amount hasil ki ja sakti hai
+- loan pay kitnay paisay katengay
+- mujhey kitna loan milega
+- loan lene pe kitna harge hoga
+- loan ki kya shartey hen
+- mje emergency loan k bary me pta krna ha
+- ma zeyada sy zeyada kitna loan ly skta hu
+- me zyada sy zyada ktna loan ly sakta hun
+- loan ke charges kaya hain
+- hi i need help about emergency load
+- kitnay charges hungai agar mai loan layta hun
+- loan ke cya charges hain
+- kese le skta hun main emergency load
+- kinta loan mil sakta ha
+- mjhy emergency load ka bata dein kia hota
+- loan qarz leina keh kia charges hain
+- me apne number pe zyada c zyada kitna loan le sakta hu
+- loan lana ka kitnay charges katay ga
+- loan k charges kia honge
+- emergency loan kab tak chaly ga
+- loan ki requirement kya he
+- loan kis tarah lete hen
+- mein maximum kitna loan ly sakhta hu
+- loan ki maximum amount kia he
+- loan kitna mile ga
+- mai zada se zada kitna loan le skta hun
+- loan ki requirement kya he
+- mujhey kitna loan milega
+- loan pe service charges kitne hain
+- kya loan ki amount par koi extra paisay ya tax wagaira lagta hai
+- loan ki limit kya hai
+- kitne paisay milte hen loan me
+- mjy kitnay   izafi charges dainay hon gay
+- aap ye kasiy maloom krein gy ke aap kitne paisy qarz pe le skte hain
+- karz layny k kia charges hain
+- main zyada se zyada kitna loan le skta hun
+- loan k sath  mjhy kitni extra amount deni paray gi
+- kitne paisay milte hen loan me
+
+## intent:emergency_loan.last_availed
+- mein na last loan kis date pa liya tha?
+- loan kab liya ta me ne
+- last loan date btain.
+- last time kitna loan mila ta mujhey
+- mera akhari loan kis din tha?
+- loan ka akhri din konsa hay?
+- Kindly ab bta sakte ha maine last time kb loan liya tha
+- loan kab liya ta me ne
+- Mery karz k akhari tareeh kia hai
+- loan kab liya ta me ne
+- mujeh last loan ki date confirm ker dain
+- Loan ki last date kya hai?
+- Akhari baar manay kaab loan lia tha.
+- kia ap muje bta sakte ha akri bar loan maine kn si date ko liya tha?
+- mere last loan ki kia date thi
+- last time kab loan liya ta
+- kitna udhar liya ta me ne
+- mene akhri bar kab loan lia tha ?
+- Main ne akhri dafa kab loan lia tha?
+- loan return karne ki last date kiya hai
+- Akhri qarzay ki tareekh bta dein
+- mein apny istemal shuda akhri loan ki tareekh malooma krna chata hu.
+- mene akhri loan kub liya tha
+- meri akhri loan tareekh kya thi
+- me ne loan kab liya ta
+- pichly loan jo lia tha ucki tareekh bta dain.
+- meine kis tareekh ko qarza liya tha aakhri dafa?
+- last time kitna loan liya ta
+- kab loan liya ta
+- meina akhiri baar qarz/loan kab lea tha?
+- maine akhri bar kis tareekh ko loan lia tha?
+- Aap akhri date jis pe loan le chuke hain kaisy maloom krein gy
+- loan kab tak wapis krna ha?
+- loan jama krwanay ki last date kia hay?
+- mere loan ka akhre din kab hey
+- maine akri martaba qarza kb lia tha
+- last time kab loan liya ta
+- m ny kab loan lya tha?
+- meri akhri loan tareekh kya thi
+- pichla loan kab liya tha?
+- loan lene ki last date kya hai
+- akhri loan kab liya tha
+- many akhri dfa kb loan lia tha?
+
+## intent:greetings.bye
+- bye
+- umeed hai tum se dubara mil loun
+- baad main baat krte hien
+- mjhe jaana chahiye
+- ok bye
+- ab tum jaa skte ho
+- khuda hafiz khayal rakhna
+- khuda hafiz milte hien
+- abhi k liye khuda hafiz
+- ab alvida
+- bas yehi hai khuda hafiz
+- bas yehi tha khuda hafiz
+- khuda hafiz
+- agli dafa k liye
+- sahi hai alvida
+- khuda hafiz jald milte hien
+- maine kaha alvida
+- koi baat nahi alvida
+- theek hai baad main milte hien
+- milte hien
+- sone jao
+- jald milte hien
+- sahi hai meharbani alvida
+- abhi k liye alvida
+
+## intent:greetings.goodevening
+- tum aik khushi ki shaam guzaro
+- shaam bakhair udhar
+- aray shaam bakhair
+- shaam bakhair
+- tumhien achi shaam bakhair
+- tumhien shaam bakhair
+- tum aik bohat achi shaam guzaro
+
+## intent:greetings.goodmorning
+- tumhien subah bakhair
+- hello subah bakhair
+- tum aik behtareen subah guzaro
+- aray subha bakhair
+- tum aik achi subah guzaro
+- ap ki subah achi ho
+
+## intent:greetings.goodnight
+- acha, shab bakhair
+- acha sahi hai , shab bakhair
+- abhi ki liye shab bakhair
+- alvida shab bakhair
+- shab bakhair kal milte hien
+- pyaare khuab
+- shukariya shab bakhair
+- tum aik achi shab guzaro
+
+## intent:greetings.hello
+- heeey
+- aoa
+- salam
+- jnab
+- hello bhai
+- a o a
+- hello dost
+- adab
+- hi, is there anyone?
+- kaise ho
+- hi
+- tumhara acha din guzre
+- bhai
+- dubara hello
+- hey there
+- assalam o alaikum
+- hello yar
+- aray
+- main apka istakbaal krta hu
+- istakbaal
+- hello everybody
+- dubara isktakbaal
+- khushamadeed
+- hiii
+- sir
+- aray bhai
+- khubsurat din hai
+
+## intent:greetings.how_are_you
+- aur bhai kesy ho
+- kaisa chal raha hai
+- cheezian kis terhan ja rahi hain
+- aap ka din kaisa guzra
+- aap ki subah kitni der taq hai
+- aap kaisa mehsoos kar rahay hain
+- umeed hai ke aap khushgawar shaam ke sath rahen ge
+- sab theek hai
+- tum aaj subah kaisay kar rahay ho
+- tera hal kya ha
+- tum kis terhan ja rahay ho
+- tumhara din kaisa tha
+- sab theek hai
+- tum kaisi ho
+- kesy ho
+- aap kaisay hain
+- kya hal he
+- tumhara din kaisay chal raha hai
+- aap ka din kaisa chal raha hai
+- suna kesa ha
+- tumhara din kaisay guzar raha hai
+- up kaisa mehsoos kar rahay hain
+- kya tum theek ho
+- kya aap ka din acha guzar raha hai
+- kya aap theek hain
+- tumhari zindagi kaisa hai
+- tumhara din kaisa hai
+- aap kaisay hain
+- aap kaisay hain
+- umeed hai ke aap ka din acha ho raha hai
+- tumhari subah kaisa chal raha hai
+- zindagi kaisi chal rahi hai
+- tumahra aj ka din kaisa raha
+
+## intent:greetings.nice_to_meet_you
+- aap se mil kar khushi hui
+- aap se dobarah milnay ki khushi hai
+- aap se mil kar bohat acha laga
+- aap se mil kar khushi hui
+- mein ny aap se mil kar lutaf andoz kya
+- up se mil kar acha laga
+- aap se mil kar kitna acha lagta hai
+- aik dosray ko janna acha hai
+- aap se mil kar yeh bohat acha laga tha
+- aap ke sath bohat achi baat cheet hoi
+- aap se mil kar khushi hoi hai
+- up se mil kar acha laga
+- yeh aap se achi mulaqaat thi
+- yeh aap se mil kar acha laga tha
+- aap se mil kar nihayat khushi hui
+
+## intent:greetings.nice_to_see_you
+- hamesha aap ko dekhnay ki khushy hai
+- aap ko dekhnay ke liye kitna acha hai
+- aap ko dobarah deikhna bohat acha hai
+- mein aap ko dobarah dekh kar khush hon
+- aap se mil kr bohat acha lag raha hai
+- aap ko bhi dekhnay ke liye bohat acha
+- mein aap ko dekh kar khush hon
+- aap se mil kar khushy hui
+- aap ko dekh kar acha laga
+- aap ke sath yeh bohat acha lag raha tha
+- mein aap ko dobarah dobarah deikhna chahta hon
+- aap ko bhi dekh kar acha laga
+- tumhe dekh kar acha
+- aap ko dobarah mil ke khushy hui
+
+## intent:greetings.nice_to_talk_to_you
+- yeh bohat acha tha aap ke sath
+- aap se baat karne ke liye khush hain
+- tum se baat karna acha laga
+- aap se baat karna acha hai
+- aap se baat karne se khushi hui hai
+- yeh aap se baat kar raha hai
+- aap se baat kar raha tha
+- yeh aap se baat kar raha hai
+
+## intent:how_much
+- updates
+- filhal
+- majooda
+- kitny
+- pta krna
+- mera btana
+- kia ha
+- ha kitna
+- details
+- filwaqt
+- janna ha
+- kitna reh gya ha
+- details bta dain
+- maloomat
+- kitni rehti
+
+## intent:last_recharge.date
+- last time kis date ko recharge karvaya tha
+- mery last recharge ki date kia thi
+- mene akhri recharge kis din karaya tha
+- me ne last easy load kab kiya ta
+- purana recharge kiss din karya tha
+- mera akhri recharge kab tha
+- kya ap mjy bta saktein hain k mene akhri bar kis din balance dalwaya tha
+- mere last recharge ki date
+- last load date
+- meri akhri recharge date kya thi
+- main ne last recharge kab krwaya tha
+- akhri recharge kab kya me ne
+- main last time jo balance load kraya tha us din kya date thi
+- easy load kab karwaya ta
+- akri martaba maine kb recharge krwaya
+- meine kis date ko last recharge kia tha
+- last time scratch card kab use kiya ta
+- mery phone py akhri recharge k tareeh kia hain
+- baraye mehrbani mere last easy load ki tareekh batla dein
+- pichly recharge ki tareekh
+- mere last recharge ki date kia thi
+- pichle mahiney kis din load karwaya ta
+- kia ap muje last recharge ki date bta sakte ha
+- recharge kab kiya ta
+- mujhe mere akhri dafa kiye gaye recharge ki maloomat de dein please
+- meri last recharge date kya hai
+- meri pichli recharge date kia hy
+- meray akhiri recharge date konsi the
+- manay kis din apna akhri recharge karaya tha
+- assalam o alaikum  kindly ap bta sakte ha k last time maine kab recharge karaya tha
+- meri last recharge date
+- mein nay kis tareekh ko recharge karwaya hai
+- main nay balance kb recharge kia tha
+- last recharge ki date btaday please
+- maine akhri recharge kis tareekh ko karaya tha
+- mene apne mobile pe akhree recharge kab karaya ta
+- last recharge ki date bta dain
+- kya app last recharge date batain saktai hain
+- kis tareekh per main ny recharge kya hai
+- mein ne akhri bar kab recharge kia
+
+## intent:last_recharge.info
+- pichli bar kitna load karwaya ta
+- me ne akhri martaba kitna amount load kiya tha
+- manay kitnay ka recharge kia tha akhari baar
+- last time kitne paisay dalwaye te me ne?
+- kia ap muje last recharge amount bta sakte ha
+- last topup kitny ka kiya ta
+- meri akhri recharge amount kya thi
+- mera last recharge kitna tha
+- mein apni akhiri recharge amount ki maloomat hasil krna chata hu
+- last time me ny kitna recharge krwaya tha
+- meri last recharge amount kya hai
+- kya ap mujhai mera last recharge bata saktai hain
+- pichi bar paisay kitne load karwaye te account me
+- last time manay kitna recharge karvaya tha
+- last time kitne paisay dalwaye te me ne
+- konsa card load kiya ta me ne
+- mera last load
+- mere last recharge ki amount bata dien
+- last time kitna load karwaya ta
+- pichi bar paisay kitne load karwaye te account me
+- meri pehli recharge ki hui raqam
+- me ne akhri dfa kitna recharge krwaya tha
+- main ny kitna recharge kerwaya hai
+- last topup kitna ta
+- me is mehinay kitna recharge karwa chuki hon
+- kindly ap bta sakte ha meray account ma last kitne amount recharge howi ha
+- kya main last recharge jan skta hun
+- last time kitna easy load karwaya ta
+- mera picha balance kya tha jo maine load kraya tha
+- mera balance kitna recharge huwa tha
+- kia app mujha meri pichla recharge ki qeemat pata sakta hain
+- mene last topup kitna karwaya ta
+- kitne paisi bharwaye te last time
+- me ne pichi bar kitne paisay load krwaye te
+- pichle bar kitna paise maine account main dalway
+- last time kitna load karwaya ta
+- kya ap bta saktein hain  k akhri bar mene mobile me kitna balance dalwaya tha
+- mene last topup kitna karwaya ta
+- mera last recharge balanace kya ha
+- me ne pichi bar kitne paisay load krwaye te
+- meri akhri recharge amount kya hai
+- kitne paisay bharwaye te last time
+- kitne wala card load kiya ta me ne
+- akhri recharge paisy ke baary mein bta dain
+- mera pichla recharge kitna tha
+- last load kitna ta mera
+- last topup kitna ta
+- meri pichli recharge amnt kia hy
+- last top up kitna ta
+- mera akhri recharge kitne ka tha
+- me ne pichi bar kitne paisay load krwaye te
+- pichli bar kitna load karwaya ta
+- peechli dafa manay kitna balance dalwaya tha
+- kitne wala card load kiya te me ne
+- mera pichla load kitne ka ta
+- pichle mahiney kitna load karwaya ta
+- last topup kitna ta
+- last top up kitna ta
+- mera aakhri recharge kitna tha
+- merey phone py akhri recharge amount kia hain
+- last topup kitna ta mera
+- last time kitna easy load karwaya ta
+
+## intent:out_of_scope
+- load karwana he
+- meri sim kab expire hogi
+- me ne balance transfer karna he
+- minutes
+- package
+- oeprator
+- balance transfer
+- pin code
+- charges kia hon gy
+- me ne loan dena he
+- start over
+- offer
+- not looking for bot
+- sim
+- easypaisa
+- activate
+- new mobile number le lein
+- charges kitny ho ge
+- charges
+- scratch card se kitna load karwa sakta hn
+- data
+- non usage
+- transfer me
+- emergency he aur balance nahi he
+- account recharge kar dain
+- roaming
+- me ne balance transfer karna he
+- forward me
+- usage
+- aur is ki terms and conditions kya hen
+- subscribe
+- balance transfer
+- me ne loan dena he
+- loan wapis krna ha
+- me ne balance transfer karna he
+- route chat
+- whats my status
+- balance recharge kar dain
+- can you tell me about bot
+- me ne balance transfer karna he
+
+## intent:subscribe_above_offer
+- me ye offer hasil krna chahta hu
+- ye activate kr dain
+- mje b chaheye
+- me subscribe krna chahta hu
+- mje be yr service chahye
+- ye lga dain meery account py
+- kia me abi subscribe kr skta hu
+- kia me ye hasil kr sakta hu
+- me be ye offer hasil krna chahta hu
+
+## intent:time_limit
+- istemal kr sakty
+- kab tak
+- mera ye kab expire hoga
+- aur miad kya he
+- tareekh
+- aur expiry kab he
+- kab tak expire ho
+- kab tak use kr sakty
+- aur miad kya he
+- chlay ga
+- iski meyad kya ha
+- aur expiry
+- expiry
+- akhr
+- validity info
+- kabil e istemal
+- myad kab tak ha iski
+- kab tak chaly ga
+- tak
+- khatam ho rhi
+- mudat
+- limit
+- validity
+- kabil e istemal
+
+## intent:user.excited
+- mein ab aap se baat nahi kar raha hon
+- chalo baat nahi karte
+- mein aap se baat kar raha hon
+- mujhe aap se baat nahi karna
+- mein baat karna nahi chahta
+- mein chatting ke liye mood mein nahi hon
+- mein baat karne ke liye mood mein nahi hon
+- baat karne ke liye bura waqt
+
+## intent:user.good
+- aaj mujhe acha lag raha hai
+- mein acha kar raha hon
+- mujhe bohat acha lag raha hai
+- mujhe acha mehsoos ho raha hai
+- mein theek hon
+- yeh acha hai
+- mein theek hon - shukriya
+- mein achay mood mein hon
+- mein waqai acha hon
+- mein acha hon
+- mujhe bohat acha lag raha hai
+- mein theek hon, mein kheriyat se hon
+- mein waqai acha kar raha hon
+- mein bohat acha kar raha hon
+
+## intent:user.happy
+- mein khush hon
+- agar aap khush hon to mein khush hon
+- mein tum se baat karne se khush hon
+- mein bohat khush tha
+- mein oosron ki madad karne mein khush hon
+- mujhe muskurahat hamesha khush krti hai
+- mein aap ke sath baat kar raha hota ho tab mein khush hon
+- jab bhi mein tumhe daikhta hon, mein khush hojata hon
+- mein aap ke liye khush hon
+- khush hon
+- tum ney mujhe bohat khush kya
+- hahahaha
+- i am smiling
+- mein khushi mehsoos kar raha hon
+- koi nahi lekin aap mujhe khush kar satke hain
+- mein abhi abhi bohat khush hon
+
+## intent:when_did_i
+- kab hua tha
+- kab karwaya
+- ye me ne kb kia tha
+- kab hua tha
+- kab krwaya tha

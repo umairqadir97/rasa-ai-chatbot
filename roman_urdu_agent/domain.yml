@@ -1,0 +1,308 @@
+intents:
+- agent.can_you_help
+- agent.good
+- agent.happy
+- agent.there
+- appraisal.good
+- appraisal.no_problem
+- appraisal.thank_you
+- appraisal.welcome
+- balance.balance_info
+- balance.balance_usage
+- balance.balance_validity
+- confirmation.no
+- confirmation.yes
+- dialog.sorry
+- emergency_loan.general_loan_service_info
+- emergency_loan.current_status
+- emergency_loan.last_availed
+- greetings.bye
+- greetings.goodevening
+- greetings.goodmorning
+- greetings.goodnight
+- greetings.hello
+- greetings.how_are_you
+- greetings.nice_to_meet_you
+- greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you
+- how_much
+- last_recharge.date
+- last_recharge.info
+- offers.info
+- out_of_scope
+- subscribe_above_offer
+- time_limit
+- user.excited
+- user.good
+- user.happy
+- when_did_i
+
+
+entities:
+- verification
+- mobile_number
+- pin
+- loan_service_status
+- loan_last_availed
+- requested_service_type
+- account_balance
+- current_balance_value
+- emergency_loan
+
+
+## synonym:account_balance
+- paisay
+- wallet
+- amount
+- cerdit
+- rupee
+- hisaab kitaab
+- baqayajaat
+- raqam
+- load
+- jazzload
+- easyload
+- card
+- topup
+- eload
+- money
+
+
+## synonym:emergency_loan
+- emergency paisay
+- emergency load
+- advance
+- loan
+- advance loan
+- advance load
+- advance paisay
+- advance money
+
+slots:
+  loan_service_status:
+    type: categorical
+    initial_value: unsubscribed
+    auto_fill: false
+    values:
+    - subscribed
+    - unsubscribed
+  current_balance_value:
+    type: float
+    initial_value: 50.0
+    auto_fill: false
+    max_value: 1000.0
+    min_value: 0.0
+  current_balance_validity:
+    type: text
+    initial_value: "31-12-2019"
+    auto_fill: false
+  current_balance_usage:
+    type: float
+    initial_value: 630.0
+    auto_fill: false
+    max_value: 1000.0
+    min_value: 0.0
+  loan_last_availed:
+    type: text
+    initial_value: "2019-09-10"
+    auto_fill: false
+  mobile_number:
+    type: unfeaturized
+  number_of_fallbacks:
+    type: float
+    initial_value: 0.0
+    auto_fill: false
+    max_value: 1.0
+    min_value: 0.0
+  pin:
+    type: unfeaturized
+  requested_service_type:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  user_type:
+    type: categorical
+    initial_value: prepaid
+    auto_fill: false
+    values:
+      - prepaid
+      - postpaid
+  verification:
+    type: categorical
+    initial_value: no
+    auto_fill: false
+    values:
+      - yes
+      - no
+
+
+templates:
+  utter_default_greet:
+  - text: welcome to Telenor. Me ap ki kia madad kr sakta hu?
+  utter_default:
+  - text: Sorry, kia ap apna swal dobara enter kr sakty hen?
+  utter_call_to_human_agent:
+  - text: Thora intezar krain, ap ki darkhwast mutalqa expert ko transfer ki ja rhi ha...
+  utter_ask_mobile_number:
+  - text: please apna mobile number dye gye format me enter krain '92345......'
+  - text: verification k lye apna mobile number dye gye format me enter krain '92345......'
+  utter_ask_pin:
+  - text: apna 4-digit PIN enter krain
+  - text: apna PIN number enter krain, sirf 4-digit me
+  utter_wrong_pin:
+  - text: sorry, ap ka PIN number sahi nhi tha
+  utter_wrong_mobile_number:
+  - text: sorry, ap ka mobile number valid nhi ha
+  utter_agent.can_you_help:
+  - text: I'll certainly try my best.
+  - text: Zaroor, khushi se. Aur kuch?
+  - text: Mujhe khushi ho ge madad kar ke, Mein app ke lieye kia kar sakta hon?
+  utter_agent.good:
+  - text: Mujhe khushi hai aap asa sochtay hain.
+  - text: Shukria, Mein koshish karta hon.
+  utter_agent.happy:
+  - text: Mein khush hon. Wahan pae bohat sari dilchasp chezien hain dekhne aur karne ko.
+  - text: Mein asa sochna pasand karta hon.
+  - text: Happiness is relative.
+  utter_agent.there:
+  - text: Gee Zaroor, Mein har waqt idhar hon.
+  - text: Theek aap kidhar muhje choor ke gae thay.
+  utter_appraisal.thank_you:
+  - text: Mujhe khushi hoe madad kar ke.
+  utter_appraisal.welcome:
+  - text: Aap kitne shaista hain.
+  - text: Achay adaab!
+  utter_dialog.sorry:
+  - text: Theek hai. Koi masla nahien.
+  - text: Mujhe koi masla nahien hai.
+  - text: theek hai.
+  utter_greetings.hello:
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Hello!
+  - text: Khushamdeed!
+  utter_greetings.bye:
+  - text: Bye-bye!
+  - text: Bye.
+  - text: ok, goodbye!
+  - text: Phir miltay hain!
+  utter_greetings.how_are_you:
+  - text: Mein theek hon. Shukria!
+  - text: I'm good. Bohat shukria puchne ka.
+  utter_greetings.goodevening:
+  - text: Shaam bakhair!
+  - text: Good Evening.
+  - text: Shaam bakhair! Aap ka din kesa hai?
+  utter_greetings.goodmorning:
+  - text: Hi, aap aj kese hain?
+  - text: Hey, Aap ke subha kese guzar rahi hai?
+  - text: Subha bakhair! Aap kese hain?
+  utter_greetings.goodnight:
+  - text: Shabbakhair.
+  utter_greetings.nice_to_meet_you:
+  - text: Aap se bhe mil kar acha laga.
+  - text: Bilkul. Ap sy k bhi acha lga.
+  - text: Kushi hui sun kar.
+  utter_greetings.nice_to_see_you:
+  - text: Muhje bhe!
+  - text: Khushi hui mil kar!
+  utter_greetings.nice_to_talk_to_you:
+  - text: Good. Hum dobara chat kar sakte hain.
+  - text: Mujhe bhe khushi hoti hai aap se baat kar ke.
+  utter_user.excited:
+  - text: Mujhe khushi hai aap atmenan mein hain.
+  - text: Zabardast. Mein khush hon aap ke leye.
+  - text: Achi baat hai. Kush rahien.
+  utter_user.good:
+  - text: Acha laga sun kar.
+  - text: Zabardast! Mujhe khushi hoe.
+  utter_user.happy:
+  - text: Khushi hoi.
+  - text: Acha laga sun kar
+  - text: Zabardast! Mje yeh jan kar acha laga.
+  utter_confirmation.yes:
+  - text: Great!
+  - text: Good!
+  - text: Zabardast!
+  utter_confirmation.no:
+  - text: Okay.
+  - text: ok, cool..
+  - text: Theek hai
+  - text: Sahe.
+  utter_appraisal.good:
+  - text: Agreed!
+  - text: I agree!
+  - text: Sahi!
+  - text: Theek hai!
+  - text: Khushi hui sun kar.
+  utter_appraisal.no_problem:
+  - text: Theek hai, Shukria!
+  - text: Khushi hoi sun kar!
+  - text: Shukria!
+  utter_incomplete_query:
+  - text: Ap ka swal na-mukamal ha. Please dobara likhain
+  - text: Ap ka swal incomplete ha. Please dobara enter krain
+  utter_confirm_balance_info:
+  - text: Kia ap ko balance ki maloomat chahye?
+  - text: Kia ap balance ki information lena cha rhy?
+  utter_confirm_balance_validity:
+  - text: Kia ap balance ki akhri tareekh maloom krna chahty?
+  - text: Kia ap ko balance ki validity chahye?
+  utter_emergency_loan_general_info:
+  - text: Telenor Emergency Load k sath ap Rs.20 ka loan hasil kar sakty hain.
+      Ye amount Balance Transfer k ilawa tmam prepaid services k lye istemal ho sakti ha.
+      Ap k agly recharge par Service charges Rs.5 aur Rs.20 (loan ki raqam) kat lye jye ge. Activate krny ka code (*0#).
+
+
+actions:
+- action_hello_user
+- action_balance_info
+- action_balance_usage_report
+- action_balance_expiry
+- action_last_recharge_info
+- action_last_recharge_date
+- action_emergency_loan_current_status
+- action_emergency_loan_subscribe
+- action_emergency_loan_last_availed
+- action_custom_fallback
+- action_default_ask_affirmation
+- action_offers_info
+- action_offers_subscribe
+- action_reset_tracker_pause
+- utter_default
+- utter_default_greet
+- utter_call_to_human_agent
+- utter_ask_pin
+- utter_ask_mobile_number
+- utter_wrong_pin
+- utter_wrong_mobile_number
+- utter_agent.can_you_help
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.there
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_dialog.sorry
+- utter_emergency_loan_general_info
+- utter_greetings.hello
+- utter_greetings.bye
+- utter_greetings.how_are_you
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_user.excited
+- utter_user.good
+- utter_user.happy
+- utter_confirmation.yes
+- utter_confirmation.no
+- utter_incomplete_query
+- utter_confirm_balance_info
+- utter_confirm_balance_validity
+forms:
+- action_verification_required

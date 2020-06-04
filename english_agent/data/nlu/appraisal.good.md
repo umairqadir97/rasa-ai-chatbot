@@ -1,0 +1,41 @@
+## intent:appraisal.good
+
+- all right
+- best
+- excellent
+- good for you
+- he was nice
+- he was really nice
+- he was very good
+- i really liked your act
+- it is good to hear
+- it is good to hear this
+- its good
+- its okay
+- its really not bad
+- nice
+- nice to hear
+- no this is right
+- not bad
+- really good
+- really nice
+- super
+- sweet
+- that is excellent
+- that is good
+- that is really great
+- this is alright
+- this is amazing
+- this is best
+- this is good
+- this is impressive
+- this is not wrong
+- this is really better
+- this is really good
+- this is really nice
+- this is really nice thanks
+- this is shocking
+- this is your love
+- truly nice
+- wonderful
+- you did good

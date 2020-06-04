@@ -1,0 +1,64 @@
+## intent:last_recharge.info
+
+- what was my last topup
+- how much have i loaded last time
+- can you please confirm the amount credited to my account last time
+- can you please tell me about my last recharge amount
+- can you tell me how much was the last amount i credited in my mobile
+- can you tell most recent recharge amount
+- could you tell me last recharge amount
+- hi i have a simple query  can you please tell me about my account  s last recharge amount
+- hi please tell my last recharge amount
+- how much balance i recharged last time
+- how much did i recharge previous time
+- how much i recharged
+- how much i recharged last time
+- how much i recharged most recently
+- how much is credited into my account
+- i just dial helpline number and ask operator to confirm my last recharge amount
+- i need the info of my last recharge amount
+- i want to know my last recharge amount
+- i wants to know about my last recharge amount
+- i would like to know my previous recharge amount
+- my last recharge
+- my last recharge was
+- my last recharged amount
+- please let me know about my recharge amount
+- please tell me about my balance recharged previously
+- tell me the inquiry procedure of your last recharge amount
+- what amount i have been credited last
+- what is my last balance recharge
+- what is my last recharge
+- what is my last recharge amount
+- what is my last recharged amount
+- what is my recharge amount
+- what is my most recent loaded balance
+- what is the last recharge amount on my phone
+- what is the recharge
+- what s my last recharge amount
+- what was my last easyload balance
+- what was my last recharge amount
+- what was the amount of my last recharge amount
+- what was the amount which i recharge last time
+- what was the last recharge amount
+- whats my last recharge
+- whats my last recharge amount
+- how much have i recharged
+- how much balance i added last time
+- last week amount of topup was
+- which card have i used last time
+- how much money did i refill last time
+- how much money did i refill into the account last time
+- how much money did i loaded last time
+- my last load was for how much
+- how much i refilled last time
+- what was my last topup
+- which card did i load last time
+- i loaded how much of that card 
+- how much did you load last time
+- how much money did loaded last time
+- can you tell my last recharge
+- how much i loaded last time
+- how was my last topup
+- last time how much did i easyloaded
+- how much did i load last month

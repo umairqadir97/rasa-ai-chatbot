@@ -1,0 +1,1 @@
+rasa run -m models/ --enable-api --cors "*" --endpoints endpoints.yml --port 8000;

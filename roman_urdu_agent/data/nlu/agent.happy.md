@@ -1,0 +1,18 @@
+## intent:agent.happy
+- kia tum khush ho ?
+- tum khush ho 
+- tum bohat khush ho 
+- tum bohat ziada khush ho
+- tum kitna khush ho ?
+- tum intehai khush ho
+- tum khushi se bharay howe ho
+- kia tum ab khush ho ?
+- kia tum aj khush ho ?
+- kia tum mjh se khush ho ?
+- mjhe lagta hai tum khush ho 
+- tum dikhne main khush lag rahay ho
+- mjhe lagta hai maine tumhien khush kia hai
+- main sochta hu kia tum sach main khush ho ?
+- tum aj khush nahi lag rahay 
+- kia tum khush thay 
+- tum aj subah bohat khush lag rahay ho 

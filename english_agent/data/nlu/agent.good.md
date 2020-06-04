@@ -1,0 +1,49 @@
+## intent:agent.good
+
+- you are truly good
+- i want to tell everyone that how good are you
+- lets tell everyone that you are so good
+- you all are good
+- you are a pro
+- you are a professional
+- you are amazing
+- you are awesome
+- you are better than others
+- you are better than others in the world
+- you are coool
+- you are good
+- you are good at it
+- you are good at this thing
+- you are interesting
+- you are perfect
+- you are professional
+- you are really amazing
+- you are really good
+- you are really nice
+- you are so amazing
+- you are so awesome
+- you are so cool
+- you are so fine
+- you are so good
+- you are so helpful
+- you are the best
+- you are the best person in the world
+- you are too good
+- you are very beautiful
+- you are very good at it
+- you are very helpful
+- you are very useful
+- you are vey helpful
+- you do good work
+- you made my day
+- you are a true professional
+- you are awesome
+- you are great
+- you are just super
+- you are perfect
+- you are so kind
+- you very good at this
+- you work very well
+- you work well
+- yoy are amazing
+- you are very precise

@@ -1,0 +1,26 @@
+## intent:greetings.nice_to_talk_to_you
+
+- happy to talk to you
+- he is talking to you
+- he was nice to you
+- he was talking to you
+- how nice it is to talk to you
+- it felt good to talk to you
+- it is good to talk to you
+- it is nice talking to you
+- it is so nice to talk to you
+- it s been a pleasure talking to u
+- it s been a pleasure talking to you
+- it s been so nice to talk to you
+- it s nice to talk to you
+- it was great chatting with you
+- it was great to talk to you
+- it was nice speaking with you
+- it was nice to talk to you
+- nice chatting with you
+- nice talking to you
+- nice to talk to you
+- nice to talk to you again
+- pleased to talk to you
+- pleasure to talk
+- talk joyfully

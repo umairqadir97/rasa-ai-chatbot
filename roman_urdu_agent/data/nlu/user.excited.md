@@ -1,0 +1,12 @@
+## intent:user.excited
+- baat karne ke liye bura waqt
+- mein baat karna nahi chahta
+- chalo baat nahi karte
+- mein ab aap se baat nahi kar raha hon
+- mein aap se baat nahi karna chahta
+- chalo sirf aik minute ke liye baat cheet karo
+- mein chatting ke liye mood mein nahi hon
+- mein aap se baat nahi karna chahta
+- mujhe aap se baat nahi karna
+- mein baat karne ke liye mood mein nahi hon
+- mein aap se baat kar raha hon

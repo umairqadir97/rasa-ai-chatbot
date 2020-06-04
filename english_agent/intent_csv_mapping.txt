@@ -1,0 +1,37 @@
+agent.can_you_help:I need your help
+agent.good:You are great
+agent.happy:I think are you are happy
+agent.there:Are you here
+appraisal.good:Nice 
+appraisal.no_problem:No problem
+appraisal.thank_you:Thankyou
+appraisal.welcome:What ever you like
+balance.balance_info:Do you need information about balance?
+balance.balance_usage:Do you need information about balance usage?
+balance.balance_validity:Do you need information about balance validity?
+confirmation.no:I am sorry?
+confirmation.yes:I agree?
+dialog.sorry:Please accept my apology
+emergency_loan.general_loan_service_info:Do you need emergency loan?
+emergency_loan.current_status:Do you need current status of loan?
+emergency_loan.last_availed:Do you need information about last availed loan?
+greetings.bye:Are you saying goodbye?
+greetings.goodevening:Were you saying good evening?
+greetings.goodmorning:Were you saying good morning?
+greetings.goodnight:Were you saying good night?
+greetings.hello:Were you saying hi?
+greetings.how_are_you:Were you saying how are you?
+greetings.nice_to_meet_you:Were you saying it was good to meet you?
+greetings.nice_to_see_you:Were you saying it was good to see you?
+greetings.nice_to_talk_to_you:Were you saying it was good to talk to you?
+how_much:Were you asking about your details?
+last_recharge.date:Were you asking about your last recharge date?
+last_recharge.info:Were you asking about your last recharge?
+offers.info:Do you want to know about offers?
+out_of_scope:Do you need information about anything else?
+subscribe_above_offer:Do you need information about offer subscription?
+time_limit:Do you need information about expiry?
+user.excited:Are you excited?
+user.good:Are you feeling good?
+user.happy:Are you feeling happy?
+when_did_i:Do you need information about subscription date?

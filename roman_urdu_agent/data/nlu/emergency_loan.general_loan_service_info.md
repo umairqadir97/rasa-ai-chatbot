@@ -1,0 +1,136 @@
+## intent:emergency_loan.general_loan_service_info
+
+- loan
+- loan kis tarah lete hen
+- hi i need help about emergency load
+- need to know about emergency load
+- emergency loan kab le sktih un
+- emergency loan
+- loan k charges kya hen
+- me kitna loan le sakta hn
+- mujhey kitna loan milega
+- mujhey kitna loan mil sakta he
+- emergency load kab lia ja sakta ha
+- loan ki requirement kya he
+- loan kitna milta he normally
+- kitne paisay milte hen loan me
+- loan ka bad kitne paisay katengy account recharge k bad
+- loan k kitne paisay katenge account recharge k bad
+- loan ki kya shartey hen
+- loan ki kya shart he
+- loan ki terms and conditions kya hen
+- mjhy emergency load ka bata dein
+- kese le skta hun main emergency load
+- emergency load kab lia ja skta ha
+- loan ki requirement kya he
+- loan ki kya shart he
+- hi mje emergency loan k bary help chahye
+- mje pochna tha me emergency kesy ley sakta hu
+- loan ki kya shart he
+- mujhey kitna loan milega
+- mje emergency loan k bary me pta krna ha
+- mje jye pochna ha k me emergency load kesy le sakta hu
+- hi muje emergency load k bary me help chahye
+- loan ki requirement kya he
+- loan kitna milta he normally
+- loan k kitne paisi katenge account recharge k bad
+- loan k charges kya hen
+- loan ki requirement kya he
+- loan kitna milta he normally
+- kitne paisay milte hen loan me
+- loan ka bad kitne paisay katengy account recharge k bad
+- loan k kitne paisay katenge account recharge k bad
+- me kitna loan le sakta hn
+- ziada se ziada kitna loan le sakti hun mei
+- zyada sy zyada main ktna loan ly sakta hun
+- kitnay ka loan mil sakta hai 
+- main kitna loan le sakti hoon
+- mje zada sa zada kitna loan mil sakta hay 
+- main zyada se zyada kitna loan le skta hun 
+- kitna mile ga loan
+- me apne number pe zyada c zyada kitna loan le sakta hu
+- maximum loan kitna lay sakta hun 
+- me zyada sy zyada ktna loan ly sakta hun 
+- mei kitna loan le skta hu
+- ma kitna loan lay sakta hn
+- maximum kitan loan mil sakta hai
+- main ziada se ziada kitna loan ly skta hon 
+- ma zeyada sy zeyada kitna loan ly skta hu 
+- zyada sy zyada kitna udhar lysakty hain 
+- kinta loan mil sakta ha
+- main kitna loan lay sakta
+- zyadha say zyadha kitna loan ka balance lay sakta hun
+- mein maximum kitna loan ly sakhta hu  
+- main kitne raqam ka qarza le skta hun
+- loan ki maximum amount kia he
+- mei kitna loan le skta hu 
+- mjy kitna max loan dia ja sakta ha
+- maximum loan kitna liya ja skta hay 
+- ma zeyada say zeyada kitna loan lay sakta ho
+- kindly ab bta sakte ha mai kitna max loan lay sakta hu
+- m zyada say zyada kitni raqam loan k toor per hasil kr skta hu
+- mujhe kitna qarza mil sakta hai 
+- mai zada se zada kitna loan le skta hun 
+- mujhai kitna karza mil sakta hai
+- kia ap muje bta sakte ha zyada sy zyada muje kitna loan mil sakta ha 
+- aap ye kasiy maloom krein gy ke aap kitne paisy qarz pe le skte hain
+- mei ziada se ziada kitna karz ly skta ho 
+- max loan ki hadd
+- me kitna qarza hasil kr skta hu
+- me maximum kitni amount ka loan le sakta hon  
+- loan ki limit kya hai 
+- zyada sa zyada kitna qarz loan lea ja sakta hai 
+- zyada se zyada kitni loan ki amount hasil ki ja sakti hai 
+- mein kitna loan le sakt hun
+- loan lene ke koi charges hain 
+- kitnay ka loan milay ga 
+- loan ke cya rates hain
+- mje kitnay paisa dayna parayn ga agar loan lia to 
+- loan lene k liye uper kitne mazeed charges lagu hongay 
+- loan kitna mile ga
+- loan leney kiliye kya sharaeth wo zawabit hey 
+- loan pay kitnay paisay katengay 
+- loan py kitna sood dena prta hy 
+- loan k charges kya hain
+- loan pe markup kitna ha
+- loan pe service charges kitne hain
+- loan apply krny k kia charges hain 
+- loan k extra charges kitny hain 
+- loan k charges kia honge
+- loan ke charges kaya hain 
+- kitnay charges hungai agar mai loan layta hun
+- loan lana ka kitnay charges katay ga  
+- loan k raqam k kitne charges hain
+- loan lene pe kitna harge hoga
+- loan ki wasuli kitni ha  
+- mjy kitnay   izafi charges dainay hon gay
+- loan pay koi sood hoga kia 
+- laon pay kitna tax charge ho ga
+- kindly ap yh bta sakte ha k is ka charges kia ho gy  agr hum loan lete ha
+- kia is loan per kisi kisam k charges hon gy  
+- qarza laney k liye kitni fees hogi 
+- loan lainy k charges bta dain 
+- loan k liyai mujhai extra kya pay kerna ho ga 
+- kia ap muje loan lenay k charges bta sakte ha 
+- aap kaisy maloom krein gy ke karz pe aap ko kitna charges dene hon gy
+- karz layny k kia charges hain 
+- loan py extra charge kitna hy
+- qarzay per azafi kharcha bta dein 
+- kya loan ki amount par koi extra paisay ya tax wagaira lagta hai  
+- loan ke cya charges hain
+- loan lainay kay charges kya hain 
+- loan qarz leina keh kia charges hain 
+- loan k sath  mjhy kitni extra amount deni paray gi 
+- ye bhi bata dein k kitne extra charges yani tax kitna katay 
+- loan kab tak hota ha
+- emergency loan kab tak rhy ga
+- emergency loan kab tak chaly ga
+- mjhy emergency load ka bata dein kia hota
+- kese le skta hun main emergency load
+- loan ki requirement kya he
+- loan kitna milta he normally
+- loan k kitne paisi katenge account recharge k bad
+- kindly ap bta sakte ha loan lena ka process kia ha
+- loan lenay ki sahulat majood hay kia
+- ma loan kesay la sakhti hun 
+- me emergency balance kesy le sakta hu

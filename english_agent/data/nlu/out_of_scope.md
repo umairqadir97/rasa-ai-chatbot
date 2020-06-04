@@ -1,0 +1,67 @@
+## intent:out_of_scope
+
+- package
+- easypaisa
+- roaming
+- international roaming
+- data
+- mb
+- how many mbs have i used
+- how much data have i used
+- minutes
+- pin code
+- puck code
+- sim
+- when is my sim going to expire
+- who are you
+- transfer me
+- oeprator
+- route chat
+- forward me
+- please add new mobile number
+- start over
+- package
+- easypaisa
+- roaming
+- international roaming
+- pin code
+- puck code
+- what will be the charges
+- what are the charges
+- charges
+- have emergency load but no balance
+- no balance although i have emergency
+- i want to return loan
+- i want to transfer balance
+- balance transfer
+- i want to transfer balance
+- how much can i recharge with scratch card
+- i am looking for balance transfer
+- i want to relaod
+- want to recharge my account
+- return back my loan
+- i want to give back loan amount
+- give back loan amount
+- whats my status
+- i have to transfer balance
+- balance transfer
+- how much can i load with scratch card
+- want to reload
+- give back loan
+- returned back the loan
+- can you tell me about bot
+- no i am not looking for any bot sbot
+- not looking for bot
+- and what are the terms and conditions
+- recharge my balance
+- recharge my account
+- subscribe
+- activate
+- status
+- usage
+- non usage
+- free balance
+- tell me about oov
+- show oov
+- i need to OOV
+- OOV

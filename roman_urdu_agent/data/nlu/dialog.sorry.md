@@ -1,0 +1,24 @@
+## intent:dialog.sorry
+
+- moazrat
+- maazrat
+- moazrat khuwa
+- maffi chahta hon
+- afsos
+- mein maffi chahta hon
+- mein moazrat khuwa hon
+- meri moazrat
+- mujh se maffi chahta hon
+- maffi
+- mein aap se maffi mangta hon
+- mein ne maffi mangi
+- mein waqai sharminda hon
+- mujhe maaf karen
+- mujhe maaf kr dein
+- is ke liye moazrat
+- is ke baray mein afsos
+- bohat afsos hai
+- bohat afsos
+- theek hai mujhe maaf karna
+- mein maffi maangna chahta hon
+- theek hai mein maffi chahta hon

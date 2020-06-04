@@ -1,0 +1,47 @@
+## intent:last_recharge.date
+
+- when was the previous reload
+- whats the date of last eady load
+- when did i recharge
+- what was the last date i recharged my balance on
+- at what date i have recharged my account
+- at which date did i late recharge my balance
+- can you please confirm the date i made the last recharge
+- can you please tell me about my last recharge date
+- can you tell me when was the last time i credited balance in my mobile
+- could you confirm last recharge date
+- could you please confirm my last recharge date
+- hi i have a simple query  can you please tell me about my accounts last recharge date
+- hi what is the date of my last recharge amount
+- how long i recharge my account
+- i wants to know about my last recharge date
+- kindly tell me the last date when i was recharged my account
+- last date i did recharged
+- last recharge date
+- when did i recharge
+- main ny last recharge kb kraya tha
+- me ne akhri dfa kb recharge krwaya tha
+- my last recharge date
+- on which date i recharge
+- on which date i recharged my account
+- please tell me my last recharge date
+- tell me the inquiry procedure of your last recharge date
+- what is my last recharge date
+- what is the date of my last recharge
+- what s my last recharging date
+- what was date of last recharge
+- what was my last recharge amount date
+- what was my last recharge date
+- what was the date when i recharged my balance
+- what was the last date i recharged my balance on
+- whats my last recharge date
+- when did i last recharge my account
+- when did i recharge
+- when did i recharge my number last time
+- when i recharge last time
+- when was my last recharge
+- when was my last topup
+- when did i easy load
+- when did i last use the scratch card
+- when was the last time i used easy load
+- when did you last use easy load 

@@ -1,0 +1,53 @@
+## intent:greetings.how_are_you
+
+- all is right
+- all is well
+- are you alright
+- are you having a good day
+- are you ok
+- are you okay
+- hey bro how are you
+- hope you re having a pleasant evening
+- hope you will have good evening
+- hope your day is going well
+- hope yu are having a good day
+- how about you
+- how ar going
+- how are the things going
+- how are things going
+- how are you
+- how are you doing
+- how are you doing this morning
+- how are you feeling
+- how are you getting on
+- how are you going
+- how are you today
+- how do you do
+- how do you feel
+- how has your day been
+- how has your day been going
+- how have you been
+- how is it going
+- how is life going on
+- how is your day
+- how is your day being
+- how is your day going
+- how is your day going on
+- how is your evening
+- how is your life
+- how is your morning going
+- how is your morning going on
+- how is your morning so far
+- how long is your morning
+- how s life
+- how s your day
+- how s your day going
+- how your day is going
+- i am ok and how are you
+- i m fine and you
+- is everything okay
+- is your day going ok
+- what about your day
+- what s up
+- what was your day like
+- you tell how are you

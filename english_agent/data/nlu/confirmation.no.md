@@ -1,0 +1,61 @@
+## intent:confirmation.no
+
+- absolutely no
+- do not
+- do not come
+- do not do
+- do not need it right now
+- do not need now
+- do not need your help
+- do not show off
+- do not want it
+- don t
+- don t come
+- don t like that
+- don t show off
+- don t want
+- don t want your help
+- forget it
+- get out
+- i am not happy with your help
+- i am not ok with your help
+- i am not okay with your help
+- i do no like it
+- i do not need your help
+- i do not think
+- i do not want your help
+- i don t need anything from you
+- i don t need your help
+- i don t think so
+- i don t want your assistance
+- i don t want your help
+- i don t you help
+- my apologies do not need it
+- need not
+- never
+- never ever
+- never help
+- no
+- no bro
+- no don t want
+- no forget
+- no forget it
+- no thanks
+- no thanks alot
+- no thankyou
+- no way
+- nope
+- nope i dont need your help
+- not
+- not at all
+- not at this time
+- not exactly
+- not needed
+- not now
+- not really
+- of course no
+- of course not
+- okay keep it in mind
+- sorry can not
+- sorry no
+- no thanks

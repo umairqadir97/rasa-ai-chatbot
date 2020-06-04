@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>rasa_domain_parser.py</title>
+  <link rel="stylesheet" href="pycco.css">
+</head>
+<body>
+<div id='container'>
+  <div id="background"></div>
+  <div class='section'>
+    <div class='docs'><h1>rasa_domain_parser.py</h1></div>
+  </div>
+  <div class='clearall'>
+  <div class='section' id='section-0'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-0'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">yaml</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-1'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-1'>#</a>
+      </div>
+      <p>Chatbot Domain Parser, will parse &lsquo;domain.yml&rsquo; file to json object and write to file
+:param path_to_domain_yml: Complete path to YML domain file
+:param path_to_domain_json: Complete path to file where Json Object will be written
+:return: Json string of parsed object</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">domain_parser_yml_to_json</span><span class="p">(</span><span class="n">path_to_domain_yml</span><span class="p">,</span> <span class="n">path_to_domain_json</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-2'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-2'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path_to_domain_yml</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">json_domain</span> <span class="o">=</span> <span class="n">yaml</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="nb">file</span><span class="p">)</span>
+    <span class="n">json_domain</span><span class="p">[</span><span class="s2">&quot;entities&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">parse_entities_to_json</span><span class="p">(</span><span class="n">path_to_domain_yml</span><span class="p">)</span>
+
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path_to_domain_json</span><span class="p">,</span> <span class="s2">&quot;w&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">json</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">json_domain</span><span class="p">,</span> <span class="nb">file</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">json_domain</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-3'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-3'>#</a>
+      </div>
+      <p>Helper function for domain_parser, will parser entities and their synonyms
+:param path_to_domain: Complete path to YML domain file
+:return: Json object for all entities in domain</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">parse_entities_to_json</span><span class="p">(</span><span class="n">path_to_domain</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-4'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-4'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path_to_domain</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span><span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="nb">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">domain_sections</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;intents:&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;entities:&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;slots:&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;actions:&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;forms:&quot;</span><span class="p">:</span> <span class="p">[],</span> <span class="s2">&quot;templates:&quot;</span><span class="p">:</span> <span class="p">[]}</span>
+    <span class="n">section_name</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">(</span><span class="nb">tuple</span><span class="p">(</span><span class="n">domain_sections</span><span class="o">.</span><span class="n">keys</span><span class="p">())):</span>
+            <span class="n">section_name</span> <span class="o">=</span> <span class="n">line</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">domain_sections</span><span class="p">[</span><span class="n">section_name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-5'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-5'>#</a>
+      </div>
+      <p>Parse Entities separately, otherwise &lsquo;synonyms&rsquo; will get mixed</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="n">entity_splits</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">domain_sections</span><span class="p">[</span><span class="s2">&quot;entities:&quot;</span><span class="p">])</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;##&quot;</span><span class="p">)</span>
+    <span class="n">entities</span> <span class="o">=</span> <span class="p">{</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-zA-Z0-9_.]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">entity</span><span class="p">):</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">entity</span> <span class="ow">in</span> <span class="n">entity_splits</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span> <span class="k">if</span> <span class="n">entity</span><span class="p">}</span>
+    <span class="k">for</span> <span class="n">elt</span> <span class="ow">in</span> <span class="n">entity_splits</span><span class="p">[</span><span class="mi">1</span><span class="p">:]:</span>
+        <span class="n">lines</span> <span class="o">=</span> <span class="n">elt</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+        <span class="n">entity_name</span><span class="p">,</span> <span class="n">synonyms</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-zA-Z0-9_.]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">lines</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;synonym&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)),</span>\
+            <span class="p">[</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;[^a-zA-Z0-9_.]&quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">,</span> <span class="n">line</span><span class="p">)</span> <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">[</span><span class="mi">1</span><span class="p">:]</span> <span class="k">if</span> <span class="n">line</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">entity_name</span> <span class="ow">in</span> <span class="n">entities</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">entities</span><span class="p">[</span><span class="n">entity_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">synonyms</span>
+    <span class="k">return</span> <span class="n">entities</span>
+
+</pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+</div>
+</body>

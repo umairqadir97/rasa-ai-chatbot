@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <title>actions.py</title>
+  <link rel="stylesheet" href="pycco.css">
+</head>
+<body>
+<div id='container'>
+  <div id="background"></div>
+  <div class='section'>
+    <div class='docs'><h1>actions.py</h1></div>
+  </div>
+  <div class='clearall'>
+  <div class='section' id='section-0'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-0'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">absolute_import</span><span class="p">,</span> <span class="n">division</span><span class="p">,</span> <span class="n">unicode_literals</span>
+<span class="kn">import</span> <span class="nn">re</span>
+<span class="kn">import</span> <span class="nn">csv</span>
+<span class="kn">from</span> <span class="nn">rasa_sdk</span> <span class="kn">import</span> <span class="n">Action</span>
+<span class="kn">from</span> <span class="nn">sample_data</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="kn">from</span> <span class="nn">rasa_sdk.forms</span> <span class="kn">import</span> <span class="n">FormAction</span>
+<span class="kn">from</span> <span class="nn">rasa.core.policies.policy</span> <span class="kn">import</span> <span class="n">confidence_scores_for</span>
+<span class="kn">from</span> <span class="nn">rasa_sdk.events</span> <span class="kn">import</span> <span class="n">SlotSet</span><span class="p">,</span> <span class="n">ConversationPaused</span><span class="p">,</span> <span class="n">ReminderScheduled</span><span class="p">,</span> <span class="n">ConversationResumed</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span><span class="p">,</span> <span class="n">timedelta</span><span class="p">,</span> <span class="n">date</span>
+<span class="kn">from</span> <span class="nn">default_configurations</span> <span class="kn">import</span> <span class="o">*</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-1'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-1'>#</a>
+      </div>
+      <h6></h6>
+<p>GENERAL</p>
+<h6></h6>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-2'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-2'>#</a>
+      </div>
+      <p>Intent: greetings.hello</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">HelloAndGreetings</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-3'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-3'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_hello_user&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-4'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-4'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">authenticated_user_response_templates</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;Hi {user_name}, telenor customer care me khushamdeed!&quot;</span><span class="p">,</span>
+                                                     <span class="s2">&quot;Hey {user_name}, me ap ki kesy madad kr skta hu?&quot;</span><span class="p">]</span>
+            <span class="n">user_name</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                <span class="n">user_name</span> <span class="o">=</span> <span class="n">single_user_object</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">authenticated_user_response_templates</span><span class="p">)</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">user_name</span><span class="o">=</span><span class="n">user_name</span><span class="p">))</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-5'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-5'>#</a>
+      </div>
+      <p>image_url = &ldquo;http://crm2.univ-lorraine.fr/pages_perso/Aubert/FTenglish/conv2d/hello.jpg&rdquo;
+image_url = &ldquo;./assets/telenor_pakistan.png&rdquo;
+image_url = &ldquo;https://i.ibb.co/qMFfqnF/telenor-pakistan.png&rdquo;
+message = {&ldquo;image_url&rdquo;: image_url}
+dispatcher.utter_custom_json(message)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with HelloAndGreetings: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-6'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-6'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">ActionIntermediateFallback</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-7'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-7'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;action_default_ask_affirmation&quot;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-8'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-8'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">intent_mappings</span> <span class="o">=</span> <span class="p">{}</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-9'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-9'>#</a>
+      </div>
+      <p>read the mapping and store it in a dictionary</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;intent_csv_mapping.txt&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+            <span class="n">lines</span> <span class="o">=</span> <span class="nb">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+                <span class="n">splits</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">)</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">splits</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+                    <span class="bp">self</span><span class="o">.</span><span class="n">intent_mappings</span><span class="p">[</span><span class="n">splits</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">splits</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-10'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-10'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="n">last_intent</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">latest_message</span><span class="p">[</span><span class="s1">&#39;intent&#39;</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">]</span>
+        <span class="n">last_intent_confidence</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">events</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">][</span><span class="s1">&#39;parse_data&#39;</span><span class="p">][</span><span class="s1">&#39;intent&#39;</span><span class="p">][</span><span class="s1">&#39;confidence&#39;</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">last_intent_confidence</span> <span class="o">&lt;</span> <span class="mf">0.3</span> <span class="ow">or</span> <span class="n">last_intent</span> <span class="ow">in</span> <span class="p">[</span><span class="bp">None</span><span class="p">,</span> <span class="s1">&#39;out_of_scope&#39;</span><span class="p">]:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Please apna swal dobara likhain!&quot;</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-11'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-11'>#</a>
+      </div>
+      <p>todo: status of consecuive_fallback slot?</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">else</span><span class="p">:</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-12'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-12'>#</a>
+      </div>
+      <p>sorted(tracker.latest_message[&lsquo;intent_ranking&rsquo;], key=lambda x: x[&lsquo;confidence&rsquo;], reverse=True)[0]</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>            <span class="n">message</span> <span class="o">=</span> <span class="s2">&quot;Kia apka swla ye ha &#39;{}&#39;?&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">last_intent</span><span class="p">)</span>
+            <span class="n">buttons</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;Yes&#39;</span><span class="p">,</span>
+                        <span class="s1">&#39;payload&#39;</span><span class="p">:</span> <span class="s1">&#39;/{}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">last_intent</span><span class="p">)},</span>
+                       <span class="p">{</span><span class="s1">&#39;title&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">,</span>
+                        <span class="s1">&#39;payload&#39;</span><span class="p">:</span> <span class="s1">&#39;/out_of_scope&#39;</span><span class="p">}]</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_button_message</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">buttons</span><span class="o">=</span><span class="n">buttons</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-13'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-13'>#</a>
+      </div>
+      <p>dispatcher.utter_message(message)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="k">return</span> <span class="p">[]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-14'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-14'>#</a>
+      </div>
+      <p>Intent: CustomFallBackAction</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">def</span> <span class="nf">get_action_names</span><span class="p">():</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s2">&quot;domain.yml&quot;</span><span class="p">,</span> <span class="s2">&quot;r&quot;</span><span class="p">)</span> <span class="k">as</span> <span class="nb">file</span><span class="p">:</span>
+        <span class="n">text</span> <span class="o">=</span> <span class="nb">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    <span class="k">return</span> <span class="p">[</span><span class="n">action</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;- &quot;</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span> <span class="k">for</span> <span class="n">action</span> <span class="ow">in</span> <span class="n">text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;actions:&quot;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;:&quot;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)[:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="k">if</span> <span class="n">action</span><span class="p">]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-15'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-15'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">CustomFallback</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-16'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-16'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_custom_fallback&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-17'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-17'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">consecutive_fallback</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;number_of_fallbacks&quot;</span><span class="p">)</span>
+            <span class="n">consecutive_fallback</span> <span class="o">+=</span> <span class="mf">1.0</span>
+            <span class="n">previous_actions</span> <span class="o">=</span> <span class="p">[</span><span class="n">event</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">event</span> <span class="ow">in</span> <span class="n">tracker</span><span class="o">.</span><span class="n">events</span> <span class="k">if</span> <span class="s1">&#39;name&#39;</span> <span class="ow">in</span> <span class="n">event</span> <span class="ow">and</span>
+                                <span class="n">event</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">]</span> <span class="ow">in</span> <span class="n">get_action_names</span><span class="p">()]</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="n">default_fallback_response</span>
+            <span class="k">if</span> <span class="n">previous_actions</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;action_custom_fallback&quot;</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">consecutive_fallback</span> <span class="o">&gt;=</span> <span class="mf">2.0</span><span class="p">:</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-18'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-18'>#</a>
+      </div>
+      <p>todo: this below mentioned response is being used in &ldquo;api.get_server_response&rdquo; &amp; in LiveZilla UI</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>                    <span class="k">print</span><span class="p">(</span><span class="s2">&quot;Consecutive Fallbacks: &quot;</span><span class="p">,</span> <span class="n">consecutive_fallback</span><span class="p">)</span>
+                    <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Sorry, mje apka swal samj ni aa rha. Thora intezar krain, apki drkhwast mutalqa expert to transfer ki ja rhi ha...&quot;</span>
+                    <span class="n">consecutive_fallback</span> <span class="o">=</span> <span class="mf">0.0</span>
+                    <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+                    <span class="k">return</span> <span class="p">[</span><span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;number_of_fallbacks&quot;</span><span class="p">,</span> <span class="n">consecutive_fallback</span><span class="p">)]</span>
+            <span class="k">else</span><span class="p">:</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-19'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-19'>#</a>
+      </div>
+      <p>not consecutive fallback</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>                <span class="n">consecutive_fallback</span> <span class="o">=</span> <span class="mf">0.0</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+            <span class="k">return</span> <span class="p">[</span><span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;number_of_fallbacks&quot;</span><span class="p">,</span> <span class="n">consecutive_fallback</span><span class="p">)]</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with CustomFallback: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-20'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-20'>#</a>
+      </div>
+      <p>Intent: offers.info</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">OffersInformation</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-21'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-21'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_offers_info&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-22'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-22'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;here are available offers:&quot;</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+            <span class="n">offer_image_url</span> <span class="o">=</span> <span class="s2">&quot;https://i.ibb.co/BLYpFSB/whatsapp-offer-256x256.png&quot;</span>
+            <span class="n">offer_details_url</span> <span class="o">=</span> <span class="s2">&quot;https://i.ibb.co/dm74DPP/whatsapp-offer-details-256x256.png&quot;</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_custom_json</span><span class="p">({</span><span class="s2">&quot;image_url&quot;</span><span class="p">:</span> <span class="n">offer_image_url</span><span class="p">})</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_custom_json</span><span class="p">({</span><span class="s2">&quot;image_url&quot;</span><span class="p">:</span> <span class="n">offer_details_url</span><span class="p">})</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Ye offer hadil krny k lye &#39;YES&#39; likhain.&quot;</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with OffersInformation: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-23'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-23'>#</a>
+      </div>
+      <p>Intent: offers.info &ndash; subscribe</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">OfferSubscribe</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-24'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-24'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_offers_subscribe&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-25'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-25'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;You have successfully availed this offer.&quot;</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with OfferSubscribe: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-26'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-26'>#</a>
+      </div>
+      <h6></h6>
+<p>USER VERIFICATION</p>
+<h6></h6>
+<p>Intent: authenticate user !</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">ActionVerificationForm</span><span class="p">(</span><span class="n">FormAction</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-27'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-27'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s2">&quot;action_verification_required&quot;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-28'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-28'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">required_slots</span><span class="p">(</span><span class="n">tracker</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">[</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">,</span> <span class="s2">&quot;pin&quot;</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">slot_mappings</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">{</span>
+            <span class="s2">&quot;mobile_number&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_text</span><span class="p">(</span><span class="n">intent</span><span class="o">=</span><span class="bp">None</span><span class="p">),</span>
+            <span class="s2">&quot;pin&quot;</span><span class="p">:</span> <span class="bp">self</span><span class="o">.</span><span class="n">from_text</span><span class="p">(</span><span class="n">intent</span><span class="o">=</span><span class="bp">None</span><span class="p">)</span>
+        <span class="p">}</span>
+
+    <span class="k">def</span> <span class="nf">submit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-29'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-29'>#</a>
+      </div>
+      <p>get first match from input text</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;(((034)|(9234))[0-9][-_. ]*[0-9]*)&#39;</span><span class="p">,</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">))</span>
+        <span class="n">pin</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;[0-9]*&#39;</span><span class="p">,</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;pin&quot;</span><span class="p">))</span>
+
+        <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">pin</span><span class="p">:</span>
+            <span class="n">pin</span> <span class="o">=</span> <span class="n">pin</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;[-_.+]&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">group</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-30'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-30'>#</a>
+      </div>
+      <p>mobile_number = re.sub(r&rsquo;^034&rsquo;, &lsquo;9234&rsquo;, mobile_number)   # standardize ot 9234x.......</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">pin</span><span class="p">)</span> <span class="o">==</span> <span class="mi">4</span><span class="p">:</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Hi {}, ap is mobile_number:{} k lye verify ho gye hain!&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">user_data</span><span class="p">[</span><span class="n">mobile_number</span><span class="p">][</span><span class="s1">&#39;name&#39;</span><span class="p">],</span> <span class="n">mobile_number</span><span class="p">))</span>
+                <span class="k">return</span> <span class="p">[</span><span class="n">SlotSet</span><span class="p">(</span><span class="s1">&#39;verification&#39;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">),</span> <span class="n">SlotSet</span><span class="p">(</span><span class="s1">&#39;mobile_number&#39;</span><span class="p">,</span> <span class="n">mobile_number</span><span class="p">),</span> <span class="n">SlotSet</span><span class="p">(</span><span class="s1">&#39;pin&#39;</span><span class="p">,</span> <span class="n">pin</span><span class="p">)]</span>
+            <span class="k">elif</span> <span class="n">mobile_number</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">user_data</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, is mobile number ka koi record ni ha.&quot;</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">pin</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">4</span><span class="p">:</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Invalid PIN&quot;</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-31'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-31'>#</a>
+      </div>
+      <p>todo: this response is being used in &lsquo;chat_endpoint.get_response_from_chatbot&rsquo;, be cautious!</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>        <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Authentication fail ho gye ha. apni request dobara enter krain&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">[</span><span class="n">SlotSet</span><span class="p">(</span><span class="s1">&#39;verification&#39;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">)]</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-32'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-32'>#</a>
+      </div>
+      <h6></h6>
+<p>BALANCE</p>
+<h6></h6>
+<p>Intent: balance_info.info</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">BalanceInformation</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-33'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-33'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_balance_info&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-34'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-34'>#</a>
+      </div>
+      <p>[event[&lsquo;parse_data&rsquo;][&lsquo;entities&rsquo;] for event in tracker.events if &lsquo;parse_data&rsquo; in event.keys()]</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-35'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-35'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">balance</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_value&quot;</span><span class="p">)</span>
+                <span class="n">balance_validity</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_validity&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ka maujoda balance: Rs. {balance}, validity: {balance_validity}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">balance</span><span class="o">=</span><span class="n">balance</span><span class="p">,</span> <span class="n">balance_validity</span><span class="o">=</span><span class="n">balance_validity</span><span class="p">)</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with BalanceInformation: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-36'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-36'>#</a>
+      </div>
+      <p>Intent: balance_info.info</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">BalanceExpiry</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-37'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-37'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_balance_expiry&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-38'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-38'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-39'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-39'>#</a>
+      </div>
+      <p>check if balance slot is filled:
+e.g. &ldquo;expiry&rdquo;, &ldquo;balance expiry&rdquo;, &ldquo;akhri tareekh&rdquo; ??</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">balance_validity</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_validity&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ka balance khatam hony ki akhri tareekh: {balance_validity}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">balance_validity</span><span class="o">=</span><span class="n">balance_validity</span><span class="p">)</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with BalanceExpiry: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-40'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-40'>#</a>
+      </div>
+      <p>Intent: balance.balance_usage</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">BalanceUsage</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-41'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-41'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_balance_usage_report&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-42'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-42'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">balance_usage</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_usage&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ab tak Rs.{balance_usage} ka balance use chuky hain.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">balance_usage</span><span class="o">=</span><span class="n">balance_usage</span><span class="p">)</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with BalanceExpiry: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-43'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-43'>#</a>
+      </div>
+      <h6></h6>
+<p>LAST RECHARGE</p>
+<h6></h6>
+<p>Intent: last_recharge.info</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">LastRechargeInfo</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-44'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-44'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_last_recharge_info&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-45'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-45'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">balance</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_value&quot;</span><span class="p">)</span>
+                <span class="n">balance_validity</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_validity&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Pichli bar ap ny {last_recharge} ka recharge karwaya tha.</span>
+<span class="s2">                AP ka maujoda balance Rs. {balance} ha, validity {balance_validity}&quot;&quot;&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">last_recharge</span><span class="o">=</span><span class="n">single_user_object</span><span class="p">[</span><span class="s1">&#39;last_recharge&#39;</span><span class="p">],</span>
+                    <span class="n">balance</span><span class="o">=</span><span class="n">balance</span><span class="p">,</span>
+                    <span class="n">balance_validity</span><span class="o">=</span><span class="n">balance_validity</span>
+                <span class="p">)</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with LastRechargeInfo: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-46'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-46'>#</a>
+      </div>
+      <p>Intent: last_recharge.date</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">LastRechargeDate</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-47'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-47'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_last_recharge_date&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-48'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-48'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Pichli bar ap ny {last_recharge} ka recharge karwaya tha.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span>
+                    <span class="n">last_recharge</span><span class="o">=</span><span class="n">single_user_object</span><span class="p">[</span><span class="s1">&#39;last_recharge&#39;</span><span class="p">])</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with LastRechargeDate: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-49'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-49'>#</a>
+      </div>
+      <h6></h6>
+<p>EMERGENCY LOAN</p>
+<h6></h6>
+<p>Intent: emergency_loan.subscribe</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">EmergencyLoanCurrentStatus</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-50'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-50'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_emergency_loan_current_status&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-51'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-51'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">loan_service_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;loan_service_status&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;Sorry, ap ne Rs.20 ka pichla emergency loan wapis nhi kia abi.</span>
+<span class="s2">                Ap agly recharge tak mazeed loan nhi le sakty.&quot;&quot;&quot;</span>
+                <span class="k">if</span> <span class="n">loan_service_status</span> <span class="o">==</span> <span class="s2">&quot;unsubscribed&quot;</span><span class="p">:</span>
+                    <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ne emergency loan subscribe nhi kia. Abi Rs.20 ka Loan leny k lye &#39;YES&#39; likhy.&quot;</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with EmergencyLoanCurrentStatus: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-52'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-52'>#</a>
+      </div>
+      <p>Intent: emergency_loan.subscribe</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">EmergencyLoanSubscribe</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-53'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-53'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_emergency_loan_subscribe&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-54'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-54'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">loan_service_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;loan_service_status&quot;</span><span class="p">)</span>
+                <span class="n">loan_last_availed</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;loan_last_availed&quot;</span><span class="p">)</span>
+                <span class="n">current_balance</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_value&quot;</span><span class="p">)</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-55'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-55'>#</a>
+      </div>
+      <p>balance_usage = tracker.get_slot(&ldquo;current_balance_usage&rdquo;)</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>                <span class="n">balance_validity</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;current_balance_validity&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Sorry, ap ne pichla emergency loan wapis nhi kia abi. Ap mazeed loan nhi hasil kr sakty!&quot;</span>
+
+                <span class="k">if</span> <span class="n">loan_service_status</span> <span class="o">==</span> <span class="s2">&quot;unsubscribed&quot;</span><span class="p">:</span>
+                    <span class="n">loan_service_status</span> <span class="o">=</span> <span class="s2">&quot;subscribed&quot;</span>
+                    <span class="n">loan_last_availed</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">date</span><span class="o">.</span><span class="n">today</span><span class="p">())</span>
+                    <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ne kamyabi sy Rs.20. ka emergency loan hasil kr lia ha.&quot;</span>
+                    <span class="n">current_balance</span> <span class="o">+=</span> <span class="mf">20.0</span>
+                    <span class="n">balance_validity</span> <span class="o">=</span> <span class="s2">&quot;15-01-2020 &quot;</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+                <span class="k">return</span> <span class="p">[</span><span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;loan_service_status&quot;</span><span class="p">,</span> <span class="n">loan_service_status</span><span class="p">),</span>
+                        <span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;loan_last_availed&quot;</span><span class="p">,</span> <span class="n">loan_last_availed</span><span class="p">),</span>
+                        <span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;current_balance_value&quot;</span><span class="p">,</span> <span class="n">current_balance</span><span class="p">),</span>
+                        <span class="n">SlotSet</span><span class="p">(</span><span class="s2">&quot;current_balance_validity&quot;</span><span class="p">,</span> <span class="n">balance_validity</span><span class="p">)]</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with EmergencyLoanSubscribe: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-56'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-56'>#</a>
+      </div>
+      <p>Intent: emergency_loan.subscribe</p>
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre><span class="k">class</span> <span class="nc">EmergencyLoanLastAvailed</span><span class="p">(</span><span class="n">Action</span><span class="p">):</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-57'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-57'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">name</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="s1">&#39;action_emergency_loan_last_availed&#39;</span></pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+  <div class='section' id='section-58'>
+    <div class='docs'>
+      <div class='octowrap'>
+        <a class='octothorpe' href='#section-58'>#</a>
+      </div>
+      
+    </div>
+    <div class='code'>
+      <div class="highlight"><pre>    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dispatcher</span><span class="p">,</span> <span class="n">tracker</span><span class="p">,</span> <span class="n">domain</span><span class="p">):</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;mobile_number&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">mobile_number</span> <span class="ow">and</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">):</span>
+                <span class="n">mobile_number</span> <span class="o">=</span> <span class="n">mobile_number</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;034&#39;</span><span class="p">,</span> <span class="s1">&#39;9234&#39;</span><span class="p">)</span>
+            <span class="n">verification_status</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;verification&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">verification_status</span> <span class="o">==</span> <span class="s2">&quot;yes&quot;</span><span class="p">:</span>
+                <span class="n">loan_last_availed</span> <span class="o">=</span> <span class="n">tracker</span><span class="o">.</span><span class="n">get_slot</span><span class="p">(</span><span class="s2">&quot;loan_last_availed&quot;</span><span class="p">)</span>
+                <span class="n">response</span> <span class="o">=</span> <span class="s2">&quot;Ap ny {} ko Rs.20 emergency loan lia tha.&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">loan_last_availed</span><span class="p">)</span>
+                <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="n">response</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+            <span class="n">dispatcher</span><span class="o">.</span><span class="n">utter_message</span><span class="p">(</span><span class="s2">&quot;Sorry, Something went wrong. Apna swal dobara enter krain&quot;</span><span class="p">)</span>
+            <span class="k">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">ERROR: Something went wrong with EmergencyLoanLastAvailed: {}&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">e</span><span class="p">))</span>
+        <span class="k">return</span> <span class="bp">None</span>
+
+</pre></div>
+    </div>
+  </div>
+  <div class='clearall'></div>
+</div>
+</body>

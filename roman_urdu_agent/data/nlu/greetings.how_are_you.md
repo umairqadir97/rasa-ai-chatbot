@@ -1,0 +1,44 @@
+## intent:greetings.how_are_you
+
+- aap ki subah kitni der taq hai
+- tumhara din kaisay guzar raha hai
+- tum kaisi ho
+- sab theek hai
+- aap kaisay hain
+- cheezian kis terhan ja rahi hain
+- kya aap theek hain
+- kya tum theek ho
+- aap kaisa mehsoos kar rahay hain
+- tum kis terhan ja rahay ho
+- sab theek hai
+- aaj aap ka kya haal hai
+- aap kaisay hain
+- up kaisa mehsoos kar rahay hain
+- tum kaisay ho
+- kaisa chal raha hai
+- tumhara din kaisa hai
+- aap ka din kaisa chal raha hai
+- tumhari shaam kaisa hai
+- aap ka din kaisa guzra
+- kya aap ka din acha guzar raha hai
+- umeed hai ke aap ka din acha ho raha hai
+- umeed hai ke aap khushgawar shaam ke sath rahen ge
+- zindagi kaisi chal rahi hai
+- mein theek hon aur aap
+- tumhari zindagi kaisa hai
+- aap ka din kaisa raha hai
+- tumhari subah kaisa chal raha hai
+- aap ka din kaisay chal raha hai
+- tum kaisay ho
+- tumhara din kaisay chal raha hai
+- tumhara din kaisa tha
+- tumahra aj ka din kaisa raha
+- tum aaj subah kaisay kar rahay ho
+- aap kaisay hain
+- tum kaisi ho
+- aur bhai kesy ho
+- suna kesa ha
+- kesy ho
+- kya hal he
+- tera hal kya ha
+- hal kysa ha tra

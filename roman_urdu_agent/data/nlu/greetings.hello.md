@@ -1,0 +1,36 @@
+## intent:greetings.hello
+
+- hello
+- hi
+- hiii
+- hey
+- sir
+- jnab
+- adab
+- aray 
+- kaise ho
+- aray bhai
+- khushamadeed
+- istakbaal 
+- main apka istakbaal krta hu
+- khubsurat din hai
+- dubara hello
+- dubara isktakbaal
+- hello bhai
+- hello yar
+- hello dost
+- sai ha
+- tumhara acha din guzre
+- bhai
+- salam
+- assalam o alaikum
+- aoa
+- a o a
+- hey there
+- koi ha yahan
+- hi, is there anyone?
+- greetings
+- hello everybody
+- hello is anybody there
+- heeey
+- yo

@@ -1,0 +1,13 @@
+.coverage
+*.log
+.idea/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+out.log
+venv/*
+env/*
+models/*
+conversation_log/*
+results/*

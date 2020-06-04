@@ -1,0 +1,12 @@
+[
+	{
+		"name":"verification", 
+		"synonyms":[]
+	},
+	{
+		"name":"account_balance",
+		"synonyms":["paisay", "wallet", "amount", "cerdit", "rupee"]
+	},
+	{},
+	{}
+]

@@ -1,0 +1,7 @@
+{
+  "intent_name": "agent.who_are_you",
+  "training_samples": [
+    "who are you?",
+    "hey who are you?"
+  ]
+}

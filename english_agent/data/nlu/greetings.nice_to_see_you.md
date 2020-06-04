@@ -1,0 +1,33 @@
+## intent:greetings.nice_to_see_you
+
+- always a pleasure to see you
+- glad to see you
+- good to see you
+- good to see you again
+- great seeing u
+- great to see you
+- great to see you again
+- great to see you too
+- how good it is to see you
+- i always feel happy to meet you
+- i am feeling good to meet you
+- i am glad to see you again
+- i am happy to see you again
+- i am jovial to see you
+- i m delighted to see you again
+- i m really pleased to see u again
+- i want to see you again
+- i was nice to see you
+- i was nice to see you again
+- i wasnt to meet you again
+- it feels good to be with you
+- it felt great to meet up
+- it s good to see you
+- it s good to see you too
+- it s nice to see you
+- it was great catching up with u
+- it was nice to meet you again
+- its so nice to see you
+- lovely to see you
+- nice to see you
+- nice to see you again

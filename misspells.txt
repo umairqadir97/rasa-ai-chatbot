@@ -1,0 +1,17 @@
+balance: balaance, balnace, blance, blnce, balnce, blnc, balanc, balanace, balace, baance, banance, balanc, balanz, balns, balancce, blance, belence, belencebelence, balanec
+wallet: walt, wallat, walut, valut, vallet, valut, wault
+amount: amnt, amont, amant, amaunt, amounat, amounte
+credit: crdt, credt, cridat, cradat, cradet, credat
+rupee: rupayee, rupay, rupees
+load: lod, laud, loud, laod, lood
+loan: lon, laun, laon, loon, loadn, loaon, lpoan
+package: pkg, packg, pakage, pakag, pkage, paykge, paykage, pckg
+emergency: emergncy, emrgncy, amergency, amirgency, amrgncy, emregency
+advance: advnce, advnc, aadvance, aedvance, idvance, aidvnc, edvance, edvnc
+baqayajaat: baqiyajaat, baqiya jaat, bakaya, baqaya, bqaya, bkaya,bekaya, beqaya, baqiajaat
+kharch: kharh, khrch, kharcha
+raqam: rakam, ruqoom, rakoom, rukoom, rakham
+hisaab: hisab, hisabe, hsab, hasab
+paisay: paisy, paise, pasa, paisa, pesay, pasay, pesy, paison, paisa, pysy
+recharge: recharg, recahrge, recharage, richarg
+offers: offer, ofer, offar, offerrs, offerain

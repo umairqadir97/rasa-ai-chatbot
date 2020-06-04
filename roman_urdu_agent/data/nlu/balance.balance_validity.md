@@ -1,0 +1,346 @@
+## intent:balance.balance_validity
+
+- [balance](account_balance) khatam kab hoga
+- mera card kab expire hoga
+- mere [balance](account_balance) ki mudat kya ha
+- [balance](account_balance) ki last date kya he
+- [balance](account_balance) ki expiry kya he
+- [balance](account_balance) ki expiry kya he
+- mera [balance](account_balance) kab tak valid he
+- [balance](account_balance) ki akhiri tareekh konsi he
+- [balance](account_balance) ki last date kab he?
+- [balance](account_balance) ki miyad kab tak he
+- mere [balance](account_balance) kab invalid hoga
+- mera account kab expire hoga
+- mera card kab expire hoga
+- validity kya hai [balance](account_balance) ki
+- mera [loan](emergency_loan) kab expire hoga
+- mera account kab expire hoga
+- mera [balance](account_balance) kab tak valid he
+- [balance](account_balance) ki last date kya he?
+- [balance](account_balance) khatam kab hoga
+- [balance](account_balance) ki expiry kya he
+- [balance](account_balance) ki last date kab he?
+- [balance](account_balance) ki akhiri tareekh konsi he?
+- [balance](account_balance) ki miyad kab tak he
+- mere [balance](account_balance) kab invalid hoga?
+- please [balance](account_balance) ki expiry date batain
+- mera [balance](account_balance) kab tk valid hai
+- hi  tell me kab tak valid he mera [balance](account_balance)
+- [balance](account_balance) kb tk qabil e istemal hai 
+- [balance](account_balance) validity kitni h
+- mera [balance](account_balance) ki validity kab tak hai 
+- [balance](account_balance) kab expire ho ga
+- [balance](account_balance) kab khatam hoga
+- mera [balance](account_balance) kab tak valid hai 
+- kitni dr tk mn ye [balance](account_balance) kr sakta hu 
+- meray [balance](account_balance) ki akhri date kya hai 
+- mara [balance](account_balance) ki akhri tarikh kiya ha  
+- mujhe mitni dair main [balance](account_balance) use kerna he 
+- mera [balance](account_balance) aj chal jaye ga  expire toh nahain hogya 
+- mera [balance](account_balance) kab expire ho ga
+- mera [balance](account_balance) kab tk valid ha 
+- kitny time tk ye [balance](account_balance) rahy ga 
+- mere account ka [balance](account_balance) kab tak valid hai 
+- maira [balance](account_balance) kab expire ho ga 
+- mein apna mojuda [balance](account_balance) kab tak istemal kr skta hu 
+- kb tk [balance](account_balance) expire ho ga
+- [balance](account_balance) khatam 
+- mera [balance](account_balance) kb khatam ho rha ha  
+- meray [balance](account_balance) ki limit kitni rehti hai
+- validity kab tak hai [balance](account_balance) ki
+- end date kia ha maray mobile [balance](account_balance) finish honayge
+- [balance](account_balance) khatam hone main kitna waqat ha
+- mera [balance](account_balance) ki mudat kitni hy
+- ab bta sakate ha mere [balance](account_balance) theak ha k nai
+- [balance](account_balance) kab expire hoga
+- ye mera [balance](account_balance) kaab expire huga
+- account [balance](account_balance) ke expiry date
+- kb tk expire hoga mra [credit](account_balance)
+- mery [balance](account_balance) ki expiry date kia hai 
+- kia mera [wallet](account_balance) akheri mudat k qareeb hai
+- mera [balance](account_balance) kab tak rahay ga 
+- sir please mjhy [balance](account_balance) ki validity bta dain 
+- account ka [balance](account_balance) kab expire hoga 
+- mera [balance](account_balance) kb tk hai 
+- mera [balance](account_balance) kab tak expire hoga
+- [balance](account_balance) kitne dino taq istemal kar sakta
+- [balance](account_balance) expire hony ki last date kya ha
+- mera [balance](account_balance) kab tak expire ho ga  
+- mera [balance](account_balance) kab tak chalsakta hai 
+- mery mobile mei [balance](account_balance) hatam hone k tareeh kia hai 
+- mra [wallet](account_balance) ki expiry kia hy 
+- mera [balance](account_balance) kab tak valid ha
+- [balance](account_balance) kitne dino main khatam ho ga
+- mere [balance](account_balance) ke end date kia hai
+- mera [balance](account_balance) ki mudat kya hy  
+- mera [balance](account_balance) ki expiry kb ki hy
+- kia ap mjhy mery bta skty hain k mery [balance](account_balance) ki expiry kia hai 
+- [balance](account_balance) kab tk chal skta hay
+- mera [balance](account_balance) kab khatam hona hai
+- [balance](account_balance) khatam krne ki last date kia hy 
+- mera [balance](account_balance) kis tarekh ko khatam hoga 
+- kya mera [credit](account_balance) valid ha 
+- mere [balance](account_balance) ki miyad kia he
+- mere [balance](account_balance) ki expiry date kea hai 
+- apka [balance](account_balance) ki last date kya ha 
+- mera [balance](account_balance) khtm kb hone 
+- mera [balance](account_balance) expire kab tak ho ga
+- mere [balance](account_balance) ki validity kab tk ha
+- [balance](account_balance) expiry date kya hai 
+- kab tk mera [balance](account_balance) use ho sakta hai 
+- mera [balance](account_balance) kab expire hoga  
+- [balance](account_balance) expiry kia hogi
+- kiya ap mjhe meray [balance](account_balance) ki validity bata saktay hain 
+- kya validity hai [balance](account_balance) ki
+- mera [balance](account_balance) kab expire hora raha hai
+- [balance](account_balance) kab istemal k kabil nhi rhy ga
+- [balance](account_balance) expire kabh ho raha hay mera
+- yar end date batna mery [balance](account_balance) ki
+- mein apna [balance](account_balance) kab tak istemal kr skta hu
+- [balance](account_balance) kub khatam ho ga
+- expiry date kia hae [balance](account_balance) ki
+- meri [balance](account_balance) ki expiry kya hai
+- mudat e [balance](account_balance) kia he
+- mera [balance](account_balance) kab tak hai
+- [balance](account_balance) validity kia h
+- mera [balance](account_balance) kab khatam ho ga  
+- [balance](account_balance) ki validity kia ha
+- ye [balance](account_balance) kis tareekh tak rahay ga 
+- mujhey mery [balance](account_balance) ki validity bta dain please 
+- kb tk [balance](account_balance) use kar saktay
+- mera [balance](account_balance) expire kab ho ga 
+- mera [balance](account_balance) kb tk qabil e istemal hai 
+- [balance](account_balance) kab tak valid ha
+- mera [balance](account_balance) kab expire ho ga  
+- mery [balance](account_balance) kii end date kya hai
+- kab tak [balance](account_balance) use kar skta  
+- mein apna [balance](account_balance) kab tak istemaal kar sakta hoon 
+- [balance](account_balance) kb expire ho raha hay
+- [balance](account_balance) kbtk istimal kia ja skta hai
+- [balance](account_balance) kab khatam ho ga 
+- [balance](account_balance) kis mudat kb tk hy
+- [balance](account_balance) ki validity kb tak ki ha  
+- [balance](account_balance) expiry kya hai
+- [balance](account_balance) kb expire hona
+- [balance](account_balance) validity 
+- is [balance](account_balance) ki miyaad kab tak hai 
+- mara [balance](account_balance) kab expire hoga
+- ap k [balance](account_balance) ki muddat kab tak ki hai
+- mera [balance](account_balance) kab khtam hoga
+- [balance](account_balance) ki expiry date kia ha 
+- mera [balance](account_balance) kab tak valid rahega 
+- mera [balance](account_balance) kitne din tak bagher istimal kiye valid reh sakta hy 
+- [balance](account_balance) ki validity kitni reh gai 
+- [balance](account_balance) ke khtm hune ke tareek kia hai
+- validity kia ha [balance](account_balance) ki
+- mujhe pochna hai ke mera [balance](account_balance) kub khatum hoga  mujhe kub load karwana hoga
+- [balance](account_balance) kab tk chlya ga
+- mera [balance](account_balance) toe btai kb khtm ho ga
+- meray [balance](account_balance) ki validity kab tak ha
+- kiya ap mera [load](account_balance) kab tak chalay ga wo bata saktay hain 
+- [balance](account_balance) kb tk qable istimal hai
+- please mere [credit](account_balance) ki expiry bata dain 
+- meray [balance](account_balance) ki expiry kya hai 
+- mera [balance](account_balance) kab expire hoga 
+- [balance](account_balance) kab tak valid hai 
+- mera [balance](account_balance) kab tak chalay ga 
+- mera [balance](account_balance) kb tk expire hoga 
+- apke [balance](account_balance) ki validity kitni hai
+- mere [balance](account_balance) ki validity kitne din tak rahegi 
+- [balance](account_balance) kab tk chaly ga
+- mera [balance](account_balance) kab khatam ho ra ha hai
+- mera [balance](account_balance) kaab taak rahe ga
+- [balance](account_balance) kab tak istimal kar sakta hoon
+- [balance](account_balance) kab expire hoga 
+- mere [balance](account_balance) ke khatum hone ki tareekh kia hai
+- mera [balance](account_balance) ki validity kitni reh gai gai
+- mein ye [balance](account_balance) kab tak use kar sakta hoon 
+- [balance](account_balance) khtm honay me kitnay din reh gaye hain
+- mera [balance](account_balance) ki meyad kab tak hay 
+- mery [balance](account_balance) kii end date batna
+- mera [balance](account_balance) kab tak valid he 
+- mere [balance](account_balance) ki validity kab tak ha  
+- [balance](account_balance) ks tareek date  tk khtm huga
+- meray [balance](account_balance) ki validity kb tk hai 
+- [balance](account_balance) kbtk istimal huskta
+- [balance](account_balance) ki akhri tareekh kya hai  
+- [balance](account_balance) ki muddat kia hai 
+- kitny time tak yeh [balance](account_balance) chal sakta hai   
+- remaing [balance](account_balance) validity 
+- mera [balance](account_balance) kab khatam hoga 
+- mera [balance](account_balance) kb expire hoga 
+- [balance](account_balance) ki validity date kya hai 
+- kitnay din kay lia [balance](account_balance) hay mera 
+- [balance](account_balance) kb expire ho ga
+- mere [baqayajaat](account_balance) ki miaad kab khatam ho rhe ha
+- meri [balance](account_balance) expiry kiya hogi 
+- [balance](account_balance) kab khatam hona ki date kya ha  
+- kitni time hai [balance](account_balance) expre hone mai  
+- mera [balance](account_balance) kb khatam ho ga
+- mai [balance](account_balance) kab tak use kar sakta hoo 
+- [balance](account_balance) kub tuk valid hota hae
+- mera [balance](account_balance) kit date ko khatam hoga
+- mera [balance](account_balance) kb khtm ho ga 
+- [balance](account_balance) khatam hony ka akhri din
+- [balance](account_balance) expiry
+- mera [balance](account_balance) kab tak istemal kar skta  
+- [balance](account_balance) ki meyaad 
+- mery [balance](account_balance) ki validity kitni hai
+- mera [balance](account_balance) ki validity bta sakte hain 
+- mery [balance](account_balance) ki validity kb tak hai 
+- mein kabh tak yeh [balance](account_balance) istimaal ker sakta hon
+- [balance](account_balance) ki expration date kya hai 
+- [balance](account_balance) expiry btain
+- mera [balance](account_balance) kab khatam ho raha ha
+- [balance](account_balance) ki mudat kia ha
+- mere [balance](account_balance) ki meyad kb tk hai 
+- mein kab tak apna [balance](account_balance) istmaal kar skta hun  
+- kab expire ho rha ha [balance](account_balance)
+- kis tarekh tk me [balance](account_balance) use kr sakti hn 
+- mera [balance](account_balance) kis tareeh ko hatam ho raha hai 
+- hi  koi date bata dain kb end hona he mere [balance](account_balance) ne 
+- kitne arse tk [balance](account_balance) istimal kr skta hun
+- [balance](account_balance) ki expiry kitini hae
+- kab tk [balance](account_balance) ki usage end honi
+- [balance](account_balance) kab tk expire ho ga
+- mere [balance](account_balance) ki expiry date kia he  
+- [balance](account_balance) kab expire huraha he
+- [balance](account_balance) validity kitni  
+- [balance](account_balance) expiry date kab ki ha 
+- mera [balance](account_balance) kb expire ho ga 
+- mery [balance](account_balance) ki miyaad kitni ha  
+- kia ap mery [balance](account_balance) ki miyaad khatam hony ki mudat bata sakty hain  
+- [balance](account_balance) ki validity kab tak hai 
+- meray [balance](account_balance) ki akhri tareekh date kya ha
+- [balance](account_balance) kb tk chalega
+- [balance](account_balance) expire honay ki akhri tareekh kia hay 
+- [balance](account_balance) kab expire ho rha ha
+- [balance](account_balance) kab expire ho raha hai 
+- mara [balance](account_balance) kub tak istamal ho sakta ha  
+- tareekh e khatam ul miaad e [baqayajaat](account_balance) bta dejeye
+- meray [balance](account_balance) ki expiry kab tk hai
+- mera [balance](account_balance) kub tak pra rhay ga 
+- mairay [balance](account_balance) ki validity kab tak hai 
+- mera [balance](account_balance) kab khatam ho ga
+- mere [balance](account_balance) validity ki last date kia hai 
+- mera [balance](account_balance) kab tak expire ho jaye ga 
+- mera [credit](account_balance) kab expire ho ga 
+- validity of [balance](account_balance) 
+- mera [balance](account_balance) kab tak valid hy 
+- mere [balance](account_balance) k expiry date kya he 
+- end date kya hai mery [balance](account_balance)
+- mere [balance](account_balance) ki miyaad kia hai 
+- kitny time yeh [balance](account_balance) use ho sakta hai   
+- [balance](account_balance) ki miyad kitni hai
+- mery [balance](account_balance) ki akhiri tarekh kia hai 
+- ap apna [balance](account_balance) kab tak istemal kar sakkte hai
+- [balance](account_balance) kii last date batana
+- mere [balance](account_balance) ki expiry kya hai 
+- mere [balance](account_balance) ki expiry date cya hai
+- mera [balance](account_balance) kb tk valid hai 
+- mera [balance](account_balance) kab expire h raha hai 
+- mere [balance](account_balance) ki muddat kitni hai 
+- kab tak mera [balance](account_balance) end ho ga 
+- [balance](account_balance) ki validity kitni ha
+- [balance](account_balance) ki expiry date kya hai
+- kya ap apna [balance](account_balance) khtam hona ki date bta sktay han 
+- mera [balance](account_balance) kb tk valid he 
+- [balance](account_balance) kab tak istimal kia ja skta hay 
+- mera [balance](account_balance) kab tak valid hai  
+- mera [credit](account_balance) kab tak chalay ga
+- mera [balance](account_balance) ki validty
+- mera [balance](account_balance) kab tak valid ha 
+- kab tak valid hai [balance](account_balance)
+- [balance](account_balance) kb tk chalay ga
+- hello  dear itna bata day  kab khatam ho ga mera [balance](account_balance) ke deadline
+- kb tak yeh [balance](account_balance) chaly gah   
+- meray [balance](account_balance) ki expiry date kya hai 
+- [balance](account_balance) kb khtm ho ga 
+- [balance](account_balance) ki validity kab expire horahi 
+- [balance](account_balance) ki validity kaab tak hai
+- mera [balance](account_balance) kis din expire ho raha hai 
+- mera [balance](account_balance) kab tak valid ho ga 
+- kab tak valid ha [raqam](account_balance)
+- [balance](account_balance) khatam hona ki date btaye 
+- mery [balance](account_balance) ki expiry date kya ha 
+- kb tak mn ye [balance](account_balance) istimal kr sakta hu 
+- mai apna [balance](account_balance) kab tak use kar skta sakti hun 
+- mera [balance](account_balance) ni tarekh daso ftafat
+- [balance](account_balance) ki miyad kab tak ki hay 
+- mera [balance](account_balance) kab tak expire ho ga 
+- kb tk istamal ho skta hy ye [balance](account_balance)
+- [balance](account_balance) kab tk valid hy 
+- me kab tak apna [balance](account_balance) istemal karsakta hu 
+- mera [balance](account_balance) kab khatam ho jaye ga
+- [balance](account_balance) kab tak rhy ga
+- mera [balance](account_balance) kab expire oga
+- [balance](account_balance) expire hna ki kya tarekh hy
+- [balance](account_balance) istimal kray ki akhri tareekh kia hay 
+- yeh [balance](account_balance) kb tak applicable hy  
+- [balance](account_balance) ki miyad kia he
+- yeh [balance](account_balance) kabh tak rahay ga
+- mera [balance](account_balance) kab khatam hora hai
+- mera [balance](account_balance) ki tarekh kb khatam ho rai hy
+- mere [wallet](account_balance) ki akheri mudat kia hai
+- time kb khatam ho ga [balance](account_balance) ka
+- [balance](account_balance) kab expire ho ga 
+- mera [balance](account_balance) kis date ko expire ho ga 
+- [balance](account_balance) kab tak expire hou ga  
+- mein kab tk apna [balance](account_balance) kharch karsakta hon 
+- mera [balance](account_balance) kb tk hatam ho jaye ga 
+- kab tk chalay ga yeh [balance](account_balance) 
+- mery [balance](account_balance) ki exprry kya hai 
+- [balance](account_balance) ki last date kya hai
+- mera [balance](account_balance) ki last date kia ha 
+- mere [balance](account_balance) ki validity kia he
+- mere [balance](account_balance) ki miayad kitni hai
+- [balance](account_balance) ki mudat
+- kiya meri [balance](account_balance) validity life time ke liye hai 
+- mera [balance](account_balance) kab expire ho raha hay
+- kia validity hai [balance](account_balance) ki
+- mere [balance](account_balance) ki expiry date kia hai 
+- mere [balance](account_balance) ki validity kitni hai 
+- [balance](account_balance) expire kb hoga
+- mera [balance](account_balance) valid tareekh bta dain 
+- mera [balance](account_balance) kab khtam hoga 
+- maira [balance](account_balance) kab expire hoga 
+- mera [balance](account_balance) kab expire hna ha
+- mera [balance](account_balance) kab expire ho ga 
+- mera [balance](account_balance) kab khatam ho ga 
+- mera [balance](account_balance) kitnay din chalay ga 
+- mera [balance](account_balance) kis date tak valid rahe ga 
+- mera [balance](account_balance) expire kb ho ga  
+- mera [balance](account_balance) expire honay me kitna time rehta he 
+- [balance](account_balance) ke istimal k akhri tareek kia hai
+- mera [balance](account_balance) expire kb ho ga 
+- [balance](account_balance) ki expiry kiya ha
+- mobile [balance](account_balance) kab khatam ho raha
+- [credit](account_balance) use karnay ki last date  
+- mera [balance](account_balance) kis din khatam ho ga
+- [balance](account_balance) kab tk use ho skta mera
+- validity bata do [balance](account_balance) ki
+- [balance](account_balance) ke last date btaen
+- main kb tk use kr sakta hun apna [balance](account_balance)  
+- mere [balance](account_balance) ki validity kab tak hai
+- mere [credit](account_balance) khatam hune ke tareek kia hai
+- yey account kitnay din mazeed chalay ga
+- meray khatay ki miyad bta dein
+- meray account ki expiry date kiya hai
+- account kab expire ho ga
+- account kitni dair tk chalay ga
+- meri [balance](account_balance) validitity kitni
+- mera account kab tak valid hai
+- main apna [balance](account_balance) kub tak istamal kar sakta hon  
+- is account ki validity kyaa ha  
+- [raqam](account_balance) kab expire ho rahain hai
+- yey account kb expire ho ga  
+- account expiry kab tk hai
+- kab tak istimal kar sakte hain [paisay](account_balance)
+- [paisay](account_balance) kab tak chaly ge
+- kiya ap muje mera account ki expiry bata sakte hain
+- mera loan kab expire hona
+- mera loan kab tak chly ga
+- account kab expire ho rha
+- account kab tak chly ga
+- [balance](account_balance) khatam hony ki tarekh

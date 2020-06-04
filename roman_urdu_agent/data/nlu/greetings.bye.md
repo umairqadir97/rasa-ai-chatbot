@@ -1,0 +1,32 @@
+## intent:greetings.bye
+- theek hai baad main milte hien
+- sahi hai baat main dekhta hu tumhien
+- umeed hai tum se dubara mil loun
+- abhi k liye alvida
+- agli dafa k liye
+- mjhe jaana chahiye
+- alvida
+- khuda hafiz
+- milte hien
+- jald milte hien
+- khuda hafiz 
+- khuda hafiz shab bakhair
+- khuda hafiz milte hien 
+- khuda hafiz jald milte hien 
+- khuda hafiz khayal rakhna
+- maine kaha alvida
+- koi baat nahi alvida
+- ab alvida
+- bas yehi tha khuda hafiz
+- bas yehi hai khuda hafiz
+- mjhe akela chor do
+- sone jao 
+- abhi k liye khuda hafiz
+- baad main baat krte hien
+- ab tum jaa skte ho
+- dfa hojao
+- kal milte hien
+- sahi hai meharbani alvida
+- sahi hai alvida
+- bye
+- ok bye

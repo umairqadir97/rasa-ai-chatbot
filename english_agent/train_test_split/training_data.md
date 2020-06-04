@@ -1,0 +1,1298 @@
+## intent:agent.can_you_help
+- i need you to help me
+- assistance
+- need help
+- i need you
+- assist
+- can you help me with something
+- you can help me
+- help me
+- i need help
+- i need somthing
+- help needed
+- can you do something for me
+- you have to help me
+- will you please help me
+- help me with a problem
+- can you help
+- i need help on a problem
+- are you ready to answer my question
+- can u help me
+- i need your help
+- i need a hand
+- kindly help
+- can you help me now
+- i need some information
+- could you give me a hand
+- you help me
+- can you bring me some informtaion
+- help
+- do you want to help me
+- do you help me
+- will you help me
+- i need your help to get some information
+
+## intent:agent.good
+- you are good at this thing
+- you are awesome
+- you are so awesome
+- you are so good
+- you are vey helpful
+- you are so fine
+- you are perfect
+- you are truly good
+- you are just super
+- you are good at it
+- you are the best
+- you are better than others in the world
+- you work very well
+- you very good at this
+- you are good
+- you work well
+- you are very good at it
+- you are perfect
+- you are very precise
+- you do good work
+- you are so cool
+- you are really nice
+- you are really amazing
+- you made my day
+- you are too good
+- you are so helpful
+- you are a pro
+- you are interesting
+- i want to tell everyone that how good are you
+- you are very helpful
+- you are really good
+- you are so kind
+- you are very useful
+- yoy are amazing
+- you are a professional
+- you are so amazing
+- you are better than others
+
+## intent:agent.happy
+- you are really happy
+- you are happy
+- you are extremely happy
+- are you happy now
+- i think are you really happy
+- u seemed to have been very happy
+- are you happy today
+- you re so happy
+- you re really happy
+- you doesn t seem to be happy today
+- you seemed to be happy in the morning
+- i think you are happy
+- you re extremely happy
+- i think i made you happy
+- how happy you are
+- i wonder if you are truly happy
+- are you happy
+- i feel i made you happy
+- are you happy with me
+- you don t look very happy today
+- you seem happy
+- how much happy are you
+- were you happy
+
+## intent:agent.there
+- you are there
+- are you near me
+- are you here
+- can you hear me
+- are you with me
+- still here
+- are you still here
+- are you there
+- were you here
+- you are here
+- you still there
+- here
+
+## intent:appraisal.good
+- he was nice
+- that is good
+- this is not wrong
+- he was really nice
+- this is shocking
+- really good
+- that is excellent
+- this is impressive
+- that is really great
+- i really liked your act
+- this is amazing
+- good for you
+- this is really good
+- super
+- nice to hear
+- this is your love
+- it is good to hear this
+- really nice
+- this is good
+- this is really nice thanks
+- wonderful
+- nice
+- he was very good
+- its good
+- truly nice
+- its really not bad
+- this is really nice
+- all right
+- this is really better
+- this is alright
+- best
+
+## intent:appraisal.no_problem
+- there is no problem of any kind
+- is there any problem on this
+- no problem
+- i dont have any problem with this
+- no need to worry
+- don't worry
+- ok no problem
+
+## intent:appraisal.thank_you
+- thank you very much
+- thankyou all
+- thanks
+- no thankyou  its alright
+- nice thank you
+- very good thank you
+- you helped
+- thanks brother
+- thanks so much
+- cheers
+- thankyou
+- appreciate
+- good thanks
+- i praise him
+- i am thankful to you
+- you helped alot  thanks
+- thnx
+- appreciate your help
+- thanks again
+- thank you for your help
+- thanks to you
+- nice man
+- alright thanks
+- best thanks
+- no thank you that s all
+
+## intent:appraisal.welcome
+- that s my pleasure
+- my pleasure
+- welcome
+- you re so welcome
+- i m glad
+- you re welcome
+- its my pleasure
+- pleasure is mine
+- anything you want
+- glad
+- welcome on coming here
+- anytime
+
+## intent:balance.balance_info
+- can you tell me what is my [balance](account_balance) at this time
+- wanted to know [balance](account_balance) on my number
+- [wallet](account_balance) status please
+- how much [credit](account_balance)
+- kindly brief me about my [balance](account_balance)
+- i want to my [balance](account_balance)
+- can you check and tell me my account [balance](account_balance)
+- [balance](account_balance) information needed
+- what is my [balance](account_balance) now
+- how much [money](account_balance) i have in my mobile
+- tell me the details of my [balance](account_balance)
+- tell me the details of my [balance](account_balance)
+- how much [credit](account_balance) do i have
+- what is my [balance](account_balance) on this number
+- do you give free [balance](account_balance)
+- i need my [balance](account_balance)
+- in my account how much [left over](account_balance) is left
+- tell me my [balance](account_balance)
+- what is my left over account [balance](account_balance)
+- [credit](account_balance)
+- what is my account [balance](account_balance)
+- kindly give me the updates of my [balance](account_balance)
+- sim [balance](account_balance)
+- how much [credit](account_balance) do i have
+- [paisay](account_balance) kitnay hay mere phone me
+- kitna [balance](account_balance) ha
+- how much [balance](account_balance) is left
+- i wan to know about my [balance](account_balance)
+- status of my [card](account_balance)
+- what is my [balance](account_balance)
+- how much [money](account_balance) left
+- how much [balance](account_balance) i have
+- [balance](account_balance) bato
+- i want to know my [balance](account_balance)
+- can i know my [balance](account_balance)
+- what is my current [balance](account_balance)
+- how much [money](account_balance) i have in my account
+- can you tell me my left over [balance](account_balance)
+- i wanted to know that how much [balance](account_balance) do i have
+- my left over[balance](account_balance)
+- i want to know my [load](account_balance)
+- account [balance](account_balance)
+- is my [balance](account_balance) balance loaded
+- hello can you tell me how much [balance](account_balance) am i left with
+- how much [credit](account_balance) left
+- how much [money](account_balance) in my sim
+- mera [balance](account_balance) bata dain
+- bhai [balance](account_balance) batien mera
+- i want to know my [balance](account_balance)
+- [left over](account_balance)
+- can i know my [balance](account_balance)
+- how much [balance](account_balance) i left
+- how much [balance](account_balance) is left in my mobile
+- what is my [balance](account_balance)
+- how much [money](account_balance) i have in my account
+- how much is my [balance](account_balance)
+- can you tell me my [balance](account_balance)
+- will you please tell me my [balance](account_balance)
+- what is the [balance](account_balance)
+- how much [balance](account_balance) i have on this number
+- my left over [balance](account_balance)
+- [balance](account_balance) details needed
+- can you tell me my [balance](account_balance)
+- whats the [balance](account_balance)
+- what is my [balance](account_balance) for the time being
+- what is my [amount](account_balance)
+- how much [balance](account_balance) on my number
+- my mobile [balance](account_balance)
+- my [balance](account_balance)
+- what is my [balance](account_balance)
+- how much [money](account_balance) is present in my account
+- how much [money](account_balance) do i have
+- my account [balance](account_balance)
+- [balance](account_balance) details
+- please tell me my [credit](account_balance)
+- how much [balance](account_balance) left
+- at this time how much [balance](account_balance) do i have
+- [balance](account_balance) how much
+- what is my [load](account_balance)
+- how much [balance](account_balance) left
+- [rupee](account_balance)
+- can you tell me what is my [balance](account_balance)
+- need to know my remaining [credit](account_balance)
+- what is my [calculation](account_balance)
+- my [balance](account_balance)
+- kindly tell me my remaining [balance](account_balance)
+- my mobile [balance](account_balance) amount
+- how much [balance](account_balance)
+- how much [balance](account_balance) do i have in my account
+- please tell me my [balance](account_balance)
+- [load](account_balance)
+- now what is my [balance](account_balance)
+- please tell me my current [balance](account_balance)
+- i want to check [balance](account_balance) in my account
+- what is my sim [balance](account_balance)
+- what is the [balance](account_balance) in my account
+- is my [balance](account_balance) working
+- kitna [balance](account_balance) lag gya hai
+- my present [credit](account_balance) please
+- tell me my [money](account_balance)
+- [raqam](account_balance)
+- tell me my [balance](account_balance) usage details
+- [balance](account_balance) left please
+- tell my [credit](account_balance)
+- [wallet](account_balance)
+- [credit](account_balance)
+- tell me the [balance](account_balance)
+- i need to know my current [balance](account_balance)
+- how much [balance](account_balance) i have in my account
+- please tell me my remaining [balance](account_balance)
+- tell me my [balance](account_balance)
+- on my number how much [credit](account_balance) is left
+- at this time how much [balance](account_balance) do i have
+
+## intent:balance.balance_usage
+- How much balance did I use in the last one day
+- can you give me information about my balcnce which i used in the last few months
+- how much credit did i used last week
+- tell me the summary of the money i spent
+- can you tell that how much did i spend yesterday
+- how much amount did i use last few month
+- how much money did i spent
+- what was my spend last day
+- How much of my balance did i use last week
+- can you give me the details of balance usage of last week and last month separately
+- how much did i spend in the last days
+- how much balance did i used yesterday
+- How much balance I did use last week
+- last week ki transaction history kia ha
+- what is the balance usage history of yesterday
+- what is the total usage amount
+- what is the trasaction history of last month
+- what was the expense last week
+- kindly can you tell me how much I spent last month
+- kindly tell me the usage of last one day
+- how muh balance did i use
+- how much balance did i spend this month
+- can you tell me how much balance did i used yesterday
+- how much is my total balance usage
+- how much did i spend in the last week
+- how much balance did i use
+- kindly tell me the summary of the money i spent last week
+- kindly tell me the usage of last one month
+- my report of  the money i spent
+- how much money did i spend last week
+- Tell me the status of my money spent
+- what is my last month bill
+- how much amount did i use last few days
+- kindly tell me the summary of the money i spent current month
+- how much did i spend last month
+- i need amount usage info
+- What was my usage of last week
+- how much did i spent yesterday
+- how much balance did i use in last few days
+- tell me the usage of last month
+- how much did i spend last week
+- How much balance did I use yesterday
+
+## intent:balance.balance_validity
+- how long will this [balance](account_balance) last
+- what is the expiry of my [balance](account_balance)
+- [balance](account_balance) will last how long
+- till when can my [balance](account_balance)work
+- till when is my account valid
+- what is my [amount](account_balance) expiry date
+- please tell me the [balance](account_balance) validity
+- till when can i use my [balance](account_balance)
+- when will my [balance](account_balance) expire
+- [amount](account_balance) can be used till when
+- my [balance](account_balance) validity will last for how may days
+- when will the [balance](account_balance) not be able to use
+- how long is the duration of the [balance](account_balance)
+- this [balance](account_balance) will end when
+- till when can i use this [amount](account_balance)
+- till when is my [balance](account_balance) valid
+- my [balance](account_balance) validity is till when
+- what is the period of my [balance](account_balance)
+- is my [wallet](account_balance) about to end
+- i need to ask when will my [balance](account_balance) end and when do i have to load
+- tell me about my account
+- till when can i use my [balance](account_balance)
+- [balance](account_balance) validity is till when
+- what is the last date to use [credit](account_balance)
+- how much [balance](account_balance) validity is left
+- till when can i spend my [balance](account_balance)
+- [balance](account_balance) can work till when
+- my current [balance](account_balance) can be used uptill when
+- up till  when is my [balance](account_balance)valid
+- [balance](account_balance) time left
+- in how many days will my [balance](account_balance) end
+- how much is my [balance](account_balance) limit left ?
+- [balance](account_balance) period is till when
+- my [balance](account_balance) will work today,will it expire today
+- my [balance](account_balance) can be used till when
+- till when will this [balance](account_balance) be sufficent
+- [balance](account_balance) will expire on which date
+- when is my [balance](account_balance) getting finish ?
+- what is the period of my [balance](account_balance)
+- [balance](account_balance) finished ?
+- uptill when will i have my [balance](account_balance)
+- to what date will this [balance](account_balance) last
+- when is my  [balance](account_balance) ending
+- can you tell me till when will my [load](account_balance) work
+- is my [credit](account_balance) valid
+- after how long will my [balance](account_balance) end
+- uptill when can i use my [balance](account_balance)
+- what is the expiry date of my [balance](account_balance)
+- what is the last date of my [balance](account_balance)
+- for how long will this account work
+- when will my [balance](account_balance) expire
+- cam you tell me is my [balance](account_balance) sufficient
+- how much time left that my [balance](account_balance) ends
+- tell me when my [balance](account_balance) will end
+- how much [balance](account_balance) usage left
+- up till when can i use this [balance](account_balance)
+- when will my [card](account_balance) expire
+- what is the date of my [balance](account_balance) to end
+- how long can this [balance](account_balance) last
+- [balance](account_balance) expiry date kya hai
+- for how may days do i have this [balance](account_balance)
+- up till when will my [balance](account_balance) stay valid without use
+- please tell me the [balance](account_balance) expiry date
+- when will this account expire
+- on which day will my [balance](account_balance) end
+- [balance](account_balance) is valid till when
+- what is the validity of this account
+- what the end of my [balance](account_balance) to finish
+- [amount](account_balance) will expire on which date
+- on which date will my [balance](account_balance) end
+- [balance](account_balance) will finish when
+- when is my [balance](account_balance) expiring
+- when will [balance](account_balance) expire
+- i can use my [balance](account_balance) till when
+- till when can i use this [balance](account_balance)
+- can you tell me my [balance](account_balance) expiry
+- uptill when is this [balance](account_balance) usable
+- is my [balance](account_balance) validity for life time
+- my [balance](account_balance) will stay balance till when
+- what is the last date of my [balance](account_balance)
+- when will my account expire
+- please tell me the expiry of my [credit](account_balance)
+- [balance](account_balance) will expire when
+- what is my [balance](account_balance) validity
+- [balance](account_balance) will expire when
+- what is the period of my [balance](account_balance)
+- when is my [balance](account_balance) finishing
+- my [balance](account_balance) wil finish when
+- what is the end date of my [balance](account_balance)
+- tell me the validity of [balance](account_balance)
+- when is my [balance](account_balance) expiring
+- hi tell me uptill when is valid my [balance](account_balance)
+- [balance](account_balance) will finish when
+- can you tell me my [balance](account_balance) validity
+- what is the last date of the [balance](account_balance)
+- [balance](account_balance) will finish when
+- [balance](account_balance) can be used till when
+- what is the [balance](account_balance) expiration date
+- what is the [balance](account_balance) expiry
+- tel me the last date of this [balance](account_balance)
+- on which date will my [balance](account_balance) end
+- till when will my [balance](account_balance) expire
+- how long can my [wallet](account_balance) last
+- can you please tell me the expiry of my account
+- how much time left till my [balance](account_balance) expires
+- my account [balance](account_balance) is valid uptill when
+- what is the validity of my [balance](account_balance)
+- how long will the [balance](account_balance) last
+- my [balance](account_balance) will end till when
+- what is the period of this [balance](account_balance)
+- when will my account [balance](account_balance) expire
+- how much is [balance](account_balance) validity
+- what is the last date of the [balance](account_balance)
+- how many days will this account last
+- how may days left to use my [balance](account_balance)
+- till when is my [balance](account_balance) valid
+- till which date can i use my [balance](account_balance)
+- what is the validity of the [balance](account_balance)
+- what is the validity of my [balance](account_balance)
+- when will my [credit](account_balance) expire
+
+## intent:confirmation.no
+- do not do
+- never ever
+- forget it
+- do not come
+- no thankyou
+- i don t want your help
+- my apologies do not need it
+- sorry can not
+- not needed
+- not really
+- not
+- not at all
+- no forget it
+- i don t want your assistance
+- no forget
+- i don t think so
+- not now
+- i am not okay with your help
+- do not need it right now
+- okay keep it in mind
+- i do not want your help
+- i don t need your help
+- absolutely no
+- i do not think
+- no don t want
+- don t like that
+- nope
+- do not need now
+- never
+- sorry no
+- no thanks alot
+- do not need your help
+- i am not happy with your help
+- not at this time
+- no bro
+- don t come
+- of course not
+- don t want your help
+- get out
+- don t want
+- i do no like it
+- of course no
+- no thanks
+- no
+- i do not need your help
+- don t show off
+
+## intent:confirmation.yes
+- yep
+- i guess
+- yew
+- okay cool
+- i agree
+- cool
+- yep okay
+- yeah fine
+- this is true
+- yes
+- yup
+- hmmmm
+- that is ok
+- indeed
+- i think so
+- yeah exactly
+- yes this is
+- okey
+- sounds good
+- yes sir
+- correct
+- yeah
+- he is right
+- okay
+- that sounds good
+- ok  this is ok
+- oh han
+- ok yes
+- ok it s alright
+- ok
+- right it s ok
+- agree
+- yes it is
+- okay that s fine
+- yea fine
+- ya
+- yes bro
+- yeah sure
+- coool
+- oh okay
+- yes brother
+
+## intent:dialog.sorry
+- apology
+- kindly accept my apology
+- i want to say sorry
+- i am very regretful on this
+- regretful
+- really sorry
+- i apologize
+- i am so sorry
+- sorry about that
+- i am rely regretful
+- ok sorry
+- i am sorry
+- alright i m sorry
+- apologies to me
+- my apologies
+- i really regret
+- sorry
+- sorry about this
+- sorry from my side
+- i was sorry
+- i need you to say sorry to me
+- i am remorseful
+- pardon
+- i am really sorry
+- excuse
+- okay i m sorry
+- excuse me
+- apologise
+- i beg your pardon
+- apologies
+- i ask you to forgive me
+
+## intent:emergency_loan.current_status
+- can i get advance money
+- i need emergency loan
+- please tell me if i can avail loan
+- i just dial code for taking loan
+- i am in emergency situation need balance
+- what is the status of my loan
+- how much loan did i get last time
+- give me a loan on my number
+- what is the status of my loan
+- can i take a recharge loan
+- kia main loan ly sakta hun
+- can i get loan
+- can i take a loan  do i need credit for loan
+- its an emergency need balance
+- whats my emergency loan status
+- can i get loan
+- can i have this much loan
+- i want to loan some balance
+- i need a loan urgently
+- i want to know the status of my loan
+- i want to take loan
+- how much loan did i took
+- give me loan
+- how much loan did i took last time
+- how much loan balance can i get
+- how you can ask if you are eligible to apply for loan
+- is it possible to take money on loan
+- i need loan balance
+- i need to know if i can get emergency balance
+- i want emergency balance
+- i want balance
+- i need a loan of
+- please tell me the process how can i take the loan form my number
+- am i eligible for loan
+- hi  i am interested in loan  could you tell me if i am eligible
+- emergency loan required
+- i need loan
+- i need balance emergently
+- can i take loan in form of balance
+- can i take a loan
+- can i take loan
+- advance needed
+- i want loan
+- kia me loan le skti hon
+- does my account qualifies the eligibility criteria to take loan
+- current loan status for this number
+
+## intent:emergency_loan.general_loan_service_info
+- what is the maximum loan can i take
+- how much will i be charged for requesting a loan
+- how much max loan can i take
+- what are loan charges
+- could you please confirm charges for taking loan
+- how much money is given on loan
+- what are the requirements for taking loan
+- what is max loan limit
+- could you tell conditions require to apply for loan
+- do i have to return the exact amount of loan taken or some other added amount as well
+- when can i take emergency load
+- how would you inquire about the maximum loan limit you can apply for
+- how can i take emergency balance
+- are there any extra charges or tax charges on taking loan
+- what are the requirements of loan
+- what is the terms and condition to take loan
+- when can i take emergency loan
+- can you tell me about the tax
+- whats the maximum loan i can take
+- how much it charge for loan
+- what are the conditions of loan
+- what is interest rate
+- what will be the extra charge   on loan return
+- what is the maximum loan amount i can request for
+- how much amount of loan can i take
+- what extra charges incur upon loan
+- what is the maxaimum amount i can take
+- how would you inquire about the charges for taking loan
+- what is the charges of taking loan
+- whats the charge for taking a loan
+- how can i take emergency load
+- is there are any kind of charges on this loan
+- how much can i take loan at max
+- what will be the extra charges i ve to pay
+- how much loan am i eligible to acquire
+- what are the charges for taking loan
+- how much loan can i take
+- how much loan can i take
+- what is the condition of loan
+- what are the charges for loan
+- what would be the charges for loan provisioning
+- how much i can take loan at once
+- kindly confirm me the maximum amount of loan that i can take
+- how much i can avail
+- how can i take emergency loan
+- what is the maximum loan that i can take
+- what is maximum loan that i can take
+- loan
+- what are the terms and condition of loan
+- how much service charges on loan
+- emergency loan
+- i want to know how can i take emergency load
+- how much loan will i get
+- how much of the maximum loan balance i can take
+- how much of the loan can i get
+- what is the maximum limit of taking loan
+- what is the maximum loan that one can take
+- max loan limit
+- what is the max loan limit
+- what are the charges of emergency loan
+- how can i take loan  do you have any loan facility
+- hi i need help about emergency load
+- twll mw about emergency load
+- whats the max amount of loan given
+- what are the charges for the loan
+- hi i need help regarding emergency loan
+- what is the maximum amount i can take as a loan
+- how much charges for loan
+- what are the additional charges on the loan amount
+- what is the maximum loan amount i can avail
+- what will be loan charges
+- how can i take loan
+- what are the loan charges
+- can you please tell me how much max loan i can take
+- are there any charges for taking loan
+- can you please confirm the maximum loan amount i can take against my account
+- need to know about emergency load
+- what are the charges for loan
+- how much you charge on loan
+- how can i get the loan
+- i wanted to ask how can i take emergency loan
+- i need to know about emergency load
+- how much loan i can take maximum
+- how much maximum loan i take
+- can you please tell me what are the charges if i took loan
+- what is loan limit
+- for how much loan i can apply
+- can you please tell me about charges of taking loan
+
+## intent:emergency_loan.last_availed
+- on which date i take loan
+- what was the date of my last loan
+- me ne akhri dfa kb loan lia tha
+- whats the date of my last loan taken
+- last loan date
+- what is the last date for my loan date
+- whats the last date for loan
+- what was the date when i took emergency loan from you
+- confirm me last loan date
+- what is the last date for taking loan
+- last date of loan taken
+- at which did did i take my last loan
+- what is last date to submit money
+- what is loan last date
+- when did i last take loan
+- what is the last time i took loan
+- whats the last date to return the loan
+- when did i requested for the last loan i have taken
+- loan subscription date
+- what is the last date of my loan
+- date of my last loan
+- what is the last date for my loan
+- on which date i took the last loan
+- how many days back have i used loan
+- when did i get my last loan
+- last date to pay my loan
+- what will be the last loan date
+- when was the last time i took loan
+- when did i subscribe for loan
+- main ny last time kb loan lia tha
+- when did i took my last loan
+- can you please tell me date at which i took loan
+- when did i took loan last time
+- when is the last loan date
+- what is my last loan date
+- what was the date of loan i took last time
+
+## intent:greetings.bye
+- leave me alone
+- bye
+- thanks bye bye
+- khuda hafiz
+- till next time
+- goodbye see you later
+- see you later
+- see ya
+- never mind bye
+- i have to go
+- its ok goodbye
+- khuda hafiz take care
+- that s all goodbye
+- meet you tomorrow
+- go to sleep
+- alright bye
+- lets talk afterwards
+- talk to you later
+- bye bye good night
+- i said bye
+- that s it goodbye
+- bye bye see you soon
+- i said goodbye
+- khuda hafiz we ll meet soon
+- its ok  thankyou  bye
+- i must go
+- okay lets meets afterwards
+- bye bye
+- you can go now
+- its ok bye
+- okay bye
+- okay thank you bye
+- goodbye for now
+- ok bye
+- hope to see you later
+- bye bye see you
+- will meet soon
+- hope we meet again
+- ok will meet you afterwards
+- bye for now
+- see you
+- khuda hafiz we ll meet
+- get lost
+- now you can go
+
+## intent:greetings.goodevening
+- have an awesome evening
+- have fun in the evening
+- good evening
+- enjoy the evening
+- evening
+- happy evening
+- good evening there buddy
+- good evening to you
+- hello good evening
+- hey good evening
+- good eveing there
+- have a nice evening
+
+## intent:greetings.goodmorning
+- morning
+- hey good morning
+- have a great morning
+- hi good morning
+- good morning there
+- hello good morning
+- gm
+- top of the morning to you
+- hope you have a finest day
+- good morning to you
+- you have a good day
+- have a good morning
+- good morning too
+
+## intent:greetings.goodnight
+- good good night
+- alright goodnight
+- good tonight
+- have a good night
+- good night bye
+- sweet dreams
+- thank you good night
+- have a nice dream
+- bye good night
+- goodnight
+- gn
+- good night to you
+- good night for now
+- goodnight will meet you tomorrow
+- goodnight for now
+- night
+- ok  good night
+- have good dreams
+- good night see you tomorrow
+
+## intent:greetings.hello
+- hello everybody
+- hello there
+- hello again
+- its a nice day
+- hey
+- i welcome you
+- sir
+- hello
+- greetings
+- yo
+- a o a
+- hiii
+- assalam o alaikum
+- hi there
+- hello friend
+- salam
+- is there anyone
+- hi
+- have a nice day
+- hey bro
+- aoa
+- welcome again
+- hi  is there anyone
+
+## intent:greetings.how_are_you
+- how is your day
+- how are you going
+- is everything okay
+- hope you re having a pleasant evening
+- how about you
+- how have you been
+- how s life
+- how your day is going
+- how is your morning going
+- are you okay
+- how are you today
+- hope you will have good evening
+- how do you feel
+- what about your day
+- is your day going ok
+- all is right
+- how are you getting on
+- how s your day
+- how has your day been going
+- how long is your morning
+- how are the things going
+- how is your morning so far
+- are you alright
+- how is your evening
+- how is life going on
+- how has your day been
+- hope yu are having a good day
+- hey bro how are you
+- how are things going
+- how is your day being
+- how are you doing
+- how is it going
+- how is your life
+- how is your day going on
+- how are you doing this morning
+- i am ok and how are you
+- how are you feeling
+- all is well
+- are you having a good day
+- what s up
+
+## intent:greetings.nice_to_meet_you
+- its good to know each other
+- it was nice to meet you
+- he is happy to meet you
+- it was my pleasure to meet you
+- i had a great time or meeting
+- it s been a pleasure meeting you
+- nice to meet you
+- nice meeting you
+- happy to meet you
+- i enjoy meeting you
+- pleasure to meet you
+- it was nice meeting you
+- it was lovely meeting you
+- it felt good after meeting you
+- lovely to meet you
+- it s a pleasure to meet you again
+- it feels great to meet you
+- my time passed really well
+- i ve enjoyed meeting you
+- it was very nice to meet you
+- how wonderful to meet you
+- glad to meet you
+- it was good to meet you
+- great interacting with you
+- i am happy that i will meet you
+- good to know each other
+- it s very nice to meet you
+
+## intent:greetings.nice_to_see_you
+- great seeing u
+- good to see you
+- i always feel happy to meet you
+- i am glad to see you again
+- it felt great to meet up
+- great to see you again
+- nice to see you again
+- i am jovial to see you
+- i am happy to see you again
+- it feels good to be with you
+- good to see you again
+- it s good to see you too
+- its so nice to see you
+- it was great catching up with u
+- it was nice to meet you again
+- it s good to see you
+- i m really pleased to see u again
+- i was nice to see you
+- glad to see you
+- i m delighted to see you again
+- i was nice to see you again
+- i want to see you again
+- lovely to see you
+- i wasnt to meet you again
+
+## intent:greetings.nice_to_talk_to_you
+- it was nice to talk to you
+- it felt good to talk to you
+- it was great chatting with you
+- it s nice to talk to you
+- nice to talk to you
+- nice talking to you
+- happy to talk to you
+- he was talking to you
+- he was nice to you
+- he is talking to you
+- it is nice talking to you
+- pleased to talk to you
+- it is good to talk to you
+- it s been so nice to talk to you
+- nice chatting with you
+- it s been a pleasure talking to you
+- it was nice speaking with you
+- pleasure to talk
+- talk joyfully
+
+## intent:how_much
+- present
+- tell
+- now
+- topup
+- how much left
+- what s left
+- please tell me
+- how much is left
+- right now
+- inform me
+- for now
+- quantity
+- details
+- jazzload
+- how much
+- how much was that
+- im curious
+- current
+- tell the details
+- as of now
+- want to know
+- how much is remaining
+- easyload
+- information
+- tell about me
+- tell me
+
+## intent:last_recharge.date
+- when did i recharge
+- when did i recharge
+- tell me the inquiry procedure of your last recharge date
+- what s my last recharging date
+- when was the previous reload
+- whats the date of last eady load
+- me ne akhri dfa kb recharge krwaya tha
+- hi what is the date of my last recharge amount
+- last date i did recharged
+- when was my last topup
+- at what date i have recharged my account
+- whats my last recharge date
+- at which date did i late recharge my balance
+- please tell me my last recharge date
+- what was the last date i recharged my balance on
+- can you tell me when was the last time i credited balance in my mobile
+- what was date of last recharge
+- what was my last recharge amount date
+- when did i last recharge my account
+- when did you last use easy load
+- what was the last date i recharged my balance on
+- could you please confirm my last recharge date
+- how long i recharge my account
+- kindly tell me the last date when i was recharged my account
+- when was my last recharge
+- when did i last use the scratch card
+- can you please tell me about my last recharge date
+- my last recharge date
+- main ny last recharge kb kraya tha
+- can you please confirm the date i made the last recharge
+- when i recharge last time
+- what was my last recharge date
+- hi i have a simple query  can you please tell me about my account  s last recharge date
+- what is the date of my last recharge
+- when did i recharge my number last time
+- i wants to know about my last recharge date
+
+## intent:last_recharge.info
+- what is my last recharge amount
+- how much money did i refill into the account last time
+- i loaded how much of that card
+- what was the last recharge amount
+- how much money did i loaded last time
+- my last load was for how much
+- whats my last recharge
+- i just dial helpline number and ask operator to confirm my last recharge amount
+- can you please confirm the amount credited to my account last time
+- how much balance i recharged last time
+- which card did i load last time
+- what was my last topup
+- can you please tell me about my last recharge amount
+- last time how much did i easyloaded
+- how much did i recharge previous time
+- what is my most recent loaded balance
+- i need the info of my last recharge amount
+- what is my last recharge
+- how much i recharged most recently
+- my last recharged amount
+- hi please tell my last recharge amount
+- what was my last topup
+- how much have i recharged
+- how much i recharged last time
+- whats my last recharge amount
+- please tell me about my balance recharged previously
+- last week amount of topup was
+- how much money did i refill last time
+- can you tell me how much was the last amount i credited in my mobile
+- how much i loaded last time
+- what was the amount of my last recharge amount
+- how much money did loaded last time
+- could you tell me last recharge amount
+- what s my last recharge amount
+- which card have i used last time
+- how much have i loaded last time
+- can you tell my last recharge
+- tell me the inquiry procedure of your last recharge amount
+- how much did you load last time
+- how much is credited into my account
+- how was my last topup
+- what was my last recharge amount
+- how much did i load last month
+- i want to know my last recharge amount
+- how much balance i added last time
+- what is the recharge
+- hi i have a simple query  can you please tell me about my account  s last recharge amount
+- how much i recharged
+- how much i refilled last time
+
+## intent:out_of_scope
+- transfer me
+- roaming
+- status
+- returned back the loan
+- how much can i recharge with scratch card
+- sim
+- offer
+- give back loan amount
+- puck code
+- route chat
+- i want to return loan
+- package
+- data
+- pin code
+- easypaisa
+- package
+- who are you
+- want to reload
+- subscribe
+- how much can i load with scratch card
+- oeprator
+- balance transfer
+- want to recharge my account
+- i am looking for balance transfer
+- recharge my balance
+- give back loan
+- not looking for bot
+- no balance although i have emergency
+- i want to give back loan amount
+- balance transfer
+- return back my loan
+- recharge my account
+- i want to transfer balance
+- whats my status
+- have emergency load but no balance
+- activate
+- pin code
+- no i am not looking for any bot sbot
+- puck code
+- i have to transfer balance
+- can you tell me about bot
+- forward me
+- i want to relaod
+- how much data have i used
+- start over
+- please add new mobile number
+- what will be the charges
+
+## intent:subscribe_above_offer
+- subscribe it now
+- can i get above offer
+- can i get it
+- i really need this service
+- i need this
+- can i avail this service
+- i want to subscribe this offer
+- i want this offer
+- activate this for my number
+
+## intent:time_limit
+- and expiry date
+- expiry
+- usability
+- how long can i use it
+- how long will it last
+- and whats the validity
+- can use it
+- will work
+- and expiry
+- till date
+- up to
+- when will that expire
+- time limit for usage
+- how long can you use it
+- going to expire on
+- how long
+- last date
+- validity info
+- validity
+- date to expire
+- how long is it usable
+- when is the expiry
+- can be used till
+- is ending
+- vlid period
+- limit
+- end
+- and date
+- can work till
+
+## intent:user.excited
+- i am excited
+- i m thrilled
+- i m excited about tomorrow
+- i m very excited
+- i m excited about working with you
+- i m hyped
+- i am thrilled to talk to you
+- it s fun and exciting
+- it was exciting
+- i m really excited
+- that was exciting
+- how exciting
+- i m damn excited
+- i m pretty excited about it
+
+## intent:user.good
+- that feels good
+- i m doing good
+- i m feeling great
+- i am really doing good
+- i feel good today
+- i m in a good mood
+- i m doing really good
+- i am pretty good
+- i m super good
+- you are nice
+- i feel good
+- i m good
+- i m doing just great
+- it s good
+- i feel very good
+- i am really good
+- i am doing good
+- i am fine   thanks
+- i m doing fine
+- this is looking good
+- good
+- i am good
+
+## intent:user.happy
+- i feel happy
+- happy
+- i am happy heling others
+- i m happy to help
+- hahahaha
+- nobody but you can make me happy
+- smile always makes me happy
+- i am happy
+- i am very happy
+- i am happy to see you
+- whenever i see you  i feel happy
+- feeling happy
+- i am smiling
+- if you re happy then i m happy
+- i am happy to talk to you
+- i made me happy
+- i m just really happy right now
+- ur smile always makes me happy
+- i am happy when i am talking to you
+- i am very happy right now
+- i am feeling happy
+- i m really happy i ran into you
+- i m happy to see you
+- i was the happiest man on earth
+- if you are happy then i am happy
+- when ever i see you i get happy
+- i m happy to talk to you
+
+## intent:when_did_i
+- subscription date
+- when did subscibe this
+- when i did that
+- what did that happen
+- when was this activated

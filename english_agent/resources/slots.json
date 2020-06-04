@@ -1,0 +1,19 @@
+[
+	{
+		"name":"loan_service_status",
+		"type":"categorical",
+		"auto_fill":"false"	,
+		"initial_value":"unsubscribed",
+		"values":["subscribed","unsubscribed"]
+	},
+	{
+		"name": "current_balance_value",
+	    "type": "float",
+	    "initial_value": "50.0",
+	    "auto_fill": "false",
+	    "max_value": "1000.0",
+	    "min_value": "0.0"
+	},
+	{},
+	{}
+]

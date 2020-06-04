@@ -1,0 +1,58 @@
+## intent:emergency_loan.last_availed
+
+- last time kitna loan liya ta
+- last time kitna loan mila ta mujhey
+- loan kab liya ta me ne
+- last time kab loan liya ta
+- kab loan liya ta
+- loan kab liya ta me ne
+- kab udhar liya ta me ne
+- mene akhri loan kis tareekh pe lea tha
+- meri akhri loan tareekh kya thi
+- loan ka akhri din konsa hay
+- maine akhri bar kis tareekh ko loan lia tha
+- akhri loan kab lia
+- akhri tarekh jab loan lia tha
+- mere loan ka akhre din kab hey
+- pichla loan kab liya tha?
+- last loan date btain.
+- loan lene ki last date kya hai
+- mere loan ki last date kya ha
+- loan return karne ki last date kiya hai
+- Mere loan ki last date kia hai?
+- many akhri dfa kb loan lia tha?
+- m ny kab loan lya tha?
+- mujeh last loan ki date confirm ker dain
+- mera akhari loan kis din tha?
+- Akhari baar manay kaab loan lia tha.
+- mein na last loan kis date pa liya tha?
+- maine akri martaba qarza kb lia tha
+- mere last loan ki kia date thi
+- loan kab tak wapis krna ha?
+- main nay akhri dafa loan kb lia tha
+- loan jama krwanay ki last date kia hay?
+- manay kis din loan liya tha
+- Kindly ab bta sakte ha maine last time kb loan liya tha
+- mein apny istemal shuda akhri loan ki tareekh malooma krna chata hu.
+- meine kis tareekh ko qarza liya tha aakhri dafa
+- qarza kab lia tha me ny
+- pichly loan jo lia tha ucki tareekh bta dain.
+- loan ko apply kerni ki last date kya hai.
+- kia ap muje bta sakte ha akri bar loan maine kn si date ko liya tha?
+- Aap akhri date jis pe loan le chuke hain kaisy maloom krein gy
+- Mery qarza k akhari tareeh kia hai
+- akhiri loan bhrny ki tareekh
+- Akhri qarzay ki tareekh bta dein
+- mene akhri bar kab loan lia tha ?
+- meri akhri loan tareekh kya thi
+- Loan ki last date kya hai?
+- meina akhiri baar qarz/loan kab lea tha?
+- Main ne akhri dafa kab loan lia tha?
+- mene akhri loan kub liya tha
+- akhri loan kab liya tha
+- loan kab liya ta me ne
+- last time kab loan liya ta
+- kab loan liya ta
+- loan kab liya ta me ne
+- me ne loan kab liya ta
+- mere loan ki date kya he

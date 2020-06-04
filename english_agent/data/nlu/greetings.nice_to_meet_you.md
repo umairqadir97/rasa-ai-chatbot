@@ -1,0 +1,36 @@
+## intent:greetings.nice_to_meet_you
+
+- after meeting you it felt good
+- glad to meet you
+- good to know each other
+- great interacting with you
+- happy to meet you
+- have a good meet up
+- he is happy to meet you
+- how wonderful to meet you
+- i am happy that i will meet you
+- i enjoy meeting you
+- i had a great time or meeting
+- i ve enjoyed meeting you
+- it feels good to meet you
+- it feels great to meet you
+- it feels great to meet youj
+- it felt good after meeting you
+- it s a pleasure to meet you again
+- it s been a pleasure meeting you
+- it s very nice to meet you
+- it was good to meet you
+- it was lovely meeting you
+- it was my pleasure to meet you
+- it was nice meeting you
+- it was nice to meet you
+- it was very nice to meet you
+- its good to know each other
+- lovely to meet you
+- my time passed really well
+- nice meeting you
+- nice to meet you
+- nice to meet you too
+- pleased to meet you
+- pleasure to meet you
+- pleasure to meet you too

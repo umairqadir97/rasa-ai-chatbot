@@ -1,0 +1,57 @@
+## intent:out_of_scope
+
+- package
+- easypaisa
+- roaming
+- international roaming
+- data
+- mb
+- minutes
+- pin code
+- puck code
+- sim
+- meri sim kab expire hogi
+- who are you
+- transfer me
+- oeprator
+- route chat
+- forward me
+- new mobile number le lein
+- start over
+- charges
+- charges kia hon gy
+- charges kitny ho ge
+- emergency he aur balance nahi he
+- me ne loan dena he
+- me ne balance transfer karna he
+- balance transfer
+- scratch card se kitna load karwa sakta hn
+- me ne balance transfer karna he
+- load karwana he
+- me ne loan dena he
+- loan wapis krna ha
+- whats my status
+- me ne loan dena he
+- me ne balance transfer karna he
+- balance transfer
+- me ne balance transfer krna hai
+- scratch card se kitna load karwa sakta hn
+- me ne balance transfer karna he
+- load karwana he
+- me ne loan dena he
+- loan wapis krna ha
+- can you tell me about bot
+- no i am not looking for any bot sbot
+- not looking for bot
+- aur is ki terms and conditions kya hen
+- balance recharge kar dain
+- account recharge kar dain
+- load karwana he
+- subscribe 
+- activate
+- status
+- usage
+- non usage
+- free balance
+- oov
+- oov oov

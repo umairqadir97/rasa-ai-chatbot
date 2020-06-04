@@ -1,0 +1,83 @@
+## intent:appraisal.good
+- bohat budiya
+- ye bohat acha hai 
+- wo acha hai
+- sun ke acha laga 
+- apka ye fael bohat pasand aya
+- behtareen
+- hairat angaiz hai 
+- kamaal
+- shandaar
+- acha hai
+- bura nahi hai
+- bilkul bura nahi hai 
+- khushguwaar
+- bohat acha
+- bas acha hai
+- acha hai 
+- waqai acha hai 
+- super
+- meetha 
+- waqai main bohat acha
+- ye bohat acha hai
+- ye heran kun hai 
+- bohat heran kun
+- wo bohat zabardust tha
+- wo pyaara tha
+- wo bohat acha tha
+- wo bohat aala tha
+- wo heran kun hai 
+- ye bohat acha hai, shukariya
+- wo shandaar hai 
+- wo bohat behtar hai 
+- ye tum ne bohat acha kia
+- ye galat nahi hai 
+- ye bilkul theek hai 
+- ye waqai acha hai
+- ye apka pyaar hai 
+- ye bohat acha hai
+- ye mutasir kun hai 
+- ye acha hai
+- ye behtareen hai -
+- bohat acha
+- bohat pyaara
+- Mjhe khushi hoi ye sun ke
+- Acha, sahi hai
+- Acha, acha hai
+- Tumharay liye acha hai
+- Jaan k acha laga
+- Sun k acha laga
+- wo acha tha
+- oh, acha
+- nahi ye sahi hai
+- bohat aala
+- bohat acha kaam
+- bohat achay 
+- acha kaam
+- azeem kaam
+- heran kun kaam
+- aap ne bohat acha kaam kia 
+- bravo
+- shandaar
+- demag ura dena wala kaam
+- wah
+- good job
+- great
+- well done yr
+- nice work
+- great work
+- amazing work
+- wonderful job
+- bravo
+- very quick
+- fantastic
+- good work
+- marvelous
+- splendid
+- just great
+- u r awesome
+- kudos
+- brilliant
+- out standing
+- amazing
+- acha

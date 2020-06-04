@@ -1,0 +1,51 @@
+## intent:emergency_loan.current_status
+
+- kia me ne pichla loan wapis kar dia ha
+- kya me advance paisi le sakta hn
+- kya me advance balance le sakta hn
+- mere loan ka status kya he
+- mujhey loan chahiye
+- mujhey qarza chahiye
+- me ne balance udhar lena he
+- me ne udhar lena he
+- kya me advance paisay le sakta hn
+- kya me advance balance le sakta hn
+- mere loan ka status kya he
+- kea mei loan le sakti hun 
+- kya mein credit loan ly sakti hai
+- maen loan kaisa loun number pa 
+- kya main udhaar pesay le skta hun balance k liye ap se 
+- loan miley ga
+- muje mere es number pe loan chahye
+- loan lay sakta hun 
+- kia ap mujy loan dy sakty hain 
+- kya mei loan le skta hu
+- ma loan kaisy lay sakta hn
+- mujhe loan mil sakta hai
+- kia main loan ly skta hon
+- mujy loan chahiye
+- advance chahye
+- mje advance balance chahye
+- kya main loan lysakti hon 
+- mujhe loan chahea
+- kaya main loan lay sakta hon
+- kia mai loan lai sakta hun
+- kia main udhar le sta
+- me loan le skti hon ya nai
+- loan chahiye ka
+- kia ma loan lay sakta ho
+- kia m loan lay skta hu
+- kia mujhe qarza mil sakta hai
+- kia ap bta sakte ha k main loan lay sakta ho
+- aap kaisy maloom kr skte hain ke aap karz le skte hain
+- mei karz kesay ly skta hon
+- loan chahia
+- kiya me qarza hasil kr skta hu
+- kya mjy loan mil sakta hai
+- cya main loan le sakti hoon
+- kya main loan lay sakta hun
+- kia mein loan qarz balance la sakta hoon
+- kya main loan le sakta hoon
+- loan status kia ha
+- emergency loan activate kr dain
+- mery account py loan activate kar dy

@@ -1,0 +1,50 @@
+## intent:confirmation.yes
+
+- haan bilkul
+- theek hai yeh theek hai
+- mein raazi hon
+- woh theek hai
+- mujhe lagta hai
+- theek hai
+- okay
+- ok
+- okey
+- ook
+- yup
+- g
+- han na yr
+- han yr
+- ha yrr
+- exactly
+- zaroor
+- sure
+- ok yes
+- han theek
+- han theek hai ye
+- haan yehi hai
+- han g
+- han thek
+- han bhai
+- jnab thek hai ye
+- drust hai ye
+- sahi hai
+- acha thek hai
+- han acha
+- yes
+- indeed
+- of course
+- sounds good
+- correct
+- agree
+- I guess
+- yep
+- yew
+- yeah 
+- yeah fine
+- okay buddy
+- oh okay
+- oh han
+- yeah sure
+- cool
+- mje chahye
+- hmmm

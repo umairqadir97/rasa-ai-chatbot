@@ -1,0 +1,11 @@
+## intent:greetings.goodnight
+- shab bakhair
+- pyaare khuab
+- tum aik achi shab guzaro
+- shukariya shab bakhair
+- alvida shab bakhair
+- acha, shab bakhair
+- abhi ki liye shab bakhair
+- shab bakhair kal milte hien 
+- acha sahi hai , shab bakhair
+- tumhari achi raat guzre

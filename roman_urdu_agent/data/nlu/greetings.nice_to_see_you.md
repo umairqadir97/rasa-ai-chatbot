@@ -1,0 +1,19 @@
+## intent:greetings.nice_to_see_you
+- tumhe dekh ke acha laga
+- mein aap ko dekh kar khush hon
+- aap se mil kar khushy hui
+- aap ko dekh kar acha laga
+- aap ko dekhnay ke liye kitna acha hai
+- hamesha aap ko dekhnay ki khushy hai
+- aap se mil kar khushy hui
+- tumhe dekh kar acha
+- aap ko dobarah deikhna bohat acha hai
+- aap ko bhi dekhnay ke liye bohat acha
+- mein aap ko dobarah deikhna chahta hon
+- aap ko dobarah mil ke khushy hui
+- aap ko dobarah deikhna acha hai
+- aap ko bhi dekh kar acha laga
+- aap ke sath yeh bohat acha lag raha tha
+- mein aap ko dobarah dobarah deikhna chahta hon
+- mein aap ko dobarah dekh kar khush hon
+- aap se mil kr bohat acha lag raha hai

@@ -1,0 +1,52 @@
+## intent:last_recharge.date
+
+- recharge kab kiya ta
+- last easy load ki date kya he
+- akhri recharge kab kya me ne
+- main ny last recharge kb kraya tha
+- akhri tareekh kya thi jab me recharge krwaya tha
+- last topup kab kiya ta
+- pichle mahiney kis din load karwaya ta
+- last time scratch card kab use kiya ta
+- easy load kab karwaya ta
+- pichli bar easy load kab karwaya ta
+- me ne last easy load kab kiya ta
+- last easy load ki date kya he 
+- mene akhri recharge kis din karaya tha 
+- mein nay kis tareekh ko recharge karwaya hai 
+- maine akhri recharge kis tareekh ko karaya tha
+- manay kis din apna akhri recharge karaya tha 
+- main last time jo balance load kraya tha us din kya date thi 
+- meri last recharge date
+- mene apne mobile pe akhree recharge kab karaya ta
+- mera akhri recharge kab tha 
+- meri pichli recharge date kia hy 
+- mere last recharge ki date
+- last recharge ki date bta dain
+- mery last recharge ki date kia thi 
+- last load date
+- kis tareekh per main ny recharge kya hai 
+- mein ne akhri bar kab recharge kia
+- purana recharge kiss din karya tha
+- kitna balance ka rechrage huwa hai mera 
+- meray akhiri recharge date konsi the 
+- akri martaba maine kb recharge krwaya
+- mere last recharge ki date kia thi  
+- main nay balance kb recharge kia tha
+- last recharge ki date btaday please 
+- last time kis date ko recharge karvaya tha
+- assalam o alaikum  kindly ap bta sakte ha k last time maine kab recharge karaya tha
+- mein apni akhiri recharge amount ki tareekh malooma krna chata hu 
+- meine kis date ko last recharge kia tha 
+- akhri recharge ki tareekh bta dain 
+- kya app last recharge date batain saktai hain
+- kia ap muje last recharge ki date bta sakte ha 
+- mery phone py akhri recharge k tareeh kia hain 
+- pichly recharge ki tareekh
+- baraye mehrbani mere last easy load ki tareekh batla dein 
+- kya ap mjy bta saktein hain k mene akhri bar kis din balance dalwaya tha
+- meri akhri recharge date kya thi
+- meri last recharge date kya hai 
+- meina akhiri baar kis din ko recharge kea tha 
+- main ne last recharge kab krwaya tha 
+- mujhe mere akhri dafa kiye gaye recharge ki maloomat de dein please

@@ -1,0 +1,39 @@
+## intent:time_limit
+
+- able to use
+- can be used
+- can be used till
+- can use it
+- can work till
+- end
+- and date
+- expiry
+- going to expire on
+- how long
+- how long can i use it
+- how long can you use it
+- how long is it usable
+- how long will it last
+- is ending
+- last date
+- limit
+- period
+- till date
+- till when
+- time limit for usage
+- time span
+- timeline for use
+- up to
+- usability
+- validity
+- vlid period
+- when will that expire
+- will work
+- and expiry
+- and what is the validity
+- and whats the validity
+- validity info
+- last date
+- date to expire
+- and expiry date
+- when is the expiry

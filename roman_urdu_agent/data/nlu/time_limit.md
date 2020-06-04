@@ -1,0 +1,35 @@
+## intent:time_limit
+
+- tak
+- kab tak
+- kab tak expire ho
+- limit
+- akhri
+- akhri tarekh
+- tareekh
+- kabil e istemal
+- kab tak use kr sakty
+- chlay ga
+- khatam ho rhi
+- expiry
+- kab tak chaly ga
+- istemal kr sakty
+- miyad
+- kabil e istemal
+- akhr
+- mudat
+- chalsakta
+- validity
+- aur expiry
+- aur expiry kab he
+- mera ye kab expire hoga
+- ye expire kab hona
+- aur miad kya he
+- iski meyad kya ha
+- myad kab tak ha iski
+- aur miad kya he
+- validity info
+- akhri tareekh
+- khatam hony ki tarekh
+- aur expiry kab he
+- khatam hony ki tarekh

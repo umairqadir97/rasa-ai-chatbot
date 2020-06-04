@@ -1,0 +1,153 @@
+## intent:balance.balance_validity
+
+- when will the [money](account_balance) finish
+- when will my [card](account_balance) expire
+- what is the period of my [balance](account_balance)
+- what is the last date of the [balance](account_balance)
+- what is the expiry of my [balance](account_balance)
+- till when is my [balance](account_balance) valid
+- when is the expiry of [balance](account_balance)
+- what is the last date of my [balance](account_balance)
+- how long is the duration of the [balance](account_balance)
+- when will my [balance](account_balance) be invalid
+- when will my account expire
+- when will my [balance](account_balance) expire
+- what is the validity of the [balance](account_balance)
+- when will my [balance](account_balance) expire
+- whan will my account expire
+- please tell me the [balance](account_balance) expiry date
+- till when is my [balance](account_balance) valid
+- hi tell me uptill when is valid my [balance](account_balance)
+- up till when can the [balance](account_balance) be used
+- how much is [balance](account_balance) validity 
+- my [balance](account_balance) validity is till when
+- [balance](account_balance) will expire when
+- [balance](account_balance) will finish when
+- up till when can i use this [balance](account_balance) 
+- what is the last date of my [balance](account_balance)
+- uptill when can i use my [balance](account_balance)
+- my [balance](account_balance) will work today,will it expire today
+- uptill when is this [balance](account_balance) usable
+- my account [balance](account_balance) is valid uptill when
+- my current [balance](account_balance) can be used uptill when
+- when will [balance](account_balance) expire
+- [balance](account_balance) finished ?
+- when is my [balance](account_balance) getting finish ?
+- how much is my [balance](account_balance) limit left ?
+- what is the validity of my [balance](account_balance)
+- what is the end date of my mobile [balance](account_balance) to finish
+- how much time left that my [balance](account_balance) ends
+- what is the period of my [balance](account_balance) 
+- cam you tell me is my [balance](account_balance) sufficient
+- this [balance](account_balance) will end when
+- what is the account [balance](account_balance) expiry date
+- when will my [credit](account_balance) expire
+- what is the expiry date of my [balance](account_balance)
+- is my [wallet](account_balance) about to end
+- uptill when will i have my [balance](account_balance) 
+- sir please kindly tell details about my [balance](account_balance)
+- when will my account [balance](account_balance) expire
+- how may days left to use my [balance](account_balance) 
+- till when will my [balance](account_balance) expire 
+- till when can my [balance](account_balance)work
+- what is the expiry of my [wallet](account_balance) 
+- in how many days will my [balance](account_balance) end
+- can you tell me my [balance](account_balance) expiry
+- [balance](account_balance) can work till when
+- when will my [balance](account_balance) finish
+- on which date will my [balance](account_balance) end
+- is my [credit](account_balance) valid 
+- what is the period of my [balance](account_balance)
+- [balance](account_balance) expiry date kya hai 
+- till when can i use my [balance](account_balance)
+- can you tell me my [balance](account_balance) validity 
+- what is the validity of my [balance](account_balance) 
+- when is my [balance](account_balance) expiring
+- when will the [balance](account_balance) not be able to use
+- what the end of my [balance](account_balance) to finish
+- [balance](account_balance) will finish when 
+- to what date will this [balance](account_balance) last
+- please tell me the [balance](account_balance) validity 
+- when will my [balance](account_balance) expire  
+- my [balance](account_balance) can be used till when
+- [balance](account_balance) is valid till when
+- when my [balance](account_balance) will expire
+- i can use my [balance](account_balance) till when
+- [balance](account_balance) will expire when
+- [balance](account_balance) can be used till when
+- [balance](account_balance) will finish when
+- [balance](account_balance) period is till when
+- [balance](account_balance) validity is till when
+- what is the [balance](account_balance) expiry 
+- [balance](account_balance) validity 
+- what is the period of this [balance](account_balance) 
+- my [balance](account_balance) will expire when
+- my [balance](account_balance) wil finish when
+- my [balance](account_balance) will stay balance till when
+- up till when will my [balance](account_balance) stay valid without use
+- how much [balance](account_balance) validity is left
+- what is the [balance](account_balance) end date
+- i need to ask when will my [balance](account_balance) end and when do i have to load
+- how long will the [balance](account_balance) last
+- tell me when my [balance](account_balance) will end
+- can you tell me till when will my [load](account_balance) work
+- how long can the [balance](account_balance) be used
+- please tell me the expiry of my [credit](account_balance) 
+- my [balance](account_balance) validity will last for how may days
+- when is my  [balance](account_balance) ending
+- till when can i use my [balance](account_balance)  
+- [balance](account_balance) will expire on which date
+- what is the last date of the [balance](account_balance) 
+- how long can this [balance](account_balance) last
+- remaing [balance](account_balance) validity 
+- for how may days do i have this [balance](account_balance) 
+- how much time left of my [left over](account_balance) credit
+- how much time left till my [balance](account_balance) expires 
+- [balance](account_balance) time left
+- what is the [balance](account_balance) expiration date 
+- till which date can i use my [balance](account_balance) 
+- after how long will my [balance](account_balance) end
+- how much [balance](account_balance) usage left
+- [balance](account_balance) will last how long
+- validity of [balance](account_balance) 
+- what is the end date of my [balance](account_balance) 
+- till when will my [credit](account_balance) last
+- up till  when is my [balance](account_balance)valid
+- what is the deadline of my [balance](account_balance)
+- till when can i use this [balance](account_balance) 
+- what is the last date to use the [balance](account_balance)
+- this [balance](account_balance) is applicable till when
+- what is the period of my [balance](account_balance) 
+- till when will this [balance](account_balance) be sufficent
+- when is my [balance](account_balance) finishing
+- what is the date of my [balance](account_balance) to end
+- how long can my [wallet](account_balance) last
+- on which date will my [balance](account_balance) end
+- till when can i spend my [balance](account_balance)
+- my [balance](account_balance) will end till when
+- how long will this [balance](account_balance) last
+- is my [balance](account_balance) validity for life time
+- when is my [balance](account_balance) expiring
+- what is the validity of my [balance](account_balance)
+- what is the last dtae of use of my [balance](account_balance)
+- what is the last date to use [credit](account_balance) 
+- on which day will my [balance](account_balance) end
+- [balance](account_balance) can be used till when
+- tell me the validity of [balance](account_balance)
+- tel me the last date of this [balance](account_balance) 
+- how long can i use my [balance](account_balance)  
+- how many days will this account last
+- tell me about my account
+- what is the expiry date of my account
+- when will the account expire
+- for how long will this account work
+- what is my [balance](account_balance) validity 
+- till when is my account valid
+- till when can i use my [balance](account_balance) 
+- what is the validity of this account
+- [amount](account_balance) will expire on which date
+- when will this account expire
+- till when can i use this [amount](account_balance)
+- [amount](account_balance) can be used till when
+- can you please tell me the expiry of my account
+- what is my [amount](account_balance) expiry date

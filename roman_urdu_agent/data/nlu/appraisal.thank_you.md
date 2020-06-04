@@ -1,0 +1,31 @@
+## intent:appraisal.thank_you
+- aap ne bohat madad ki , aap ka shukariyaa
+- aap ki madad ka shukariyaa
+- shukariyaa
+- aap ka shukariyaa
+- aap ka bohat shukariyaa
+- theek hai, aap ka shukariyaa
+- acha, shukariyaa
+- behtareen, shukariyaa
+- main is ki tareef krta hu 
+- main apka ka shukariyaa ada krta hu
+- shukariyaa bhai
+- aap sab ka shukariyaa
+- sahi hai, shukariyaa
+- nahi shukariyaa, bas kaafi hai 
+- aap bohat achay hien
+- chalo, shukariyaa
+- shukar
+- thank you
+- you helped
+- appreciate your help
+- cheers
+- thanks
+- nice man
+- appreciate
+- very good thank you
+- good thanks
+- thanks again
+- phir sy shukrya
+- no thank you that's all
+- thnx

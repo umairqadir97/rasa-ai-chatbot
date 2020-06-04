@@ -1,0 +1,38 @@
+## intent:agent.good
+- aap bohat madadgaar hain
+- tum sab achay ho 
+- aap aik haqeeqi pesha warana hain
+- tum achay ho
+- aap achay kaam karte hain
+- tum is cheez par achay ho
+- aap is cheez par bohat achay hain
+- aap aik haami hain
+- aap pesha war hain
+- aap laa jawab hain
+- aap bohat achay kaam karte hain
+- aap kaamil hain
+- tum bohat achay ho
+- aap bohat meharban hain
+- aap herat angaiz hain
+- tum bohat achay ho
+- aap waqai achay hain
+- tum waqai bohat achay ho
+- tum bohat dilchasp ho
+- aap sirf super hain
+- tum bohat achay ho
+- tum bohat madadgaar ho
+- tum bohat khobsorat ho
+- tum sab se behtar ho
+- aap duniya mein sab se behtar hain
+- aap duniya mein sab se achay shakhs hain
+- tum bohat achay ho
+- aap bohat meharban hain
+- tum bohat khobsorat ho
+- aap bohat mufeed hain
+- aap herat angaiz hain
+- tum ne mera din bana diya
+- mein sab ko batana chahta hon ke aap kitney achay hain
+- mein sab ko batana chahta hon ke aap bohat achay hain
+- mein sab ko yeh janna chahta hon ke aap bohat achay hain
+- chalo sab ko bitayen ke aap bohat achay hain
+- aap waqai herat angaiz hain

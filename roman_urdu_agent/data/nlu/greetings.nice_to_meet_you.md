@@ -1,0 +1,20 @@
+## intent:greetings.nice_to_meet_you
+- aap se mil kar khushi hui
+- yeh aap se mil kar acha laga tha
+- aap se mil kar yeh bohat acha laga tha
+- aik dosray ko janna acha hai
+- up se mil kar acha laga
+- aap ko achi mulaqaat
+- up se mil kar acha laga
+- aap se mil kar nihayat khushi hui
+- aap se mil kar khushi hui
+- aap se mil kar khushi hoi hai
+- aap se mil kar khushi hui
+- aap se dobarah milnay ki khushi hai
+- aap se mil kar bohat acha laga
+- aap se mil kar kitna acha lagta hai
+- yeh aap se achi mulaqaat thi
+- yeh aap ko khushi se mil raha hai
+- mein ny aap se mil kar lutaf andoz kya
+- aap ke sath bohat achi baat cheet hoi
+- mera bohat acha waqt guzra

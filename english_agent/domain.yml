@@ -1,0 +1,308 @@
+intents:
+- agent.can_you_help
+- agent.good
+- agent.happy
+- agent.there
+- appraisal.good
+- appraisal.no_problem
+- appraisal.thank_you
+- appraisal.welcome
+- balance.balance_info
+- balance.balance_usage
+- balance.balance_validity
+- confirmation.no
+- confirmation.yes
+- dialog.sorry
+- emergency_loan.general_loan_service_info
+- emergency_loan.current_status
+- emergency_loan.last_availed
+- greetings.bye
+- greetings.goodevening
+- greetings.goodmorning
+- greetings.goodnight
+- greetings.hello
+- greetings.how_are_you
+- greetings.nice_to_meet_you
+- greetings.nice_to_see_you
+- greetings.nice_to_talk_to_you
+- how_much
+- last_recharge.date
+- last_recharge.info
+- offers.info
+- out_of_scope
+- subscribe_above_offer
+- time_limit
+- user.excited
+- user.good
+- user.happy
+- when_did_i
+entities:
+- verification
+- mobile_number
+- pin
+- loan_service_status
+- loan_last_availed
+- requested_service_type
+- account_balance
+- current_balance_value
+- emergency_loan
+## synonym:account_balance
+- paisay
+- wallet
+- amount
+- cerdit
+- rupee
+- hisaab kitaab
+- baqayajaat
+- raqam
+- load
+- jazzload
+- easyload
+- card
+- topup
+- eload
+- money
+## synonym:emergency_loan
+- emergency paisay
+- emergency load
+- advance
+- loan
+- advance loan
+- advance load
+- advance paisay
+- advance money
+slots:
+  loan_service_status:
+    type: categorical
+    initial_value: unsubscribed
+    auto_fill: false
+    values:
+    - subscribed
+    - unsubscribed
+  current_balance_value:
+    type: float
+    initial_value: 50.0
+    auto_fill: false
+    max_value: 1000.0
+    min_value: 0.0
+  current_balance_validity:
+    type: text
+    initial_value: "31-12-2019"
+    auto_fill: false
+  current_balance_usage:
+    type: float
+    initial_value: 630.0
+    auto_fill: false
+    max_value: 1000.0
+    min_value: 0.0
+  loan_last_availed:
+    type: text
+    initial_value: "2019-09-10"
+    auto_fill: false
+  mobile_number:
+    type: unfeaturized
+  number_of_fallbacks:
+    type: float
+    initial_value: 0.0
+    auto_fill: false
+    max_value: 1.0
+    min_value: 0.0
+  pin:
+    type: unfeaturized
+  requested_service_type:
+    type: text
+  requested_slot:
+    type: unfeaturized
+  user_type:
+    type: categorical
+    initial_value: prepaid
+    auto_fill: false
+    values:
+      - prepaid
+      - postpaid
+  verification:
+    type: categorical
+    initial_value: no
+    auto_fill: false
+    values:
+      - yes
+      - no
+templates:
+  utter_default_greet:
+  - text: Welcome to Telenor. How can I help you?
+  utter_default:
+  - text: Sorry, can you rephrase your question?
+  utter_call_to_human_agent:
+  - text: Please wait, your query is being transfered to relevent expert...
+  utter_ask_mobile_number:
+  - text: Please provide phone number for verification purpose [keep format '92345......']
+  - text: Enter your mobile number for verification purpose [keep format '92345......']
+  utter_ask_pin:
+  - text: please provide your 4 digit PIN number
+  - text: please enter 4 digit PIN number
+  utter_wrong_pin:
+  - text: sorry, your pin wasn't correct!
+  utter_wrong_mobile_number:
+  - text: sorry, invalid mobile number!
+  utter_agent.can_you_help:
+  - text: I'll certainly try my best.
+  - text: Sure. I'd be happy to. What's up?
+  - text: I'm glad to help. What can I do for you?
+  utter_agent.good:
+  - text: I'm glad you think so.
+  - text: Thanks, I try.
+  utter_agent.happy:
+  - text: I am happy. There are so many interesting things to see and do out there.
+  - text: I'd like to think so.
+  - text: Happiness is relative.
+  utter_agent.there:
+  - text: Of course. I'm always here.
+  - text: Right where you left me.
+  utter_appraisal.thank_you:
+  - text: Anytime. That's what I'm here for.
+  - text: It's my pleasure to help.
+  utter_appraisal.welcome:
+  - text: You're so polite!
+  - text: You're so courteous!
+  utter_dialog.sorry:
+  - text: It's okay. No worries.
+  - text: No big deal. I won't hold a grudge.
+  - text: It's cool.
+  - text: That's all right.
+  utter_greetings.hello:
+  - text: Hi!
+  - text: Hey!
+  - text: Hey there!
+  - text: Hello!
+  - text: Welcome!
+  utter_greetings.bye:
+  - text: See you soon!
+  - text: Bye-bye!
+  - text: Till next time!
+  - text: Bye.
+  - text: ok, goodbye!
+  utter_greetings.how_are_you:
+  - text: feeling wonderful!
+  - text: Doing great, thanks!
+  - text: I'm doing very well. Thanks!
+  - text: Feeling wonderful!
+  - text: Wonderful! Thanks for asking.
+  utter_greetings.goodevening:
+  - text: Hey Good Evening. How is your day going?
+  - text: Hi Good Evening. How's the day treating you so far?
+  - text: Good Evening. How's your day been?
+  utter_greetings.goodmorning:
+  - text: Hi, aap aj kese hain?
+  - text: Hey, Aap ke subha kese guzar rahi hai?
+  - text: Subha bakhair! Aap kese hain?
+  utter_greetings.goodnight:
+  - text: Sleep tight!
+  - text: Have a good one!
+  - text: Good Night. Talk to you soon...
+  utter_greetings.nice_to_meet_you:
+  - text: It's nice meeting you, too.
+  - text: Likewise. I'm looking forward to helping you out.
+  - text: Nice meeting you, as well.
+  - text: The pleasure is mine.
+  utter_greetings.nice_to_see_you:
+  - text: Likewise!
+  - text: So glad we meet again!
+  - text: Same here. I was starting to miss you.
+  utter_greetings.nice_to_talk_to_you:
+  - text: It sure was. We can chat again anytime.
+  - text: I enjoy talking to you, too.
+  - text: You know I'm here to talk anytime.
+  utter_user.excited:
+  - text: I'm glad things are going your way.
+  - text: That's great. I'm happy for you.
+  - text: Good for you. Enjoy yourself.
+  utter_user.good:
+  - text: Great! Glad to hear it.
+  - text: Excellent. I'm here to help keep it that way.
+  utter_user.happy:
+  - text: Hey, happiness is contagious.
+  - text: Great! Glad to hear that.
+  - text: Excellent! That's what I like to see.
+  utter_confirmation.yes:
+  - text: Great!
+  - text: All right!
+  - text: Good!
+  utter_confirmation.no:
+  - text: Okay.
+  - text: Understood.
+  - text: I see.
+  - text: I understand.
+  - text: Okay then.
+  - text: ok, cool..
+  utter_appraisal.good:
+  - text: Agreed!
+  - text: I agree!
+  - text: Nice!
+  - text: ok!
+  - text: Glad to hear.
+  utter_appraisal.no_problem:
+  - text: Ok, Thanks!
+  - text: I'm glad to hear!
+  - text: Thanks!
+  utter_incomplete_query:
+  - text: Your question is incomplete. Please rephrase your question!
+  utter_confirm_balance_info:
+  - text: Are you looking for remaining balance information?
+  utter_confirm_balance_validity:
+  - text: Are you looking for balance validity information?
+  utter_emergency_loan_general_info:
+  - text: With Telenor Emergency Load, you can now get a loan of Rs.20.00.
+      This loan amount can be used for all prepaid services excluding Balance Transfer.
+      Service fee Rs.5 will be deducted along with original loan amount Rs.20 on your next successful recharge.
+      Activation code (*0#).
+actions:
+- action_hello_user
+- action_balance_info
+- action_balance_usage_report
+- action_balance_expiry
+- action_last_recharge_info
+- action_last_recharge_date
+- action_emergency_loan_current_status
+- action_emergency_loan_subscribe
+- action_emergency_loan_last_availed
+- action_custom_fallback
+- action_default_ask_affirmation
+- action_offers_info
+- action_offers_subscribe
+- action_reset_tracker_pause
+- utter_default
+- utter_default_greet
+- utter_call_to_human_agent
+- utter_ask_pin
+- utter_ask_mobile_number
+- utter_wrong_pin
+- utter_wrong_mobile_number
+- utter_agent.can_you_help
+- utter_agent.good
+- utter_agent.happy
+- utter_agent.there
+- utter_appraisal.good
+- utter_appraisal.no_problem
+- utter_appraisal.thank_you
+- utter_appraisal.welcome
+- utter_dialog.sorry
+- utter_emergency_loan_general_info
+- utter_greetings.hello
+- utter_greetings.bye
+- utter_greetings.how_are_you
+- utter_greetings.goodevening
+- utter_greetings.goodmorning
+- utter_greetings.goodnight
+- utter_greetings.nice_to_meet_you
+- utter_greetings.nice_to_see_you
+- utter_greetings.nice_to_talk_to_you
+- utter_user.excited
+- utter_user.good
+- utter_user.happy
+- utter_confirmation.yes
+- utter_confirmation.no
+- utter_incomplete_query
+- utter_confirm_balance_info
+- utter_confirm_balance_validity
+forms:
+- action_verification_required

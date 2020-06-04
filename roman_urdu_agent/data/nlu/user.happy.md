@@ -1,0 +1,22 @@
+## intent:user.happy
+
+- khush ho rahi hai
+- mein khush hon
+- mein tumhe dekh kar khush hon
+- khush hon
+- agar aap khush hon to mein khush hon
+- mein aap ke liye khush hon
+- mein oosron ki madad karne mein khush hon
+- mein tumhe dekh kar khush hon
+- tum ney mujhe bohat khush kya
+- mein buhat khush hon
+- mein tum se baat karne se khush hon
+- mein abhi abhi bohat khush hon
+- mein aap ke sath baat kar raha hota ho tab mein khush hon
+- koi nahi lekin aap mujhe khush kar satke hain
+- jab bhi mein tumhe daikhta hon, mein khush hojata hon
+- mujhe muskurahat hamesha khush krti hai
+- mein khushi mehsoos kar raha hon
+- mein bohat khush tha
+- i am smiling
+- hahahaha

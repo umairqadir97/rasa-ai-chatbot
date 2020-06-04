@@ -1,0 +1,59 @@
+## intent:confirmation.no
+
+- nahi
+- nahi chahtay
+- nahi chahye
+- nahi chaye
+- zaroorat nahi
+- nahi ao
+- kbhi nahi
+- abhi is waqt nahi chaye
+- is waqt nahi chaye
+- bilkul nahi
+- bilkul bhi nahi
+- bhool jao
+- mat karo
+- nahi shukriya
+- nahien shukriya
+- nahi chahtay hain
+- afsos nahi
+- maazrat nahien chaye
+- aap ki madad nahi chahye mujy
+- aap ki madad nahien chaye mujy
+- mujy tumhari madad nahi chahye
+- tumhari madad nahi chaye mujy
+- alvidah bahar nikleen
+- mein tumhari madad nahi chahta
+- mujhe tumhari madad ki zaroorat nahi hai
+- mein tumhari madad se theek nahi hon
+- mein tumhari madad se khush nahien hun
+- zroort nahien tumhari madad ki mujy
+- theek hai usay zehen mein rakhen
+- theek hai usay zehen mein rakhna
+- shokhi na maro
+- naa
+- ni
+- ni yr
+- not
+- no
+- never
+- mera ni khyal
+- mje ye acha nhi lga
+- no way
+- not really
+- not now
+- don't want
+- nhi chaye
+- ni bhool jao
+- no thanks
+- nhi bht shukrya
+- sorry
+- mje ap ki zarorat ni
+- muje apki help nhi chahye
+- Don't
+- nope
+- mje nhi chahy
+- o ni bhai
+- ni yr sirf pocha e tha
+- oni o ni bhai
+- oo ruk o bhai

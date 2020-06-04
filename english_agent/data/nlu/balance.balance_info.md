@@ -1,0 +1,144 @@
+## intent:balance.balance_info
+
+- how much is my [balance](account_balance)
+- how much [money](account_balance) do i have
+- i want to know my [balance](account_balance)
+- can i know my [balance](account_balance)
+- now what is my [balance](account_balance)
+- what is my [balance](account_balance)
+- whats the [balance](account_balance)
+- i want to know about my [balance](account_balance)
+- my account [balance](account_balance)
+- how much [money](account_balance) do i have in my account
+- tell me my [money](account_balance)
+- can you tell me my [balance](account_balance)
+- what is my [balance](account_balance) right now
+- tell my [credit](account_balance) 
+- can i know my current [balance](account_balance)
+- my [balance](account_balance)
+- how much [credit](account_balance) do i have 
+- my current [balance](account_balance)
+- at this time how much [balance](account_balance) do i have
+- what is my [amount](account_balance) 
+- tell me my [balance](account_balance) 
+- how much [money](account_balance) left
+- my [balance](account_balance) 
+- how much [money](account_balance) do i have in my account this this time
+- how much [money](account_balance) i have in my account 
+- how much [balance](account_balance) is left in my mobile
+- what is my [balance](account_balance) 
+- can you tell me what is my [balance](account_balance)
+- how much [credit](account_balance) do i have
+- how much [balance](account_balance) i have in my account
+- how much [credit](account_balance) do i have left
+- how much [balance](account_balance) do i have
+- tell me my [balance](account_balance) usage details
+- please tell me my remaining [balance](account_balance) 
+- what is my [balance](account_balance) now
+- can you tell me what is my [balance](account_balance) at this time
+- tell me the details of my [balance](account_balance) 
+- how much [balance](account_balance) left
+- how much [balance](account_balance) 
+- kindly tell me my [balance](account_balance) 
+- what is my [balance](account_balance) for the time being
+- tell me the [balance](account_balance)
+- how much [balance](account_balance) is left
+- what is my [left over](account_balance) amount
+- what is my current [balance](account_balance)
+- how much [balance](account_balance) i have in my account
+- tell me the details of my [balance](account_balance) 
+- how much [balance](account_balance) i have on this number
+- my left over[balance](account_balance)
+- please tell me my [balance](account_balance)
+- what is my [balance](account_balance) 
+- i want to know my [balance](account_balance) 
+- can you tell me how much [rupee](account_balance) i have
+- i want to know my [load](account_balance)
+- mera [balance](account_balance) bata dain 
+- please tell me how much [balance](account_balance) do i have
+- what is the [balance](account_balance) in my account
+- how much [money](account_balance) i have in my account 
+- can you tell me my [balance](account_balance)
+- how much [balance](account_balance) do i have in my account
+- how much [balance](account_balance) left
+- my number has how much [balance](account_balance)
+- [balance](account_balance) details needed
+- what is my [load](account_balance) 
+- how much [credit](account_balance) 
+- how much [money](account_balance) i have in my mobile
+- i want to check [balance](account_balance) in my account
+- my mobile [balance](account_balance) amount
+- what is my account [balance](account_balance) 
+- how much [balance](account_balance) on my number
+- kindly brief me about my [balance](account_balance) 
+- my mobile [balance](account_balance)
+- [balance](account_balance) bato 
+- hello dear what is my [balance](account_balance) 
+- will you please tell me my [balance](account_balance) 
+- [balance](account_balance) 
+- is my [balance](account_balance) balance loaded
+- i wanted to know that how much [balance](account_balance) do i have
+- [paisay](account_balance) kitnay hay mere phone me 
+- what is my [balance](account_balance) 
+- kitna [balance](account_balance) ha
+- account [balance](account_balance)
+- bhai [balance](account_balance) batien mera 
+- can you check and tell me my account [balance](account_balance) 
+- kindly give me the updates of my [balance](account_balance) 
+- wanted to know [balance](account_balance) on my number
+- on my number how much [credit](account_balance) is left
+- kitna [balance](account_balance) lag gya hai   
+- hello can you tell me how much [balance](account_balance) am i left with
+- how much [money](account_balance) in my sim
+- is my [balance](account_balance) working
+- [balance](account_balance) left please
+- [wallet](account_balance) 
+- [amount](account_balance)
+- [credit](account_balance)
+- [rupee](account_balance)
+- [all amount](account_balance)
+- [left over](account_balance)
+- [raqam](account_balance)
+- [load](account_balance)
+- please tell me my current [balance](account_balance) 
+- my present [credit](account_balance) please
+- my left over [balance](account_balance) 
+- how much [money](account_balance) is present in my account
+- i wan to know about my [balance](account_balance) 
+- please tell me the satus of my [wallet](account_balance)
+- what is in my [wallet](account_balance) 
+- [wallet](account_balance) status please
+- do you give free [balance](account_balance) 
+- i need my [balance](account_balance)
+- [balance](account_balance) please 
+- kindly tell me my remaining [balance](account_balance)
+- how much [money](account_balance) in the account
+- can you tell me my left over [balance](account_balance) 
+- what is my left over account [balance](account_balance) 
+- in my account how much [amount](account_balance) is left
+- [credit](account_balance) kitna hai meray pas 
+- in my account how much [left over](account_balance) is left 
+- at this time how much [balance](account_balance) do i have
+- [balance](account_balance) details
+- [balance](account_balance) information needed
+- [balance](account_balance) how much
+- how much [balance](account_balance) i have
+- what is my [balance](account_balance) 
+- [credit](account_balance)   
+- what is my sim [balance](account_balance)
+- please tell me my [credit](account_balance) 
+- how much [credit](account_balance) left
+- sim [balance](account_balance) 
+- what is my [calculation](account_balance) 
+- [balance](account_balance) k bara main janna tha
+- what is my [balance](account_balance) on this number
+- how much [balance](account_balance) 
+- mera [load](account_balance) kitna hay 
+- i want to my [balance](account_balance) 
+- how much [balance](account_balance) i left
+- tell me my [balance](account_balance)
+- i need to know my current [balance](account_balance)
+- what is the [balance](account_balance)
+- need to know my remaining [credit](account_balance)
+- can i know my [balance](account_balance)
+- status of my [card](account_balance)

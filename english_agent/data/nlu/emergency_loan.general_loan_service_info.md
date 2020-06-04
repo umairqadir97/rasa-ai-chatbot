@@ -1,0 +1,113 @@
+## intent:emergency_loan.general_loan_service_info
+
+- loan
+- emergency loan
+- how can i return my loan
+- need to know about emergency load
+- when can i take emergency loan
+- what are the charges of emergency loan
+- how much loan can i take
+- how much loan will i get
+- how much of the loan can i get
+- when can i take emergency load
+- what is the requirement of loan
+- how much loan is given normally 
+- how much money is given on loan
+- how much money will cut after recharging the account
+- what are the conditions of loan
+- what is the condition of loan
+- what are the terms and condition of loan
+- twll mw about emergency load
+- how can i take emergency load
+- when can i take energency load
+- what are the requirements of loan
+- hi i need help regarding emergency loan
+- i wanted to ask how can i take emergency loan
+- i want to know how can i take emergency load
+- what are the conditions for taking loan
+- how much loan would i get
+- i need to know about emergency load
+- hi i need help about emergency load
+- i want to know how can i take emergency load
+- are there any charges for taking loan
+- are there any extra charges or tax charges on taking loan
+- can you please confirm the maximum loan amount i can take against my account
+- can you please tell me about charges of taking loan
+- can you please tell me how much max loan i can take
+- can you please tell me what are the charges if i took loan
+- can you please tell me what how much loan i can take
+- can you tell me about the tax
+- could you please confirm charges for taking loan
+- do i have to return the exact amount of loan taken or some other added amount as well
+- for how much loan i can apply
+- how much amount of loan can i take
+- how much can i take loan
+- how much can i take loan at max
+- how much charges for loan
+- how much i can avail
+- how much i can take loan at once
+- how much it charge for loan
+- how much loan am i allowed to take
+- how much loan am i eligible to acquire
+- how much loan can i take
+- how much loan i can take maximum
+- how much max loan can i take
+- how much maximum loan i take
+- how much of the maximum loan balance i can take
+- how much service charges on loan
+- how much will be the charges if i take a loan
+- how much will i be charged for requesting a loan
+- how much you charge on loan
+- how would you inquire about the charges for taking loan
+- how would you inquire about the maximum loan limit you can apply for
+- is there are any kind of charges on this loan
+- kindly confirm me the maximum amount of loan that i can take
+- loan charges
+- what are the requirements for taking loan
+- charges applied for laon
+- what are the charges for loan
+- max loan limit
+- how much loan can i take
+- what are loan charges
+- what are the additional charges for taking emergency loan
+- what are the additional charges on the loan amount
+- what are the charges for loan
+- what are the charges for taking a loan
+- what are the charges for taking loan
+- what are the charges for the loan
+- what are the loan charges
+- what extra charges incur upon loan
+- what is interest rate
+- what is loan limit
+- what is max loan limit
+- what is maximum loan that i can take
+- what is the charges of taking loan
+- what is the markup on loan
+- what is the max amount i can get from loan
+- what is the max loan limit
+- what is the maxaimum amount i can take
+- what is the maximum amount i can take as a loan
+- what is the maximum amount i can take as loan
+- what is the maximum limit of taking loan
+- what is the maximum loan amount i can avail
+- what is the maximum loan amount i can request for
+- what is the maximum loan can i take
+- what is the maximum loan i can get
+- what is the maximum loan that i can take
+- what is the maximum loan that one can take
+- what is the terms and condition to take loan
+- what will be loan charges
+- what will be the extra charge   on loan return
+- what will be the extra charges i ve to pay
+- what would be the charges for loan provisioning
+- what would be the extra amount loan would charge
+- whats the charge for taking a loan
+- whats the max amount of loan given
+- whats the maximum loan i can take
+- i want to know about emergency load
+- could you tell conditions require to apply for loan
+- how can i get the loan
+- how can i take loan
+- how can i take loan  do you have any loan facility
+- how can i take emergency balance
+- how can i take emergency loan

@@ -1,0 +1,32 @@
+## intent:greetings.hello
+
+- a o a
+- aoa
+- assalam o alaikum
+- greetings
+- have a nice day
+- heeey
+- hello
+- hello again
+- hello bro
+- hello everybody
+- hello friend
+- hello is anybody there
+- hello robot
+- hello there
+- hey
+- hey bro
+- hey there
+- yo
+- hi
+- hey
+- hiii
+- hi  is there anyone
+- hi there
+- i welcome you
+- is there anyone
+- its a nice day
+- salam
+- sir
+- hey welcome
+- welcome again
