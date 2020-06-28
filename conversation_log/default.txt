@@ -1,0 +1,96 @@
+
+
+USER ---> hey how are you
+BOT ---> feeling wonderful!
+
+USER ---> i need to know my current balance
+BOT ---> please provide phone number for verification purpose [keep format '92345......']
+
+USER ---> 923451111111
+BOT ---> please enter 4 digit pin number
+
+USER ---> 1231
+BOT ---> hi khalid, you are authenticated against mobile_number:923451111111 successfully! 
+  your current balance is: rs. 50.0, validity: 31-12-2019
+
+USER ---> hey how are you
+BOT ---> your balance is valid till: 31-12-2019
+
+USER ---> hey
+BOT ---> hi khalid, welcome to telenor customer care!
+
+USER ---> clear
+BOT ---> sorry, can you rephrase your question?
+
+USER ---> clear
+BOT ---> sorry, can you rephrase your question?
+
+USER ---> hey
+BOT ---> welcome!
+
+USER ---> how are you
+BOT ---> wonderful! thanks for asking.
+
+USER ---> i need to know my balance
+BOT ---> please provide phone number for verification purpose [keep format '92345......']
+
+USER ---> 923451111111
+BOT ---> please enter 4 digit pin number
+
+USER ---> 1234
+BOT ---> hi khalid, you are authenticated against mobile_number:923451111111 successfully! 
+  your current balance is: rs. 50.0, validity: 31-12-2019
+
+USER ---> oh thanks
+BOT ---> sorry, can you rephrase your question?
+
+USER ---> nice
+BOT ---> nice!
+
+USER ---> what about my current packages
+BOT ---> sorry, can you rephrase your question?
+
+USER ---> what is my current package
+BOT ---> sorry, can you rephrase your question?
+
+USER ---> hey
+BOT ---> hey khalid, how can i help you?
+
+USER ---> i need some information
+BOT ---> i'll certainly try my best.
+
+USER ---> hey
+BOT ---> hey there!
+
+USER ---> how are you
+BOT ---> wonderful! thanks for asking.
+
+USER ---> i need some information
+BOT ---> i'll certainly try my best.
+
+USER ---> how much is my balance
+BOT ---> please provide phone number for verification purpose [keep format '92345......']
+
+USER ---> 923451111111
+BOT ---> please provide your 4 digit pin number
+
+USER ---> 1231
+BOT ---> hi khalid, you are authenticated against mobile_number:923451111111 successfully! 
+  your current balance is: rs. 50.0, validity: 31-12-2019
+
+USER ---> and what s the validity
+BOT ---> your balance is valid till: 31-12-2019
+
+USER ---> when did i last recharge
+BOT ---> last time you recharged rs. 1000 on 15-09-2019.
+
+USER ---> oh nice
+BOT ---> last time you recharged rs. 1000 on 15-09-2019.
+                your current balance is rs. 50.0, validity 31-12-2019
+
+USER ---> which one are the new offers
+BOT ---> here are available offers: 
+  reply 'yes' to subscribe this offer.
+
+USER ---> no
+BOT ---> ok, cool..

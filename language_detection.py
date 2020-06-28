@@ -1,7 +1,7 @@
 import fasttext
 
-PRE_TRAINED_MODEL = fasttext.load_model("./language_detection_models/models/all_languages_model.bin")
-CUSTOM_MODEL = fasttext.load_model("./language_detection_models/models/custom_model.bin")
+# PRE_TRAINED_MODEL = fasttext.load_model("./language_detection_models/models/all_languages_model.bin")
+# CUSTOM_MODEL = fasttext.load_model("./language_detection_models/models/custom_model.bin")
 CUSTOM_MODEL_THRESHOLD = 0.6
 PRE_TRAINED_MODEL_THRESHOLD = 0.75
 

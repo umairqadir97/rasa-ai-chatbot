@@ -54,7 +54,8 @@ def get_server_response():
             return jsonify({"Error": "Invalid Input!"}), 400
         sender = data["sender"]
         user_message = " ".join([inverted_index.get(key, key) for key in preprocessing(data['message']).split(" ")])
-        language = get_user_language(user_message, user_language)
+        # language = get_user_language(user_message, user_language)
+        language = 'english'
         print("Language: ", language)
         print("sender: {}, message: {}".format(sender, user_message))
         response_object, response_string = get_response_from_chatbot(sender=sender,

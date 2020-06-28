@@ -12,7 +12,7 @@ screen -S chatbot_roman_action_server -d -m bash -c "cd ./roman_urdu_agent/; ras
 
 screen -S chatbot_roman_chat_server -d -m bash -c "cd ./roman_urdu_agent/; rasa run -m models/ --enable-api --log-file out.log --cors "*" --endpoints endpoints.yml --port 8006;"
 
-screen -S chatbot_redis_server -d -m bash -c "cd ~/redis-5.0.5; src/redis-server;"
+# screen -S chatbot_redis_server -d -m bash -c "cd ~/redis-5.0.5; src/redis-server;"
 
 # If you want to kill: screen -S name -X quit
 # kill all linux screen: killall screen

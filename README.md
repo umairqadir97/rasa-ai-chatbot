@@ -1,8 +1,21 @@
 # TP_Chatbot_Rasa
 ---
 ---
-### Current Architecture & Features Implemented
+## Product Screenshots
+
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="reports/conversation-pic-1.png" style="width:100%">
+    <img class="mySlides" src="reports/conversation-pic-2.png" style="width:100%">
+    <img class="mySlides" src="reports/conversation-pic-3.png" style="width:100%">
+    <img class="mySlides" src="reports/conversation-pic-4.png" style="width:100%">
+    <img class="mySlides" src="reports/conversation-pic-5.png" style="width:100%">
+</div>
+
+
+## Current Architecture & Features Implemented
+
 **Architeture:** 
+
 For Roman-Urdu & English, two separate agents are trained, evaluated and tested. Each having its own trainin samples, but same intent_names, actions & domain
 
 **Features**
@@ -20,7 +33,7 @@ For Roman-Urdu & English, two separate agents are trained, evaluated and tested.
 - **Backend** is deployed on redbuffer servers.
 
 ---
-### Future Work
+## Future Work
 - Integration of Parsers with UI
 - FAQs Knowledge Base 
 - Personalized Content
@@ -48,51 +61,69 @@ There are 3 branches for project right now.
 ---
 ---
 ### Installation with Docker
->>$ sudo apt-get update -y
->>$ sudo apt-get install docker.io
->>$ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
->>$ sudo chmod +x /usr/local/bin/docker-compose
->>$ cd base_docker; 
->>$ bash ./base_docker.sh
->>$ cd ..
->>$ bash ./run.sh
+```sh
+$ sudo apt-get update -y
 
->> **This installation is only for backend of Chatbot system.**
+$ sudo apt-get install docker.io
+```
+```sh
+$ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+```
+
+```sh
+$ sudo chmod +x /usr/local/bin/docker-compose
+
+$ cd base_docker; 
+
+$ bash ./base_docker.sh
+
+$ cd ..
+
+$ bash ./run.sh
+```
+**This installation is only for backend of Chatbot system.**
 
 ---
 ---
 ### Installation with Virtual Environment
->> **This installation is only for backend of Chatbot system.**
 
-##### Setup Virtual Environment (Linux Environment)
+**This installation is only for backend of Chatbot system.**
+
+Setup Virtual Environment (Linux Environment):
+
 - Make new python3 environent & activate:
->> virtualenv --python=python3 venv
->> source venv/bin/activate
+```sh
+$ virtualenv --python=python3 venv
+$ source venv/bin/activate
+```
+
 - and install requirements from 'requirements.txt' file:
->> pip install -r requirements.txt
+```sh
+pip install -r requirements.txt
+```
 
 Your environment should be ready by now :smiley: !
 
-##### Setup -- RASA server side 
+#### Setup -- RASA Server
 
 1) Clone Project & open terminal in chatbot root directory 'tp_chatbot_rasa'
 2) activate virtual environment
     > source venv/bin/activate
 
 3) run commands for RASA Action server:
-    > rasa run actions
+    > rasa run actions --port 5005
 4) open a new terminal window
 5) activate the virtual environment by 2
 6) run commands for RASA API server
     > rasa run -m models/ --enable-api --log-file out.log --cors "*" --endpoints endpoints.yml --port 8000 --debug
 
-##### Setup  -- Flask API Server
+#### Setup  -- Flask API Server
 1) open new terminal / linux screen in root directory
 2) activate virtual environment
 3) run flask api:
     > python3 api.py
 
-##### Client Side
+#### Client Side
 1) open 'index.html' in browser 
 
 
