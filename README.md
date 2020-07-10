@@ -43,7 +43,6 @@ For Roman-Urdu & English, two separate agents are trained, evaluated and tested.
 - **Admin Portal** with support of self-learning chatbot system
 ---
 ### Git Repositories
-[Project Directory](https://gitlab.com/redbuffer/tp_chatbot_rasa)
 
 There are 3 branches for project right now. 
     1- **Master** is holding the code version that is being used in live demo
